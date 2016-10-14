@@ -278,27 +278,6 @@
   margin-top: 17px;
 }
 
-// how-to-buy layout
-
-body {
-  background-color: #eaeaea;
-  color: black;
-  font-family: "Myriad Pro", Arial, Tahoma, Sans-Serif;
-}
-
-h1 {
-  text-align: center;
-}
-
-h3 {
-  text-align: center;
-  font-family: "Myriad Pro", Arial, Tahoma, Sans-Serif;
-}
-
-p {
-  padding: 10px;
-}
-
 .container {
   background-color: #eaeaea;
   margin: auto;
@@ -443,7 +422,7 @@ p {
       .item {
         top: 50px;
         border-radius: 50%;
-        color: #000;
+        color: #6b6b6b;
         border: 5px solid white;
         width: 90px;
         height: 90px;
@@ -455,14 +434,15 @@ p {
         font-size: 25px;
         font-weight: 100;
         text-shadow: 1px 1px 1px #000;
+        font-family: "Myriad Pro", Arial, Tahoma, Sans-Serif;
         p {
           line-height: 21px;
-          margin-top: 13px;
+          margin-top: 16px;
           margin-left: -18px;
           margin-right: -18px;
-          font-size: 19px;
+          font-size: 20px;
           color: white;
-          font-weight: normal;
+          font-weight: 600;
         }
         &:nth-child(2) {
           background: -moz-radial-gradient(center, ellipse cover, #afcfd7 0%, #39879b 100%);
@@ -476,7 +456,7 @@ p {
           height: 100px;
           line-height: 100px;
           color: white;
-          font-size: 32px;
+          font-size: 30px;
           text-indent: -8px;
         }
         &:last-child {
@@ -541,6 +521,7 @@ p {
         left: 15px;
         z-index: 1;
         font-weight: 600;
+        font-family: "Myriad Pro", Arial, Tahoma, Sans-Serif;
       }
     }
     .contact-email {
