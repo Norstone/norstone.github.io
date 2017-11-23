@@ -202,14 +202,15 @@ $(function() {
       $('[name="LEADCF29"]').val(data.ip);
     });
   }
-});
 
-var pinterest_update = function($image) {
-  var pinterest = {
-    url: document.URL,
-    media: $image.attr('src'),
-    description: $image.attr('title')
+  // Pinterest stuff
+  var pinterest_update = function($image) {
+    var pinterest = {
+      url: document.URL,
+      media: $image.attr('src'),
+      description: $image.attr('title')
+    }
+  
+    $('.social-share-pinterest').attr('href', '//pinterest.com/pin/create/button/?' + $.param(pinterest));
   }
-
-  $('.social-share-pinterest').attr('href', '//pinterest.com/pin/create/button/?' + $.param(pinterest));
-}
+});

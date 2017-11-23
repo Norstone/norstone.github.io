@@ -57,6 +57,7 @@ gulp.task('js', function() {
     './bower_components/owl.carousel2.thumbs/dist/owl.carousel2.thumbs.js',
     './_js/norstone.js',
     './_js/thumbnail_slider.js',
+    './_js/shopify_cart.js',
   ])
     .pipe(concat('norstone.js'))
     .pipe(uglify())
