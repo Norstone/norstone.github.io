@@ -95,7 +95,7 @@
   background-color: #dfdcdc;
   padding: 30px 0;
   .product-text {
-    padding-left: 2rem;
+    padding-left: 1rem;
   }
   @include breakpoint(large) {
     background: #dfdcdc url('/assets/images/theme/banner-product-gradient.png') repeat-x;

@@ -24,7 +24,7 @@ $(function($, global) {
       'Open Sans',
     ],
   };
-  
+
   var productOptions = {
     variantId: 'all',
     width: '240px',
@@ -40,7 +40,7 @@ $(function($, global) {
       quantity: false
     },
     text: {
-      button: 'ADD A SAMPLE TO CART'
+      button: 'BUY A SAMPLE'
     },
     styles: {
       product: {
@@ -244,7 +244,7 @@ $(function($, global) {
         initializeCart(ui);
       }
     });
-  
+
   function initializeButtons(ui, buttons) {
     buttons.each(function (index, element) {
       var productId = element.dataset.productId;
