@@ -28,10 +28,12 @@ title: Norstone Gallery
   {% include navigation-products-small.html %}
 </div>
 <div itemprop="brand" itemscope itemtype="http://schema.org/Brand" itemref="_logo6" class="row product-body">
-  <div class="large-8 columns" style="margin-bottom: 30px">
+  <div id="product-desc" class="large-8 columns" style="margin-bottom: 30px">
     {{ content }}
   </div>
-  <div id="select-color" class="large-4 columns">
-    {% include products-sidebar.html %}
+  <div id="select-color" class="large-4 columns" data-sticky-container>
+    <div class="products-sidebar columns sticky" data-sticky data-top-anchor="product-desc:top" data-btm-anchor="product-desc:bottom">
+      {% include products-sidebar.html %}
+    </div>
   </div>
 </div>
