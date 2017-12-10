@@ -9,7 +9,9 @@ title: Norstone Gallery
 <div class="product-header">
   <div class="row large-collapse">
     <div class="large-8 columns product-image">
-      <a href="{{ site.url }}/{{ page.header.link }}"><img itemprop="image" class="orbit-image" alt="{{ page.header.subtitle }}" title="{{ page.header.subtitle }}" src="{{ site.url }}/{{ page.header.image }}" /></a>
+      <a href="{{ site.url }}/{{ page.header.link }}">
+        <img itemprop="image" class="orbit-image {{ page.header.image_class }}" alt="{{ page.header.subtitle }}" title="{{ page.header.subtitle }}" src="{{ site.url }}/{{ page.header.image }}" />
+      </a>
     </div>
     <div class="large-4 columns product-text">
       <h2 itemprop="name" class="xx-large color-secondary text-center large-text-right" style="margin-bottom: 5px">{{ page.header.title }}</h2>
@@ -27,10 +29,12 @@ title: Norstone Gallery
   {% include navigation-products-small.html %}
 </div>
 <div itemprop="brand" itemscope itemtype="http://schema.org/Brand" itemref="_logo6" class="row product-body">
-  <div class="large-8 columns" style="margin-bottom: 30px">
+  <div id="product-desc" class="large-8 columns" style="margin-bottom: 30px">
     {{ content }}
   </div>
-  <div id="select-color" class="large-4 columns">
-    {% include products-sidebar.html %}
+  <div id="select-color" class="large-4 columns" data-sticky-container>
+    <div class="products-sidebar columns sticky" data-sticky data-top-anchor="product-desc:top" data-btm-anchor="product-desc:bottom">
+      {% include products-sidebar.html %}
+    </div>
   </div>
 </div>
