@@ -259,6 +259,17 @@
     font-style: normal;
     text-transform: uppercase;
   }
+  .quick-view-image {
+    @include breakpoint(small only) {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  .column-packaging {
+    @include breakpoint(small only) {
+      display: none;
+    }
+  }
   .orbit-bullets {
     background: none;
     border: none;
