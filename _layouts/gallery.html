@@ -8,31 +8,34 @@ title: Norstone Gallery
 </div>
 
 <div class="row">
+
   <div class="large-9 columns">
     <div id="gallery-type" class="float-right">
       <p style="font-size: 12px; margin-bottom: 0">
-      {% assign gallery_type = page.path | downcase | split: '/' %}
-      {% assign gallery_type = gallery_type[1] %}
-      {% if gallery_type == 'rock-panels' %}
-        <img style="margin-bottom: -8px" alt="Rock Panels" title="menu-small-rock.png" src="/assets/images/theme/menu-small-rock.png" /> Rock Panels
-      {% elsif gallery_type == 'xlx-rock-panels' %}
-        <img style="margin-bottom: -8px" alt="XL Rock Panels" title="menu-small-xl-rock.png" src="/assets/images/theme/menu-small-xl-rock.png" /> XL Rock Panels
-      {% elsif gallery_type == 'basalt' %}
-        <img style="margin-bottom: -8px" alt="Basalt Tiles" title="menu-small-basalt.png" src="/assets/images/theme/menu-small-basalt.png" /> Lynia Tiles
-      {% elsif gallery_type == 'basalt-3d' %}
-        <img style="margin-bottom: -8px" alt="Basalt 3D" title="menu-small-basalt-3d.png" src="/assets/images/theme/menu-small-basalt-3d.png" /> Aksent 3D
-      {% elsif gallery_type == 'application' %}
-        <img style="margin-bottom: -8px" alt="Applications" title="menu-small-applications.png" src="/assets/images/theme/menu-small-applications.png" /> Applications
-      {% elsif gallery_type == 'project' %}
-        <img style="margin-bottom: -8px" alt="Projects" title="menu-small-projects.png" src="/assets/images/theme/menu-small-projects.png" /> Projects
-      {% endif %}
+        {% assign gallery_type = page.path | downcase | split: '/' %}
+        {% assign gallery_type = gallery_type[1] %}
+        {% if gallery_type == 'rock-panels' %}
+          <img style="margin-bottom: -8px" alt="Rock Panels" title="menu-small-rock.png" src="/assets/images/theme/menu-small-rock.png" /> Rock Panels
+        {% elsif gallery_type == 'xlx-rock-panels' %}
+          <img style="margin-bottom: -8px" alt="XL Rock Panels" title="menu-small-xl-rock.png" src="/assets/images/theme/menu-small-xl-rock.png" /> XL Rock Panels
+        {% elsif gallery_type == 'basalt' %}
+          <img style="margin-bottom: -8px" alt="Basalt Tiles" title="menu-small-basalt.png" src="/assets/images/theme/menu-small-basalt.png" /> Lynia Tiles
+        {% elsif gallery_type == 'basalt-3d' %}
+          <img style="margin-bottom: -8px" alt="Basalt 3D" title="menu-small-basalt-3d.png" src="/assets/images/theme/menu-small-basalt-3d.png" /> Aksent 3D
+        {% elsif gallery_type == 'application' %}
+          <img style="margin-bottom: -8px" alt="Applications" title="menu-small-applications.png" src="/assets/images/theme/menu-small-applications.png" /> Applications
+        {% elsif gallery_type == 'project' %}
+          <img style="margin-bottom: -8px" alt="Projects" title="menu-small-projects.png" src="/assets/images/theme/menu-small-projects.png" /> Projects
+        {% endif %}
       </p>
     </div>
     {% include gallery-slideshow.html %}
   </div>
+
   <div class="large-3 columns">
     {% include gallery-sidebar.html %}
   </div>
+
 </div>
 
 <div class="gallery-body">
