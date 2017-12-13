@@ -112,6 +112,7 @@ $(function() {
   });
 
   $slider.on('initialized.owl.carousel changed.owl.carousel refreshed.owl.carousel', function(event) {
+    console.log(event);
     var $images = $('.owl-item')
     var $slide = $('.orbit-slide', $images[event.item.index]);
     if ($slide.attr('data-product-type')) {
@@ -121,6 +122,15 @@ $(function() {
       $('img', block).attr('src', type.image);
       $('.card--title', block).html(type.title);
       $('a', block).attr('href', type.link);
+
+      // Re-init shopify button only if product id is different
+      var shopifyButtons = $('.shopify-add-to-cart');
+      if (type.productId !== shopifyButtons.data('productId')) {
+        shopifyButtons.children().remove();
+        shopifyButtons.data('product-id', type.productId);
+        shopifyButtons.attr('data-product-id', type.productId);
+        window.norstone.shopifyInit();
+      }
     }
 
     pinterest_update($('img', $slide));

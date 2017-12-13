@@ -235,17 +235,23 @@ $(function($, global) {
     ],
   };
 
-  ShopifyBuy.UI.onReady(client)
-    .then(function(ui) {
-      var buttons = $('.shopify-add-to-cart');
-      if (buttons.length > 0) {
-        initializeButtons(ui, buttons);
-      } else {
-        initializeCart(ui);
-      }
-    });
+  var shopifyUI;
 
-  function initializeButtons(ui, buttons) {
+  ShopifyBuy.UI.onReady(client).then(function(ui) {
+    shopifyUI = ui;
+    init();
+  });
+  
+  function init(callback) {
+    var buttons = $('.shopify-add-to-cart');
+    if (buttons.length > 0) {
+      initializeButtonsAndCart(shopifyUI, buttons, callback);
+    } else {
+      initializeCart(shopifyUI, callback);
+    }
+  }
+
+  function initializeButtonsAndCart(ui, buttons, callback) {
     buttons.each(function (index, element) {
       var productId = element.dataset.productId;
       if (productId) {
@@ -274,5 +280,11 @@ $(function($, global) {
       },
     });
   }
+
+  if (!global.norstone) {
+    global.norstone = {};
+  }
+
+  global.norstone.shopifyInit = init;
 
 }(jQuery, window));
