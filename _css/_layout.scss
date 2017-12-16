@@ -27,6 +27,14 @@
   border-bottom: 1px solid;
   border-bottom-color: #cccccc;
   border-bottom-width: 1px;
+  .phone-number {
+    color: #848484;
+    font-size: 12px;
+    font-weight: 600;
+    padding-right: 5px;
+    text-transform: uppercase;
+    vertical-align:middle
+  }
 }
 
 #logo img {
