@@ -1,0 +1,83 @@
+.footer {
+  background-color: map-get($foundation-palette, primary);
+  // TODO: Use inset box-shadow instead of this image
+  background-image: url('/assets/images/theme/banner-under-shadow-light.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  min-height: 75px;
+  margin-top: 0px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  
+  a,
+  p,
+  span {
+    font-family: 'Abel', 'Open Sans', 'sans-serif';
+    color: $white;
+  }
+
+  .row:not(:last-of-type) {
+    margin-bottom: 1rem;
+  }
+
+}
+
+.footer__site-description,
+.footer__contact-info {
+  a,
+  p,
+  span {
+    font-size: 18px;
+  }
+}
+
+.footer__site-description {
+  a,
+  p,
+  span {
+    font-weight: lighter;
+  }
+}
+
+.footer__contact-info {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+  &__contact-button {
+    margin-right: 1rem;
+    margin-bottom: 0;
+  }
+
+  &__phone {
+    vertical-align: middle;
+  }
+}
+
+.footer__other-links {
+  &.menu > li > a {
+    padding: 0.35rem 0.25rem;
+    &:hover {
+      color: white;
+      font-weight: bold;
+    }
+  }
+  &.align-right {
+    & > li:not(:last-of-type) {
+      border-left: 1px solid $white;
+    }
+  }
+  &.align-left,
+  &.align-center {
+    & > li:not(:last-of-type) {
+      border-right: 1px solid $white;
+    }
+  }
+}
+
+.footer__copyright-info {
+  @include breakpoint(large) {
+    p {
+      margin-bottom: 0;
+    }
+  }
+}
