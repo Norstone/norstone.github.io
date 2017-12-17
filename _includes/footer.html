@@ -3,35 +3,21 @@
   <div class="row">
     <div class="columns small-12 medium-6 large-5">
       <div class="footer__site-description">
-        <p>| Why Norstone?<br /><span style="font-size:14px">At Norstone, our goal is simple: to make amazing natural stone veneer the way you want it. You get great quality service with a great quality product. Guaranteed. We'll work tirelessly to create the project of your dreams, all in a timely manner, and all made using the highest quality natural stone materials around the world.</span></p>
+        <div class="footer__site-description__header">
+          <p>| Why Norstone?</p>
+        </div>
+        <div class="footer__site-description__body">
+          <p>At Norstone, our goal is simple: to make amazing natural stone veneer the way you want it. You get great quality service with a great quality product. Guaranteed. We'll work tirelessly to create the project of your dreams, all in a timely manner, and all made using the highest quality natural stone materials around the world.</p>
+        </div>
       </div>
       <div class="footer__contact-info">
         <button class="button button--main footer__contact-info__contact-button">Contact Us Today</button>
-        <span class="footer__contact-info__phone">866 717 4548</span>
+        <a class="footer__contact-info__phone" href="tel:+18667174548">866 717 4548</a>
       </div>
     </div>
 
     <div class="columns small-12 medium-6 large-7">
       <div class="row">
-        <div class="columns small-12 medium-6">
-          <div class="link-list">
-            <p class="link-list__header">Company</p>
-            <ul class="link-list__list">
-              <li class="link-list__list-item">
-                <a href="/project-registration">Register a Project</a>
-              </li>
-              <li class="link-list__list-item">
-                <a href="/blog">Blog</a>
-              </li>
-              <li class="link-list__list-item">
-                <a href="/faq">FAQ</a>
-              </li>
-              <li class="link-list__list-item">
-                <a href="/contact-us">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
         <div class="columns small-12 medium-6">
           <div class="link-list">
             <p class="link-list__header">Shop our Products</p>
@@ -51,7 +37,7 @@
             </ul>
           </div>
         </div>
-        <div class="columns small-12 medium-6 end">
+        <div class="columns small-12 medium-6">
           <div class="link-list">
             <p class="link-list__header">Browse our Galleries</p>
             <ul class="link-list__list">
@@ -70,6 +56,25 @@
             </ul>
           </div>
         </div>
+        <div class="columns small-12 medium-6 end">
+          <div class="link-list">
+            <p class="link-list__header">Company</p>
+            <ul class="link-list__list">
+              <li class="link-list__list-item">
+                <a href="/project-registration">Register a Project</a>
+              </li>
+              <li class="link-list__list-item">
+                <a href="/blog">Blog</a>
+              </li>
+              <li class="link-list__list-item">
+                <a href="/faq">FAQ</a>
+              </li>
+              <li class="link-list__list-item">
+                <a href="/contact-us">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -77,7 +82,7 @@
   <div class="row">
     <div class="columns small-12 medium-8 large-9">
       <div class="footer__copyright-info">
-        <p>All content, images, and website material Copyright 2013 Norstone USA. All rights reserved.</p>
+        <p>All content, images, and website material Copyright {{ site.time | date: '%Y' }} Norstone USA. All rights reserved.</p>
       </div>
     </div>
 
