@@ -22,26 +22,30 @@
 
 }
 
-.footer__site-description,
-.footer__contact-info {
-  a,
-  p,
-  span {
+.footer__site-description__header {
+  p {
+    font-weight: lighter;
     font-size: 18px;
   }
 }
 
-.footer__site-description {
-  a,
-  p,
-  span {
-    font-weight: lighter;
+.footer__site-description__body {
+  p {
+    font-family: 'Open Sans', 'sans-serif';
+    font-size: 14px;
+    line-height: 1.5;
   }
 }
 
 .footer__contact-info {
   margin-top: 3rem;
   margin-bottom: 3rem;
+
+  a,
+  p,
+  span {
+    font-size: 18px;
+  }
 
   &__contact-button {
     margin-right: 1rem;
