@@ -4,7 +4,7 @@ permalink: "/blog/:title/"
 classes: blog
 title: Charcoal XL Mid Century Modern Home
 meta:
-  title: Charcoal XL Mid Century Modern Home
+  title: Charcoal Stone Mid Century Modern Home
   description: Profile of a Massachusetts Mid Century Modern Designed Home that used
     Norstone Charcoal XL stone panels throughout the interior and exterior spaces.
 image:

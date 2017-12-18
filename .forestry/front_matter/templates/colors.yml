@@ -1,11 +1,11 @@
 ---
 pages:
-- _colors/rock/ivory.html
 - _colors/basalt-3d/ebony.html
 - _colors/basalt-3d/ash-grey.html
 - _colors/xlx-rock/ochre.html
-- _colors/xlx-rock/charcoal.html
 - _colors/rock/white.html
+- _colors/rock/ivory.html
+- _colors/xlx-rock/charcoal.html
 - _colors/xlx-rock/aztec.html
 - _colors/rock/charcoal.html
 - _colors/rock/ochre.html
