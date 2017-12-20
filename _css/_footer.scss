@@ -16,10 +16,14 @@
     color: $white;
   }
 
+  .gallery-link-list a,
+  .product-link-list a {
+    color: #7CDFEC;
+  }
+
   .row:not(:last-of-type) {
     margin-bottom: 1rem;
   }
-
 }
 
 .footer__site-description__header {
