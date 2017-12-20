@@ -249,6 +249,15 @@
     font-style: normal;
     text-transform: uppercase;
   }
+<<<<<<< HEAD
+=======
+  .quick-view-image {
+    @include breakpoint(small only) {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+>>>>>>> fb7f32b0... Apply mobile layout to the rest of the quick views
   .orbit-bullets {
     background: none;
     border: none;
