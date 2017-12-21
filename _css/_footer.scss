@@ -19,6 +19,7 @@
   .gallery-link-list a,
   .product-link-list a {
     color: #7CDFEC;
+    font-weight: 600;
   }
 
   .row:not(:last-of-type) {
@@ -30,14 +31,16 @@
   p {
     font-weight: lighter;
     font-size: 18px;
+    font-family: 'Open Sans';
   }
 }
 
 .footer__site-description__body {
   p {
-    font-family: 'Abel';
+    font-family: 'Open Sans';
     font-size: 15px;
     line-height: 1.5;
+    font-weight: 300;
   }
 }
 
