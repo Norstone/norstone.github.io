@@ -27,20 +27,24 @@
   }
 }
 
+.footer__site_description__header,
+.footer__site-description__body {
+  p {
+    font-family: 'Open Sans', 'sans-serif';
+    font-weight: 300;
+  }
+}
+
 .footer__site-description__header {
   p {
-    font-weight: lighter;
     font-size: 18px;
-    font-family: 'Open Sans';
   }
 }
 
 .footer__site-description__body {
   p {
-    font-family: 'Open Sans';
     font-size: 12px;
     line-height: 1.5;
-    font-weight: 300;
   }
 }
 
