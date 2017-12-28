@@ -1,22 +1,113 @@
-<div id="footer">
-  <div class="column row collapse">
-    <div class="large-7 columns">
-      <h5><span style="color:white;font-size:14px;font-weight:400;padding-right:5px;text-transform:uppercase;vertical-align:middle;border-left-style:solid;border-left-width:1px;border-left-color:#a0a0a0;padding-left:10px">WHY NORSTONE?</span></h5>
-      <p style="padding-right:27px">At Norstone, our goal is simple: to make amazing natural stone veneer the way you want it. You get great quality service with a great quality product. Guaranteed. We'll work tirelessly to create the project of your dreams, all in a timely manner, and all made using the highest quality natural stone materials around the world.</p>
+<div class="footer">
+
+  <div class="row">
+    <div class="columns small-12 medium-6 large-5">
+      <div class="footer__site-description">
+        <p>{{ test }} Norstone creates the world's most fashionable natural stone walls.<br />Let's talk about your project.</p>
+      </div>
+      <div class="footer__contact-info">
+        <button class="button button--main footer__contact-info__contact-button">Contact Us Today</button>
+        <span class="footer__contact-info__phone">866 717 4548</span>
+      </div>
     </div>
-    <div class="large-5 columns">
-      <h5><span style="color:white;font-size:14px;font-weight:400;padding-right:5px;text-transform:uppercase;vertical-align:middle;border-left-style:solid;border-left-width:1px;border-left-color:#a0a0a0;padding-left:10px">SHOP OUR GALLERIES & VENEERS</span></h5>
-      <p id=footer-special><span style="font-color:#90f2ff;font-size:16px;font-weight:600;"><a href="/products/stacked-stone-cladding/">Rock Panels</a> <span style="color:white;font-size:14px;font-weight:100;padding-right:5px;text-transform:uppercase;vertical-align:middle">|</span><a href="/products/thin-stone-veneer-panels/">XL Rock Panels</a> <span style="color:white;font-size:14px;font-weight:100;padding-right:5px;text-transform:uppercase;vertical-align:middle">|</span><a href="/products/aksent-modern-tiles/">Aksent 3D Panels</a> <span style="color:white;font-size:14px;font-weight:100;padding-right:5px;text-transform:uppercase;vertical-align:middle">|</span><a href="/products//lynia-mosaic-tiles/">Lynia IL Tiles</a></span></br><span style="color:white;font-size:16px;font-weight:600;"><a href="/gallery/application/exteriors/">Exteriors</a> <span style="color:white;font-size:14px;font-weight:100;padding-right:5px;text-transform:uppercase;vertical-align:middle">|</span><a href="/gallery/application/interiors/">Interiors</a> <span style="color:white;font-size:14px;font-weight:100;padding-right:5px;text-transform:uppercase;vertical-align:middle">|</span><a href="/gallery/application/fireplace/">Fireplaces</a> <span style="color:white;font-size:14px;font-weight:100;padding-right:5px;text-transform:uppercase;vertical-align:middle">|</span><a href="/gallery/application/natural-stone-feature-walls/">Feature Walls</a></span></p>
+
+    <div class="columns small-12 medium-6 large-7">
+      <div class="row">
+        <div class="columns small-12 medium-6">
+          <div class="link-list">
+            <p class="link-list__header">Company</p>
+            <ul class="link-list__list">
+              <li class="link-list__list-item">
+                <a href="/about">About</a>
+              </li>
+              <li class="link-list__list-item">
+                <a href="/blog">Blog</a>
+              </li>
+              <li class="link-list__list-item">
+                <a href="/faq">FAQ</a>
+              </li>
+              <li class="link-list__list-item">
+                <a href="/contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="columns small-12 medium-6">
+          <div class="link-list">
+            <p class="link-list__header">Products</p>
+            <ul class="link-list__list">
+              <li class="link-list__list-item">
+                <a href="/products/stacked-stone-cladding">Rock Panels</a>
+              </li>
+              <li class="link-list__list-item">
+                <a href="/products/thin-stone-veneer-panels">XL Rock Panels</a>
+              </li>
+              <li class="link-list__list-item">
+                <a href="/products/lynia-mosaic-tiles">Basalt IL Tiles</a>
+              </li>
+              <li class="link-list__list-item">
+                <a href="/products/askent-modern-tiles">Basalt 3D Panels</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="columns small-12 medium-6 end">
+          <div class="link-list">
+            <p class="link-list__header">Project Galleries</p>
+            <ul class="link-list__list">
+              <li class="link-list__list-item">
+                <a href="/gallery/application/fireplace">Fireplaces</a>
+              </li>
+              <li class="link-list__list-item">
+                <a href="/gallery/application/interior">Interiors</a>
+              </li>
+              <li class="link-list__list-item">
+                <a href="/gallery/application/exterior">Exteriors</a>
+              </li>
+              <li class="link-list__list-item">
+                <a href="/gallery/application/kitchen">Kitchens</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="column row collapse">
-    <div class="large-7 columns">
-      <p>All Content, Images and Website Material Copyright {{ site.time | date: '%Y' }} Norstone USA All Rights Reserved.</p>
+
+  <div class="row">
+    <div class="columns small-12 medium-8 large-9">
+      <div class="footer__copyright-info">
+        <p>All content, images, and website material Copyright 2013 Norstone USA. All rights reserved.</p>
+      </div>
     </div>
-    <div class="large-5 columns">
-      <p class="float-right"><a href="/sitemap.xml">Sitemap</a> | <a href="/terms-of-use">Terms of Use</a> | <a href="/privacy-policy">Privacy Policy</a> | <a href="/project-registration">Register a Project</a></p>
+
+    <!-- TODO: Find a better way to do this with just CSS instead of double markups -->
+    <div class="columns small-12 medium-4 large-3">
+      <ul class="footer__other-links menu align-right show-for-medium">
+        <li>
+          <a href="#">Privacy Policy</a>
+        </li>          
+        <li>
+          <a href="#">Terms</a>
+        </li>
+        <li>
+          <a href="#">Sitemap</a>
+        </li>
+      </ul>
+      <ul class="footer__other-links menu align-left show-for-small-only">
+        <li>
+          <a href="#">Sitemap</a>
+        </li>
+        <li>
+          <a href="#">Terms</a>
+        </li>
+        <li>
+          <a href="#">Privacy Policy</a>
+        </li>
+      </ul>
     </div>
   </div>
+
 </div>
 <script type="text/javascript" src="/js/norstone.js"></script>
 <script type="text/javascript" src='https://crm.zoho.com/crm/javascript/zcga.js'> </script>
