@@ -69,24 +69,6 @@
   }
 }
 
-#footer {
-  background: map-get($foundation-palette, primary) url("/assets/images/theme/banner-under-shadow-light.png") no-repeat top center;
-  min-height: 75px;
-  margin-top: 0px;
-  padding-top: 20px;
-  a, p {
-    color: $white;
-    font-size: 11px;
-  }
-}
-
-#footer-special {
-  a, p {
-    color: #7cdfec;
-    font-size: 11px;
-  }
-}
-
 #gallery-type {
   @include breakpoint(large) {
     margin-top: 7px;
@@ -266,6 +248,12 @@
     font-size: 65px;
     font-style: normal;
     text-transform: uppercase;
+  }
+  .quick-view-image {
+    @include breakpoint(small only) {
+      display: block;
+      margin: 0 auto;
+    }
   }
   .orbit-bullets {
     background: none;

@@ -1,0 +1,97 @@
+.footer {
+  background-color: map-get($foundation-palette, primary);
+  // TODO: Use inset box-shadow instead of this image
+  background-image: url('/assets/images/theme/banner-under-shadow-light.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  min-height: 75px;
+  margin-top: 0px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  a,
+  p,
+  span {
+    font-family: 'Abel', 'Open Sans', 'sans-serif';
+    color: $white;
+  }
+
+  .gallery-link-list a,
+  .product-link-list a {
+    color: #7CDFEC;
+    font-weight: 600;
+  }
+
+  .row:not(:last-of-type) {
+    margin-bottom: 1rem;
+  }
+}
+
+.footer__site_description__header,
+.footer__site-description__body {
+  p {
+    font-family: 'Open Sans', 'sans-serif';
+    font-weight: 300;
+  }
+}
+
+.footer__site-description__header {
+  p {
+    font-size: 18px;
+  }
+}
+
+.footer__site-description__body {
+  p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+}
+
+.footer__contact-info {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+  a,
+  p,
+  span {
+    font-size: 18px;
+  }
+  
+  &__contact-button {
+    margin-bottom: 5px;
+  }
+
+  &__phone {
+    vertical-align: middle;
+  }
+}
+
+.footer__other-links {
+  &.menu > li > a {
+    padding: 0.35rem 0.25rem;
+    &:hover {
+      color: white;
+      font-weight: bold;
+    }
+  }
+  &.align-right {
+    & > li:not(:last-of-type) {
+      border-left: 1px solid $white;
+    }
+  }
+  &.align-left,
+  &.align-center {
+    & > li:not(:last-of-type) {
+      border-right: 1px solid $white;
+    }
+  }
+}
+
+.footer__copyright-info {
+  @include breakpoint(large) {
+    p {
+      margin-bottom: 0;
+    }
+  }
+}
