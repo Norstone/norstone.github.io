@@ -105,7 +105,10 @@
     background: url('/assets/images/theme/bg-qtproducts-shadow-gallery-menu.png') no-repeat center bottom;
     li a {
       &:hover, &.active {
-        background: url('/assets/images/theme/subnav-small-arrow.png') no-repeat center bottom;
+        background-image: url('/assets/images/theme/subnav-small-arrow.png');
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: bottom;
       }
     }
   }
@@ -123,6 +126,12 @@
       }
     }
   }
+}
+
+// Override foundation styling so the triangle that shows active item is displayed properly
+.galleryNav__list,
+.menu-centered>.menu.galleryNav__list, {
+  vertical-align: initial;
 }
 
 // Hack for IE9 and lower.

@@ -1,8 +1,8 @@
 {% assign current = page.path | downcase | split: '/' %}
 {% assign current = current[1] %}
 
-<div class="navigation-small menu-centered">
-  <ul class="vertical medium-horizontal menu">
+<div class="galleryNav navigation-small menu-centered">
+  <ul class="galleryNav__list vertical medium-horizontal menu">
     <li>
       <a href="/gallery/rock-panels/"{% if current == "rock" or current == "rock-panels" %} class="active"{% endif %}>
         <img alt="Rock Panels" title="menu-small-rock.png" src="/assets/images/theme/menu-small-rock.png" /> Rock Panels
