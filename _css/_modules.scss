@@ -676,7 +676,7 @@ cite {
   background-color: #E4E4E4;
   color: map-get($foundation-palette, primary);
   font-family: 'Open Sans', 'sans-serif';
-  font-size: 14px;
+  font-size: 13px;
 
   &__container {
     @include grid-row;
