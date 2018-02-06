@@ -1,7 +1,9 @@
 $(function($, global) {
 
-  var topBar = $('.topBar');
-  var elementsToFloatDown = topBar.find('.startLiftedAndTransparent');
-  elementsToFloatDown.removeClass('startLiftedAndTransparent');
+  if (!sessionStorage.getItem('hasVisited')) {
+    sessionStorage.setItem('hasVisited', 'true');
+  } else {
+    $('.topBar__container.enterByFloatingDown').removeClass('enterByFloatingDown');
+  }
 
 }(jQuery, window));

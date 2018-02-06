@@ -733,3 +733,18 @@ cite {
     font-size: 85%;
   }
 }
+
+.enterByFloatingDown {
+  animation: floatDown 4s 1;
+}
+
+@keyframes floatDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
