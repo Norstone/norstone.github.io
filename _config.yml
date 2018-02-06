@@ -11,7 +11,7 @@ exclude:
 - gulpfile.js
 - package.json
 - wercker.yml
-gems:
+plugins:
 - html-proofer
 - jekyll-feed
 - jekyll-redirect-from
