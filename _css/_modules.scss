@@ -712,6 +712,14 @@ cite {
       @include grid-column(3);
     }
   }
+
+  &__textForMedium {
+    @include show-for(medium);
+  }
+
+  &__textForSmall {
+    @include show-for-only(small);
+  }
 }
 
 .link {
