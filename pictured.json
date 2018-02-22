@@ -69,5 +69,30 @@
     "title": "Platinum<br>Stone Planc",
     "link": "/products/large-format-stone-veneer/platinum/",
     "image": "/assets/images/unsorted/pictured-stone-planc-platinum.png"
+  },
+
+  "stone-planc-graphite": {
+    "title": "Graphite<br>Stone Planc",
+    "link": "/products/large-format-stone-veneer/graphite/",
+    "image": "/assets/images/unsorted/pictured-stone-planc-graphite.png"
+  },
+
+  "stone-planc-grey": {
+    "title": "Grey<br>Basalt Planc",
+    "link": "/products/large-format-stone-veneer/grey-basalt/",
+    "image": "/assets/images/unsorted/pictured-stone-planc-basalt-grey.png"
+  },
+
+  "stone-planc-ebony": {
+    "title": "Ebony<br>Basalt Planc",
+    "link": "/products/large-format-stone-veneer/ebony-basalt/",
+    "image": "/assets/images/unsorted/pictured-stone-planc-ebony-basalt.png"
+  },
+
+  "stone-planc-silver": {
+    "title": "Silvery<br>Grey Planc",
+    "link": "/products/large-format-stone-veneer/silver-quartz//",
+    "image": "/assets/images/unsorted/pictured-stone-planc-silver-quartz.png"
+
   }
 }
