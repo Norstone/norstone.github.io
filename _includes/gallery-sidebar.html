@@ -45,7 +45,7 @@
           <option {% if current[3] == 'virginia-treehouse-retreat' %} selected="selected"{% endif %}value="/gallery/project/virginia-treehouse-retreat/">Treehouse Retreat</option>
           <option {% if current[3] == 'basement-retreat' %} selected="selected"{% endif %}value="/gallery/project/stacked-stone-interior-basement-walls/">Basement Retreat</option>
         </optgroup>
-        {% elsif current[2] == 'rock-panels' or current[2] == 'xlx-rock-panels' or current[2] == 'basalt-il-tiles' or current[2] == 'basalt-3d' %}
+        {% elsif current[2] == 'rock-panels' or current[2] == 'xlx-rock-panels' or current[2] == 'basalt-il-tiles' or current[2] == 'basalt-3d' or current[2] == 'stone-planc' %}
         <optgroup label="Rock Panel">
             <option {% if current[2] == 'rock-panels' and current[3] == 'interiors' %} selected="selected"{% endif %}value="/gallery/rock-panels/interiors/">Interiors</option>
             <option {% if current[2] == 'rock-panels' and current[3] == 'exteriors' %} selected="selected"{% endif %}value="/gallery/rock-panels/exteriors/">Exteriors</option>
@@ -72,6 +72,10 @@
             <option {% if current[2] == 'basalt-3d' and current[3] == 'exteriors' %} selected="selected"{% endif %}value="/gallery/basalt-3d/exteriors/">Exteriors</option>
             <option {% if current[2] == 'basalt-3d' and current[3] == 'grey' %} selected="selected"{% endif %}value="/gallery/basalt-3d/grey/">Ash Grey</option>
             <option {% if current[2] == 'basalt-3d' and current[3] == 'ebony' %} selected="selected"{% endif %}value="/gallery/basalt-3d/ebony/">Ebony</option>
+        </optgroup>
+        <optgroup label="Stone Planc">
+            <option {% if current[2] == 'stone-planc' and current[3] == 'interiors' %} selected="selected"{% endif %}value="/gallery/stone-planc/interior/">Interiors</option>
+            <option {% if current[2] == 'stone-planc' and current[3] == 'exteriors' %} selected="selected"{% endif %}value="/gallery/stone-planc/exterior/">Exteriors</option>
         </optgroup>
         {% endif %}
       </select>
