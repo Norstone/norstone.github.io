@@ -742,3 +742,11 @@ cite {
     opacity: 1;
   }
 }
+
+.navigationProducts {
+  @extend
+    .navigation-large,
+    .menu-centered;
+    
+  overflow: auto;
+}
