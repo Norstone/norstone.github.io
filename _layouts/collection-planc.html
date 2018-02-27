@@ -13,7 +13,10 @@ title: Norstone Gallery
       </a>
     </div>
     <div class="large-4 columns">
-      <h2 itemprop="name" class="xx-large color-secondary text-center large-text-right" style="margin-bottom: 5px">{{ page.header.title }}</h2>
+      <h2 itemprop="name" class="xx-large color-secondary text-center large-text-right" style="margin-bottom: 5px">
+        {{ page.header.title }}
+        <i class="fas fa-trademark trademark"></i>
+      </h2>
       <h1 class="small color-primary text-center large-text-right">{{ page.header.subtitle }}</h1>
       <p class="text-justify">{{ page.header.description }}</p>
       {% if collection_or_color == '_products' %}
