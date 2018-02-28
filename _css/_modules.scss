@@ -750,3 +750,9 @@ cite {
     
   overflow: auto;
 }
+
+.trademark::before {
+  content: 'TM';
+  font-size: 0.8rem;
+  vertical-align: super;
+}
