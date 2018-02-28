@@ -751,7 +751,8 @@ cite {
   overflow: auto;
 }
 
-.trademark {
-  font-size: 35%;
+.trademark::before {
+  content: 'TM';
+  font-size: 0.8rem;
   vertical-align: super;
 }
