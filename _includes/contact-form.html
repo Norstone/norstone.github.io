@@ -86,7 +86,7 @@
 
   <div class="row">
     <div class="medium-8 columns">
-      <select class="required contactForm__countrySelect" name="Country" required>
+      <select class="required contactForm__countrySelect" name="Country" autocomplete="country" required>
         {% include country-options.html %}
       </select>
     </div>
@@ -102,7 +102,7 @@
       />
     </div>
   </div>
-
+  
   <div class="row collapse columns">
     <label style="color: #6b6b6b">I am interested in:</label>
   </div>
@@ -138,25 +138,41 @@
     <label for="quantity__meters" class="contactForm__productQuantityLabel">Meters&sup2;</label>
   </div>
 
-  <select name="LEADCF4" class="required">
-    <option value="Which best describes you?" disabled selected>Which best describes you?</option>
-    <option value="Architect&#x20;&#x2f;&#x20;Designer">Architect / Designer</option>
-    <option value="Property&#x20;Developer">Property Developer</option>
-    <option value="Builder&#x20;&#x2f;&#x20;Contractor">Builder / Contractor</option>
-    <option value="Distributor&#x20;&#x2f;&#x20;Reseller">Distributor / Reseller</option>
-    <option value="Home&#x20;Owner">Home Owner</option>
-  </select>
+  <div class="row columns">
+    <select name="LEADCF4" class="required">
+      <option value="Which best describes you?" disabled selected>Which best describes you?</option>
+      <option value="Architect&#x20;&#x2f;&#x20;Designer">Architect / Designer</option>
+      <option value="Property&#x20;Developer">Property Developer</option>
+      <option value="Builder&#x20;&#x2f;&#x20;Contractor">Builder / Contractor</option>
+      <option value="Distributor&#x20;&#x2f;&#x20;Reseller">Distributor / Reseller</option>
+      <option value="Home&#x20;Owner">Home Owner</option>
+    </select>
+  </div>
 
-  <textarea
-    cols="60"
-    rows="5"
-    placeholder="Tell us about your project."
-    name="Description"
-    class="required"
-  ></textarea>
-  
+  <div class="row columns">
+    <textarea
+      cols="60"
+      rows="5"
+      placeholder="Tell us about your project."
+      name="Description"
+      class="required"
+    ></textarea>
+  </div>
+
   <input class="button--main float-right" type="submit" value="Submit" />
-
+  
+  <!-- This section will be shown via JS only during business hours -->
+  <div class="contactForm__callUsNow hidden">
+    <p class="show-for-medium">
+      Prefer to speak with us about your project now?
+      <br />
+      Give us a call instead, we are currently: <a href="tel:+18772109248">OPEN.</a>
+    </p>
+    <p class="show-for-small-only">
+      Prefer to discuss your project now instead? <a href="tel:+18772109248">Call us</a>, we're currently: <a href="tel:+18772109248">OPEN</a>.
+    </p>
+  </div>
+  
 </form>
 
 <script>
