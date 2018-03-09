@@ -276,36 +276,37 @@
       <input type="text" name="Zip Code" size="60" placeholder="Postal code*" class="required" />
     </div>
   </div>
-  <div class="row collapse">
-    <div class="small-3 columns">
-      <label style="height: 54px;font-size: 12px; color: #6b6b6b">I am interested in:&nbsp;</label>
-    </div>
-    <div class="small-9 columns">
-      <div style="color: #6b6b6b; display: inline-block; font-size: 12px">
-        <input type="checkbox" name="LEADCF1" value="Rock&#x20;Panels" style="margin: 0" /> Rock Panels
-      </div>
-      <div style="color: #6b6b6b; display: inline-block; font-size: 12px">
-        <input type="checkbox" name="LEADCF1" value="XL&#x20;Rock&#x20;Panels" style="margin: 0" /> XL Rock Panels
-      </div>
-      <div style="color: #6b6b6b; display: inline-block; font-size: 12px">
-        <input type="checkbox" name="LEADCF1" value="Lynia&#x20;IL&#x20;Tiles" style="margin: 0" /> Lynia™ IL Tiles
-      </div>
-      <div style="color: #6b6b6b; display: inline-block; font-size: 12px">
-        <input type="checkbox" name="LEADCF1" value="Aksent&#x20;3D&#x20;Tiles" style="margin: 0" /> Aksent 3D™ Panels
-      </div>
-      <div style="color: #6b6b6b; display: inline-block; font-size: 12px">
-        <input type="checkbox" name="LEADCF1" value="PLANC" style="margin: 0" /> PLANC™
-      </div>
-    </div>
+  <div class="row collapse columns">
+    <label style="color: #6b6b6b">I am interested in:</label>
   </div>
   <div class="row collapse">
-    <div class="small-3 columns">
-      <input type="text" name="LEADCF12" placeholder="Quantity" style="max-width: 95px" />
+    <div class="columns small-6 contactForm__productOfInterest">
+      <input id="product__rockPanels" class="contactForm__productOfInterestCheckbox" type="checkbox" name="LEADCF1" value="Rock&#x20;Panels" />
+      <label for="product__rockPanels" class="contactForm__productOfInterestLabel">Rock Panels</label>
     </div>
-    <div class="small-9 columns" style="color: #6b6b6b; font-size: 12px">
-      <input type="radio" name="LEADCF9" value="Feet" /> Feet&sup2;
-      <input type="radio" name="LEADCF9" value="Meters" /> Meters&sup2;
+    <div class="columns small-6 contactForm__productOfInterest">
+      <input id="product__xlRockPanels" class="contactForm__productOfInterestCheckbox" type="checkbox" name="LEADCF1" value="XL&#x20;Rock&#x20;Panels" />
+      <label for="product__xlRockPanels" class="contactForm__productOfInterestLabel">XL Rock Panels</label>
     </div>
+    <div class="columns small-6 contactForm__productOfInterest">
+      <input id="product__lyniaILTiles" class="contactForm__productOfInterestCheckbox" type="checkbox" name="LEADCF1" value="Lynia&#x20;IL&#x20;Tiles" />
+      <label for="product__lyniaILTiles" class="contactForm__productOfInterestLabel">Lynia™ IL Tiles</label>
+    </div>
+    <div class="columns small-6 contactForm__productOfInterest">
+      <input id="product__askent3dPanels" class="contactForm__productOfInterestCheckbox" type="checkbox" name="LEADCF1" value="Aksent&#x20;3D&#x20;Tiles" />
+      <label for="product__askent3dPanels" class="contactForm__productOfInterestLabel">Aksent 3D™ Panels</label>
+    </div>
+    <div class="columns small-6 end contactForm__productOfInterest">
+      <input id="product__planc" class="contactForm__productOfInterestCheckbox" type="checkbox" name="LEADCF1" value="PLANC" />
+      <label for="product__planc" class="contactForm__productOfInterestLabel">PLANC™</label>
+    </div>
+  </div>
+  <div class="row columns small-12 contactForm__row--productQuantity">
+    <input class="contactForm__productQuantity" type="number" name="LEADCF12" placeholder="Quantity" min="0" />
+    <input id="quantity__feet" type="radio" name="LEADCF9" value="Feet" />
+    <label for="quantity__feet" class="contactForm__productQuantityLabel">Feet&sup2;</label>
+    <input id="quantity__meters" type="radio" name="LEADCF9" value="Meters" />
+    <label for="quantity__meters" class="contactForm__productQuantityLabel">Meters&sup2;</label>
   </div>
   <div class="row columns">
     <select name="LEADCF4" class="required">
