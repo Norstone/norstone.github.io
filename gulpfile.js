@@ -58,6 +58,7 @@ gulp.task('js', function() {
     './_js/norstone.js',
     './_js/thumbnail_slider.js',
     './_js/top_bar.js',
+    './_js/contact_form.js',
   ])
     .pipe(concat('norstone.js'))
     .pipe(uglify())

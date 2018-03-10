@@ -1,6 +1,6 @@
 <form
   action="https://crm.zoho.com/crm/WebToLeadForm"
-  class="clearfix"
+  class="clearfix contactForm"
   name="WebToLeads983222000011193033"
   method="POST"
   onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()'
@@ -86,7 +86,7 @@
 
   <div class="row">
     <div class="medium-8 columns">
-      <select name="Country" class="required" autocomplete="country" required>
+      <select class="required contactForm__countrySelect" name="Country" required>
         {% include country-options.html %}
       </select>
     </div>
