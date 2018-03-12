@@ -756,3 +756,32 @@ cite {
   font-size: 0.8rem;
   vertical-align: super;
 }
+
+.contactForm__productOfInterest {
+  display: inline-block;
+  padding-bottom: 0.3rem;
+}
+
+.contactForm__productOfInterestLabel {
+  color: #6B6B6B;
+  font-size: 12px;
+}
+
+.contactForm__productOfInterestCheckbox {
+  margin: 0;
+}
+
+.contactForm__row--productQuantity {
+  margin-top: 0.7rem;
+}
+
+.contactForm__productQuantity {
+  max-width: 95px;
+  margin-right: 1rem;
+  display: inline-block;
+}
+
+.contactForm__productQuantityLabel {
+  font-size: 12px;
+  color: #6B6B6B;
+}
