@@ -12,7 +12,9 @@ $(function ($, global) {
     'https://unpkg.com/moment@2.21.0/min/moment.min.js',
     'https://unpkg.com/moment-timezone@0.5.14/builds/moment-timezone-with-data.min.js',
   ]).done(function () {
-    if (norstoneIsOpenNow()) {
+    var now = new Date();
+
+    if (norstoneIsOpen(now)) {
       showCallUsNowText();
     }
   });
@@ -41,7 +43,7 @@ $(function ($, global) {
     return $.when.apply($, getScriptParams);
   }
 
-  function norstoneIsOpenNow() {
+  function norstoneIsOpen(datetime) {
     // Monday to Friday EST
     var daysOpen = [1, 2, 3, 4, 5];
     var hourOpenEST = 9;
@@ -50,12 +52,10 @@ $(function ($, global) {
 
     // EST to UTC based on Daylight Savings Time
     var hourOpenUTC = hourOpenEST + (norstoneIsInDST ? 4 : 5);
-    var hourCloseUTC = hourCloseUTC + (norstoneIsInDST ? 4 : 5);
-
-    var today = new Date();
-    var rightNow = today.getUTCHours();
+    var hourCloseUTC = hourCloseEST + (norstoneIsInDST ? 4 : 5);
     
-    var isOpenToday = daysOpen.indexOf(today.getUTCDay()) !== -1;
+    var rightNow = datetime.getUTCHours();
+    var isOpenToday = daysOpen.indexOf(datetime.getUTCDay()) !== -1;
     var isOpenThisTime = rightNow >= hourOpenUTC && rightNow < hourCloseUTC;
 
     return isOpenToday && isOpenThisTime;
