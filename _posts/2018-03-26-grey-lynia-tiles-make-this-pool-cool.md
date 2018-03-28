@@ -4,7 +4,7 @@ permalink: "/blog/grey-lynia-tile-pool/"
 classes: blog
 title: Grey Lynia Tiles Make this Pool Cool!
 meta:
-  title: Grey Lynia Tiles Make this Pool Cool!
+  title: Grey Lynia Tiles For Pool Applications
   description: Project Profile of a Pool in Texas that used Norstone's Lynia Interlocking
     Natural Stone Tile in the Ash Grey Basalt Color on a raised beam feature wall.
 image:
