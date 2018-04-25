@@ -7,6 +7,7 @@ pages:
 - _products/rock/rock.html
 - _products/pencil-tiles.html
 hide_body: false
+is_partial: false
 fields:
 - name: title
   label: Title

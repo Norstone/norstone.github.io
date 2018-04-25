@@ -24,6 +24,7 @@ pages:
 - _colors/pencil-tiles/blue-pencil-tiles-small-format-tile-mosaics.html
 - _colors/pencil-tiles/pencil-tiles-red.html
 hide_body: false
+is_partial: false
 fields:
 - name: title
   label: Title

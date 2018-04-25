@@ -42,6 +42,7 @@ pages:
 - _galleries/project/virginia-treehouse-retreat.html
 - _galleries/basalt/gallery-basalt-il-pools.html
 hide_body: false
+is_partial: false
 fields:
 - name: title
   label: Title

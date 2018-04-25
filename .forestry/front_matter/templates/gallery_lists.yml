@@ -9,6 +9,7 @@ pages:
 - _gallery_lists/application.html
 - _gallery_lists/basalt.html
 hide_body: false
+is_partial: false
 fields:
 - name: title
   label: Title
