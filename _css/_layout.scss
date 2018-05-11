@@ -144,22 +144,24 @@
   }
 }
 
+
+
 .slider-main {
   margin-bottom: 30px;
   position: relative;
   &.show-for-medium .orbit-container {
-    height: 475px !important;
+    height: $orbit-container-height-md !important;
   }
   &.show-for-small-only .orbit-container {
-    height: 300px !important;
+    height: $orbit-container-height-sm !important;
   }
   .orbit-container li > div {
     background-position: center center;
     @include breakpoint(medium) {
-      height: 475px;
+      height: $orbit-container-height-md;
     }
     @include breakpoint(small only) {
-      height: 300px;
+      height: $orbit-container-height-sm;
     }
     @include breakpoint(medium down) {
       box-shadow: inset 0 10px 20px 0 #333;
@@ -172,11 +174,11 @@
   }
   .orbit-bullets {
     margin: 0;
-    position: absolute;
+    position: relative;
     z-index: 200;
     text-align: right;
-    right: 70px;
-    top: 5px;
+    right: 14px;
+    top: -$orbit-container-height-md;
     button, button:visited {
       background: url(/assets/images/theme/pagination-non-active.png) no-repeat scroll left top transparent;
       cursor: pointer;
@@ -192,6 +194,7 @@
     }
     @include breakpoint(small only) {
       right: 10px;
+      top: -$orbit-container-height-sm;
     }
   }
 }
