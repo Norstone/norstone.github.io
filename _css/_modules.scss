@@ -1,46 +1,32 @@
 .slide-in-left-fast {
-  @include mui-slide(
-    $state: in,
-    $direction: right,
-    $duration: 200ms
-  );
+  @include mui-slide($state: in, $direction: right, $duration: 200ms);
 }
 
 .slide-out-left-fast {
-  @include mui-slide(
-    $state: out,
-    $direction: left,
-    $duration: 200ms
-  );
+  @include mui-slide($state: out, $direction: left, $duration: 200ms);
 }
 
 .slide-in-right-fast {
-  @include mui-slide(
-    $state: in,
-    $direction: left,
-    $duration: 200ms
-  );
+  @include mui-slide($state: in, $direction: left, $duration: 200ms);
 }
 
 .slide-out-right-fast {
-  @include mui-slide(
-    $state: out,
-    $direction: right,
-    $duration: 200ms
-  );
+  @include mui-slide($state: out, $direction: right, $duration: 200ms);
 }
 
 hr {
-  background: url('/assets/images/theme/bg-qtproducts-shadow-menu.png') no-repeat center bottom;
+  background: url("/assets/images/theme/bg-qtproducts-shadow-menu.png")
+    no-repeat center bottom;
   border: none;
   height: 23px;
   margin: 0 0 30px;
 }
 
 blockquote {
-  background: #fafafa url(/assets/images/theme/open-quote.png) 8px 10px no-repeat;
-  border: 1px solid #E7E7E7;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.10);
+  background: #fafafa url(/assets/images/theme/open-quote.png) 8px 10px
+    no-repeat;
+  border: 1px solid #e7e7e7;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   color: #8f8f8f;
   float: left;
   font-family: "Abel";
@@ -56,7 +42,7 @@ cite {
   float: right;
   font: normal 13px "Open Sans";
   &:before {
-    content: '\2013 \0020';
+    content: "\2013 \0020";
   }
 }
 
@@ -66,10 +52,11 @@ cite {
   overflow: hidden;
   text-overflow: ellipsis;
   &:before {
-    content: '';
+    content: "";
   }
   span {
-    background: url("/assets/images/theme/active-arrow.png") no-repeat left center;
+    background: url("/assets/images/theme/active-arrow.png") no-repeat left
+      center;
     color: map-get($foundation-palette, secondary);
     font-family: "Open Sans";
     font-size: 18px;
@@ -78,8 +65,10 @@ cite {
     white-space: nowrap;
   }
 }
-.mobile-accordion .is-active .accordion-title span, .accordion-item.is-active span {
-  background: url("/assets/images/theme/active-arrow-down.png") no-repeat left center;
+.mobile-accordion .is-active .accordion-title span,
+.accordion-item.is-active span {
+  background: url("/assets/images/theme/active-arrow-down.png") no-repeat left
+    center;
 }
 
 .accordion-content {
@@ -91,13 +80,13 @@ cite {
   .tabs-title a {
     @include breakpoint(medium down) {
       font-size: 11px;
-      padding: .3rem .5rem;
+      padding: 0.3rem 0.5rem;
     }
   }
 }
 
 .shadow {
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.50);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .hamburger {
@@ -118,11 +107,13 @@ cite {
   -ms-user-select: none;
   user-select: none;
   width: 68px;
-  path, line {
+  path,
+  line {
     stroke: map-get($foundation-palette, primary);
     stroke-linecap: round;
   }
-  .top, .bottom {
+  .top,
+  .bottom {
     background: map-get($foundation-palette, primary);
     border-radius: 2px;
     display: block;
@@ -171,13 +162,14 @@ cite {
 }
 
 .list-download {
-  background: url('/assets/images/theme/bg-li-download.png') no-repeat left center;
+  background: url("/assets/images/theme/bg-li-download.png") no-repeat left
+    center;
   list-style-type: none;
   padding: 10px 0 10px 40px;
 }
 
 .list-link {
-  background: url('/assets/images/theme/bg-li-arrow.png') no-repeat 5px center;
+  background: url("/assets/images/theme/bg-li-arrow.png") no-repeat 5px center;
   list-style-type: none;
   padding: 10px 0 10px 40px;
 }
@@ -213,7 +205,7 @@ cite {
     margin: 0 5px 10px;
     min-height: 280px;
     width: initial;
-    @include breakpoint (large) {
+    @include breakpoint(large) {
       .card--image {
         margin-bottom: 0;
       }
@@ -263,7 +255,7 @@ cite {
 }
 
 .card--type {
-  background-image: url('/assets/images/theme/product-gallery-icon.png');
+  background-image: url("/assets/images/theme/product-gallery-icon.png");
   background-repeat: no-repeat;
   bottom: 5px;
   color: #737373;
@@ -306,9 +298,9 @@ cite {
 }
 
 .image-shadow {
-  -moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.8);
-  -webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.8);
-  box-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
 }
 
 .menu {
@@ -340,7 +332,7 @@ cite {
   &:after {
     padding-top: 50%;
     display: block;
-    content: '';
+    content: "";
   }
   &.active {
     border: 4px solid #4fb2d5;
@@ -359,24 +351,28 @@ cite {
     }
   }
   .orbit-previous {
-    background: url('/assets/images/theme/arrow-left.png') no-repeat right top;
+    background: url("/assets/images/theme/arrow-left.png") no-repeat right top;
     display: none;
     height: 55px;
     padding: 0 20px;
     width: 31px;
-    &:hover, &:active, &:focus {
-      background: url('/assets/images/theme/arrow-left.png') no-repeat right -58px;
+    &:hover,
+    &:active,
+    &:focus {
+      background: url("/assets/images/theme/arrow-left.png") no-repeat right -58px;
     }
   }
 
   .orbit-next {
-    background: url('/assets/images/theme/arrow-right.png') no-repeat left top;
+    background: url("/assets/images/theme/arrow-right.png") no-repeat left top;
     display: none;
     height: 55px;
     padding: 0 20px;
     width: 31px;
-    &:hover, &:active, &:focus {
-      background: url('/assets/images/theme/arrow-right.png') no-repeat left -58px;
+    &:hover,
+    &:active,
+    &:focus {
+      background: url("/assets/images/theme/arrow-right.png") no-repeat left -58px;
     }
   }
 }
@@ -462,7 +458,7 @@ cite {
     width: 100%;
   }
   .owl-prev {
-    background: url('/assets/images/theme/arrow-left.png') no-repeat right top;
+    background: url("/assets/images/theme/arrow-left.png") no-repeat right top;
     cursor: pointer;
     display: none;
     height: 55px;
@@ -473,12 +469,14 @@ cite {
     left: 10px;
     width: 31px;
     z-index: 2;
-    &:hover, &:active, &:focus {
-      background: url('/assets/images/theme/arrow-left.png') no-repeat right -58px;
+    &:hover,
+    &:active,
+    &:focus {
+      background: url("/assets/images/theme/arrow-left.png") no-repeat right -58px;
     }
   }
   .owl-next {
-    background: url('/assets/images/theme/arrow-right.png') no-repeat left top;
+    background: url("/assets/images/theme/arrow-right.png") no-repeat left top;
     cursor: pointer;
     display: none;
     height: 55px;
@@ -489,8 +487,10 @@ cite {
     transform: translateY(-55%);
     width: 31px;
     z-index: 2;
-    &:hover, &:active, &:focus {
-      background: url('/assets/images/theme/arrow-right.png') no-repeat left -58px;
+    &:hover,
+    &:active,
+    &:focus {
+      background: url("/assets/images/theme/arrow-right.png") no-repeat left -58px;
     }
   }
 }
@@ -538,29 +538,28 @@ cite {
     top: 0;
     height: 100%;
     width: 100%;
-
   }
 }
 
 .blog #content {
   h1 {
-    font-family: 'Josefin Slab';
+    font-family: "Josefin Slab";
     font-size: 35px;
     color: #4c4c4c;
   }
 
   h2 {
-    font-family: 'Abel';
+    font-family: "Abel";
     font-size: 27px;
     color: #6b6b6b;
     font-weight: 300;
   }
 
   h3 {
-    font-family: 'Abel';
+    font-family: "Abel";
     font-size: 22px;
     color: #1c778f;
-    font-weight:300;
+    font-weight: 300;
   }
 
   img {
@@ -581,7 +580,7 @@ cite {
   a {
     background-color: #cdcccc;
     color: map-get($foundation-palette, primary);
-    padding: .5rem .8rem;
+    padding: 0.5rem 0.8rem;
     text-transform: uppercase;
     &:hover {
       background-color: #e5e3e3;
@@ -626,7 +625,7 @@ cite {
 
 .inline-block {
   display: inline-block !important;
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
 .link-list {
@@ -641,7 +640,7 @@ cite {
     margin: 0;
   }
   &__list-item {
-    border-top: 1px solid #ABABAB;
+    border-top: 1px solid #ababab;
     a {
       color: $white;
       display: block;
@@ -659,9 +658,9 @@ cite {
 }
 
 .topBar {
-  background-color: #E4E4E4;
+  background-color: #e4e4e4;
   color: map-get($foundation-palette, primary);
-  font-family: 'Open Sans', 'sans-serif';
+  font-family: "Open Sans", "sans-serif";
   font-size: 13px;
 
   &__container {
@@ -744,15 +743,13 @@ cite {
 }
 
 .navigationProducts {
-  @extend
-    .navigation-large,
-    .menu-centered;
-    
+  @extend .navigation-large, .menu-centered;
+
   overflow: auto;
 }
 
 .trademark::before {
-  content: 'TM';
+  content: "TM";
   font-size: 0.8rem;
   vertical-align: super;
 }
@@ -763,7 +760,7 @@ cite {
 }
 
 .contactForm__productOfInterestLabel {
-  color: #6B6B6B;
+  color: #6b6b6b;
   font-size: 12px;
 }
 
@@ -783,7 +780,7 @@ cite {
 
 .contactForm__productQuantityLabel {
   font-size: 12px;
-  color: #6B6B6B;
+  color: #6b6b6b;
 }
 .hidden {
   display: none;
@@ -795,7 +792,7 @@ cite {
 }
 
 .contactForm__productOfInterestLabel {
-  color: #6B6B6B;
+  color: #6b6b6b;
   font-size: 12px;
 }
 
@@ -815,7 +812,7 @@ cite {
 
 .contactForm__productQuantityLabel {
   font-size: 12px;
-  color: #6B6B6B;
+  color: #6b6b6b;
 }
 .hidden {
   display: none;
