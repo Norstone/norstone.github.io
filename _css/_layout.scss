@@ -95,6 +95,9 @@
     }
   }
   .product-text {
+    padding-left: 1rem;
+  }
+  .product-text2 {
     padding-left: 2rem;
   }
   @include breakpoint(large) {
