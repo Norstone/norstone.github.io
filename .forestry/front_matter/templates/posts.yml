@@ -1,5 +1,76 @@
 ---
+hide_body: false
+is_partial: false
+fields:
+- name: title
+  label: Title
+  type: textarea
+  hidden: false
+  default: ''
+- name: meta
+  label: Meta
+  type: field_group
+  fields:
+  - name: title
+    label: Title
+    type: textarea
+    hidden: false
+    default: ''
+  - name: description
+    label: Description
+    type: textarea
+    hidden: false
+    default: ''
+  hidden: false
+  default: 
+- name: excerpt
+  label: Excerpt
+  type: textarea
+  hidden: false
+  default: ''
+- name: image
+  label: Image
+  type: field_group
+  fields:
+  - name: title
+    label: Title
+    type: text
+    hidden: false
+    default: ''
+  - name: alt
+    label: Alt
+    type: text
+    hidden: false
+    default: ''
+  - name: src
+    label: Src
+    type: file
+    hidden: false
+    default: ''
+  hidden: false
+  default: 
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: permalink
+  label: Permalink
+  type: textarea
+  hidden: false
+  default: "/blog/:title/"
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: blog
+- name: classes
+  label: Classes
+  type: text
+  hidden: false
+  default: blog
 pages:
+- _posts/volcanoes-are-bad-but-lava-stone-rocks.md
 - _posts/2018-05-15-ebony-lynia-interlocking-tiles-for-outdoor-corporate-space.md
 - _posts/2018-05-08-installing-signage-on-a-stacked-stone-wall.md
 - _posts/2018-05-03-amazing-stone-for-an-amazing-view-in-cyprus.md
@@ -99,73 +170,3 @@ pages:
 - _posts/2013-07-16-norstone-classroom-series-how-to-measure.md
 - _posts/2013-07-10-designing-with-norstone-series---the-ochre-blend.md
 - _posts/2013-07-09-norstone-blog-goes-live.md
-hide_body: false
-is_partial: false
-fields:
-- name: title
-  label: Title
-  type: textarea
-  hidden: false
-  default: ''
-- name: meta
-  label: Meta
-  type: field_group
-  fields:
-  - name: title
-    label: Title
-    type: textarea
-    hidden: false
-    default: ''
-  - name: description
-    label: Description
-    type: textarea
-    hidden: false
-    default: ''
-  hidden: false
-  default: 
-- name: excerpt
-  label: Excerpt
-  type: textarea
-  hidden: false
-  default: ''
-- name: image
-  label: Image
-  type: field_group
-  fields:
-  - name: title
-    label: Title
-    type: text
-    hidden: false
-    default: ''
-  - name: alt
-    label: Alt
-    type: text
-    hidden: false
-    default: ''
-  - name: src
-    label: Src
-    type: file
-    hidden: false
-    default: ''
-  hidden: false
-  default: 
-- name: date
-  label: Date
-  type: datetime
-  hidden: false
-  default: ''
-- name: permalink
-  label: Permalink
-  type: textarea
-  hidden: false
-  default: "/blog/:title/"
-- name: layout
-  label: Layout
-  type: text
-  hidden: false
-  default: blog
-- name: classes
-  label: Classes
-  type: text
-  hidden: false
-  default: blog
