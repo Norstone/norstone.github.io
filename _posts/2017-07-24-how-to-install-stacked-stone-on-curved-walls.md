@@ -24,7 +24,7 @@ One of big things that makes our [stacked stone rock panel products](https://www
 
 ## Step 1: Know the Radius of Your Wall
 
-The first step in understanding if a [stacked stone panel product](https://www.norstoneusa.com/products/) will work on a curved wall is to know what the actual curve,or radius of the wall is.  Radius is actually a unit of measure, normally given in feet, and expresses the length from the middle of a circle to the edge.  In other words, if you took a curved wall, and extended that curve out using an imaginary line to complete a full circle, the radius measurement would be how far it is from the center of the circle to any point on your wall.
+The first step in understanding if a [stacked stone tile](https://www.norstoneusa.com/products/) will work on a curved wall is to know what the actual curve,or radius of the wall is.  Radius is actually a unit of measure, normally given in feet, and expresses the length from the middle of a circle to the edge.  In other words, if you took a curved wall, and extended that curve out using an imaginary line to complete a full circle, the radius measurement would be how far it is from the center of the circle to any point on your wall.
 
 ![Stacked Stone Curved Wall University Lounge](/uploads/2017/07/24/Stacked%20Stone%20Radius%20Wall%20University%20Lounge.JPG)
 
