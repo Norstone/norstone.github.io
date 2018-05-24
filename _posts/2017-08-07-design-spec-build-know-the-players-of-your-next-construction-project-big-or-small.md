@@ -24,7 +24,7 @@ title: Design, Spec, Build – Know the Players of Your Next Construction Projec
 ---
 
 
-Depending on the size of your [stone veneer](https://www.norstoneusa.com/products/) project, a bunch of different people with lots of different skill sets could be involved.  One of the things that can make projects confusing, even for those of us with experience, is that sometimes those skill sets overlap and what role someone may fill on one project can be different on the next project.  To really understand who the players are in a construction project, big or small, let's take a look at three of the major steps in the process of taking an idea and building it into reality - Design, Specify, Build.
+Depending on the size of your [stacked stone tile](https://www.norstoneusa.com/products/) project, a bunch of different people with lots of different skill sets could be involved.  One of the things that can make projects confusing, even for those of us with experience, is that sometimes those skill sets overlap and what role someone may fill on one project can be different on the next project.  To really understand who the players are in a construction project, big or small, let's take a look at three of the major steps in the process of taking an idea and building it into reality - Design, Specify, Build.
 
 ## Design
 
