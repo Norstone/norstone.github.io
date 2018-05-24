@@ -94,12 +94,6 @@
       margin-top: -30px;
     }
   }
-  .product-text {
-    padding-left: 1rem;
-  }
-  .product-text2 {
-    padding-left: 2rem;
-  }
   @include breakpoint(large) {
     background: #dfdcdc url('/assets/images/theme/banner-product-gradient.png') repeat-x;
   }
@@ -110,6 +104,18 @@
     img {
       width: 90%;
     }
+  }
+}
+
+.product__text {
+  @include breakpoint(medium) {
+    padding-left: 1rem;
+  }
+}
+
+.product__text--narrower {
+  @include breakpoint(medium) {
+    padding-left: 2rem;
   }
 }
 
