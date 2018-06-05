@@ -43,6 +43,8 @@ If you would like to see more finished project photos of our Natural Stone Produ
 2. Freight is calculated on an order by order basis, and is dependent on sq footage, delivery zip code, and delivery requirements.
 3. Contact us today with the specifics of your project for a formal quote!
 
+![](/uploads/2018/06/05/XL-Sample-FRONT-Etched-Web.jpg)
+
 ## How do I get samples?
 
 We highly recommend getting some of the actual Norstone rock panels in your hands so you can see, touch and get an idea of how it will look in the space you are about to improve
