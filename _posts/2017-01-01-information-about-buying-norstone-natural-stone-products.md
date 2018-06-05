@@ -26,16 +26,12 @@ Here's some great information about Norstone Natural Stone Products including ho
 
 I recommend taking look at our [installation guide page](http://www.norstoneusa.com/how-to-install-stacked-stone) to review the installation in more detail.  There are a number of detailed downloads there for you. 
 
-If you would like to see more finished project photos of our Natural Stone Products, please visit our [Products Gallery](http://www.norstoneusa.com/gallery/rock-panels). There you will find many Norstone® projects, some of which might emulate or have similar qualities to the project you're working on.  
-
- 
+If you would like to see more finished project photos of our Natural Stone Products, please visit our [Products Gallery](http://www.norstoneusa.com/gallery/rock-panels). There you will find many Norstone® projects, some of which might emulate or have similar qualities to the project you're working on.
 
 ## How and where do I purchase Norstone®?
 
 1. You're exactly where you need to be!  We cater to residential and commercial projects of any size manufacturer direct in your area.  By not utilizing a dealer network, this eliminates the middle man markup.  
 2. After placing an order, we have it delivered right to your doorstep at any commercial or residential location in just a few days. 
-
-  
 
 ## Pricing Review
 
@@ -50,8 +46,6 @@ We highly recommend getting some of the actual Norstone rock panels in your hand
 1.  Sample kits are available for $13.95 or $16.95, depending on the number of samples your project requires.  The 6"x6" samples are actually free, but this cost covers the shipping.  Included in the $13.95 kit will be 2 samples (mix and match any colors you'd like) and a leaflet on our products.  Included in the $16.95 kit will be 4 samples (mix and match) and a leaflet on our products. Shipping time is 2-3 days.
 2. The cost of shipping the sample kit will be credited to your final order if you choose to go with Norstone. 
 3. Sample Kits can be ordered by calling or emailing your sales rep directly or speaking to someone in our main office at 877-210-9248.
-
-    
 
 ## Thank You!
 
