@@ -43,7 +43,7 @@ If you would like to see more finished project photos of our Natural Stone Produ
 2. Freight is calculated on an order by order basis, and is dependent on sq footage, delivery zip code, and delivery requirements.
 3. Contact us today with the specifics of your project for a formal quote!
 
-![](/uploads/2018/06/05/XL-Sample-FRONT-Etched-Web.jpg)
+![Norstone XL Series Samples](/uploads/2018/06/05/XL-Sample-FRONT-Etched-Web.jpg)
 
 ## How do I get samples?
 
