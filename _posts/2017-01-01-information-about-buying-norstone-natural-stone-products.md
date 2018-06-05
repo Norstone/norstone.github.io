@@ -16,6 +16,8 @@ date: 2017-01-01 10:35:21 -0500
 ---
 Here's some great information about Norstone Natural Stone Products including how they can be purchased, installed, and some important links to places on our website we think you'll find helpful and interesting!
 
+![](/uploads/2017/06/02/Ochre Stacked Stone Submerged Tile in Pool.jpg)
+
 ## Why Norstone® Natural Stone Products?
 
 1. Our Natural Stone Collections are 100% natural stone and is designed to provide you with a high end, world class result while reducing your onsite installation costs.
