@@ -28,7 +28,7 @@ I recommend taking look at our [installation guide page](http://www.norstoneus
 
 If you would like to see more finished project photos of our Natural Stone Products, please visit our [Products Gallery](http://www.norstoneusa.com/gallery/rock-panels). There you will find many Norstone® projects, some of which might emulate or have similar qualities to the project you're working on.
 
-![](/uploads/2017/11/07/Norstone Stone Veneer Corner Unit Open and Closed.jpg)
+![Norstone Stone Veneer Corner Unit Open and Closed](/uploads/2017/11/07/Norstone Stone Veneer Corner Unit Open and Closed.jpg)
 
 ## How and where do I purchase Norstone®?
 
