@@ -116,8 +116,8 @@ fields:
   default: collection
 pages:
 - _products/xlx-rock/xlx-rock.html
+- _products/rock/rock.html
 - _products/basalt-3d/aksent-3d.html
 - _products/planc/planc.html
 - _products/basalt/lynia.html
-- _products/rock/rock.html
 - _products/pencil-tiles.html
