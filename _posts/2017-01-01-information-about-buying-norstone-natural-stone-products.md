@@ -7,6 +7,7 @@ meta:
   title: Info on Purchasing Norstone Stone Products
   description: Information related to purchashing Norstone Stone products and what
     makes them different from other stone products.
+  robots: noindex
 image:
   src: ''
   title: ''
