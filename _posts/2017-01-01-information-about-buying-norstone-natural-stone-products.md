@@ -2,7 +2,7 @@
 layout: blog
 permalink: "/blog/info-to-purchase-norstone/"
 classes: blog
-title: 'FAQ: Purchasing Norstone Natural Stone Products'
+title: ''
 meta:
   title: Info on Purchasing Norstone Stone Products
   description: Information related to purchashing Norstone Stone products and what
