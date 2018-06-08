@@ -17,19 +17,19 @@ date: 2017-01-01 15:35:21 +0000
 ---
 Thank you for your interest in our products!  Below you will find important details on each collection including installation, where to purchase, and pricing.  We've also included some guided links to important areas on our website that should be very helpful in completing your project.  
 
-If you have questions, or need anything else, please do not hesitate to contact your personal consultant, or call **866-717-4548**.
+If you have further questions, or need anything else, please do not hesitate to contact your personal consultant, or call **866-717-4548**.
 
 ![Norstone Stacked Stone submerged in a pool application](/uploads/2017/06/02/Ochre Stacked Stone Submerged Tile in Pool.jpg)
 
 ## Q: Why Norstone & what products do you offer?
 
-1. All of our collections are 100% natural stone and are designed to provide you with a seamless, rich and eye catching result.
-2. Natural quarried stone eliminates any worries about problems inherent to manufactured (faux or fake) stone, which is molded concrete or plastic.  No concerns about fading or cracking with age with Norstone!
-3. All of our collections are considered a lightweight, thin stone veneer which lessens support requirements.  This allows the products to be installed on existing structures without weight issues.
-4. Versatile, easy to use - a DIY delight.  Or, if you'd rather have a professional, any general contractor or tile setter can get the job done.  No mason needed!
-5. The [Slim Line Rock Panel](https://www.norstoneusa.com/blog/norstone-slim-line-budget-stone-veneer/), [Standard Series Rock Panel](https://www.norstoneusa.com/products/stacked-stone-cladding/), [XL Series Rock Panel](https://www.norstoneusa.com/products/thin-stone-veneer-panels/), as well as the [Aksent 3D Panels](https://www.norstoneusa.com/products/aksent-modern-tiles/), stand exactly 6" tall and spans 24" in width.  These panels allow you to side-step the painstaking labor of installing stones or tiles 1 piece at a time.
-6. The [Lynia IL](https://www.norstoneusa.com/products/lynia-mosaic-tiles/) tiles are on a mesh backing, and each mat measures 15" tall and spans 17" at it widest point.  These are more like typical tile in that grout is needed.
-7. The [Planc](https://www.norstoneusa.com/products/large-format-stone-veneer/), our newest addition, is our largest offering.  They are large, individual planks that range from 2.4" - 5.5" tall and are 31.5" long.
+1. The [Slim Line Rock Panel](https://www.norstoneusa.com/blog/norstone-slim-line-budget-stone-veneer/), [Standard Series Rock Panel](https://www.norstoneusa.com/products/stacked-stone-cladding/), [XL Series Rock Panel](https://www.norstoneusa.com/products/thin-stone-veneer-panels/), as well as the [Aksent 3D Panels](https://www.norstoneusa.com/products/aksent-modern-tiles/), stand exactly 6" tall and spans 24" in width.  These panels allow you to side-step the painstaking labor of installing stones or tiles 1 piece at a time.
+2. The [Lynia IL](https://www.norstoneusa.com/products/lynia-mosaic-tiles/) tiles are on a mesh backing, and each mat measures 15" tall and spans 17" at it widest point.  These are more like typical tile in that grout is needed.
+3. The [Planc](https://www.norstoneusa.com/products/large-format-stone-veneer/), our newest addition, is our largest offering.  They are large, individual planks that range from 2.4" - 5.5" tall and are 31.5" long.
+4. All of our collections are 100% natural stone and are designed to provide you with a seamless, rich and eye catching result.
+5. Natural quarried stone eliminates any worries about problems inherent to manufactured (faux or fake) stone, which is molded concrete or plastic.  No concerns about fading or cracking with age with Norstone!
+6. All of our collections are considered a lightweight, thin stone veneer which lessens support requirements.  This allows the products to be installed on existing structures without weight issues.
+7. Versatile, easy to use - a DIY delight.  Or, if you'd rather have a professional, any general contractor or tile setter can get the job done.  No mason needed!
 
 ![Norstone Ivory Rock Panels on a Fireplace with Inset TV](/uploads/2018/06/08/TV_Ivory.JPG)
 
