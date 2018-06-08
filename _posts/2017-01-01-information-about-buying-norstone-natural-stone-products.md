@@ -29,6 +29,8 @@ Thank you for your interest in our products!  Below you will find important det
 6. The [Lynia IL](https://www.norstoneusa.com/products/lynia-mosaic-tiles/) tiles are on a mesh backing, and each mat measures 15" tall and spans 17" at it widest point.  These are more like typical tile in that grout is needed.
 7. The [Planc](https://www.norstoneusa.com/products/large-format-stone-veneer/), our newest addition, is our largest offering.  They are large, individual planks that range from 2.4" - 5.5" tall and are 31.5" long.
 
+![Norstone Ivory Rock Panels on a Fireplace with Inset TV](/uploads/2018/06/08/TV_Ivory.JPG)
+
 ## Q: Do you have photos of your products installed to get a better idea of the final look?
 
 1. We have a ton of finished project photos that should be very helpful!  Please visit our [Products Gallery](http://www.norstoneusa.com/gallery/rock-panels) where we are sure to have pictures that emulate, or have similar qualities, to the project you're working on.
@@ -54,7 +56,7 @@ Thank you for your interest in our products!  Below you will find important det
 
 1. Of course!  Sample kits are available for $13.95 or $16.95, depending on the number of samples your project requires.  The 6"x6" samples are actually fee, but this cost covers the shipping.  Included in the $13.95 kit will be 2 samples (mix and match any colors you'd like).  Included in the $16.95 kit will be 4 samples. Shipping time is 2-3 days.
 2. The cost of shipping the sample kit will be credited to your final order if you choose to go with Norstone.
-3. A kit can be ordered by calling your personal consultant, or our main line.  If the phone isn't your thing, you can also send an email to request a payment link.
+3. A kit can be ordered by calling your personal consultant, or our main line.  If the phone isn't your thing, you can also send an email to [sales@norstoneusa.com](mailto:sales@norstoneusa.com) and request a payment link.
 
 ## Thank You!
 
