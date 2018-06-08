@@ -13,47 +13,51 @@ image:
   title: ''
   alt: ''
 excerpt: ''
-date: 2017-01-01 10:35:21 -0500
+date: 2017-01-01 15:35:21 +0000
 ---
-Here's some great information about Norstone Natural Stone Products including how they can be purchased, installed, and some important links to places on our website we think you'll find helpful and interesting!
+# FAQ: Purchasing Norstone Natural Stone Products
+
+Thank you for your interest in our products!  Below you will find important details on each collection including installation, where to purchase, and pricing.  We've also included some guided links to important areas on our website that should be very helpful in completing your project.  If you have questions, or need anything else, please do not hesitate to contact your personal consultant, or to call **866-717-4548**.
 
 ![Norstone Stacked Stone submerged in a pool application](/uploads/2017/06/02/Ochre Stacked Stone Submerged Tile in Pool.jpg)
 
-## Why Norstone® Natural Stone Products?
+## Q: Why Norstone & what products do you offer?
 
-1. Our Natural Stone Collections are 100% natural stone and is designed to provide you with a high end, world class result while reducing your onsite installation costs.
-2. Natural stone eliminates any worry about the problems inherent to faux stone including fading or cracking with age.
-3. Our panel systems are a lightweight, thin stone veneer which lessens support requirements.  This allows the product to be installed on existing structures without weight issues.
-4. Versatile, easy to use - a DIY delight
-5. Our Panel Systems stand exactly 6" tall and spans 24" in width.  These panels allow you to side-step the painstaking labor of installing normal stone veneers 1 piece at a time. Simply dry-stack and stagger your panels as you lay them and that's it.  No grouting required; once they're on the wall, you're done. Simpler than laying even tile.
+1. All of our collections are 100% natural stone and are designed to provide you with a high end, world class result.
+2. Natural quarried stone eliminates any worries about problems inherent to manufactured (fake) stone, which is molded concrete or plastic.  No concerns about fading or cracking with age with Norstone!
+3. All of our collections are considered a lightweight, thin stone veneer which lessens support requirements.  This allows the products to be installed on existing structures without weight issues.
+4. Versatile, easy to use - a DIY delight.  Or, if you'd rather have a professional, any general contractor or tile setter can get the job done.  No mason needed!
+5. The [Slim Line Rock Panel](https://www.norstoneusa.com/blog/norstone-slim-line-budget-stone-veneer/), [Standard Series Rock Panel](https://www.norstoneusa.com/products/stacked-stone-cladding/), [XL Series Rock Panel](https://www.norstoneusa.com/products/thin-stone-veneer-panels/), as well as the [Aksent 3D Panels](https://www.norstoneusa.com/products/aksent-modern-tiles/), stand exactly 6" tall and spans 24" in width.  These panels allow you to side-step the painstaking labor of installing stones or tiles 1 piece at a time. 
+6. The [Lynia IL](https://www.norstoneusa.com/products/lynia-mosaic-tiles/) tiles are on a mesh backing, and each mat measures 15" tall and spans 17" at it widest point.  These are more like typical tile in that grout is needed.   
+7. The [Planc](https://www.norstoneusa.com/products/large-format-stone-veneer/), our newest addition, is our largest offering.  They are large, individual planks that range from 2.4" - 5.5" tall and are 31.5" long. 
 
-I recommend taking look at our [installation guide page](http://www.norstoneusa.com/how-to-install-stacked-stone) to review the installation in more detail.  There are a number of detailed downloads there for you.
+## Q: Do you have photos of your products installed to get a better idea of the final look?
 
-If you would like to see more finished project photos of our Natural Stone Products, please visit our [Products Gallery](http://www.norstoneusa.com/gallery/rock-panels). There you will find many Norstone® projects, some of which might emulate or have similar qualities to the project you're working on.
+1. We have a ton of finished project photos that should be very helpful!  Please visit our [Products Gallery](http://www.norstoneusa.com/gallery/rock-panels) where we are sure to have pictures that emulate, or have similar qualities, to the project you're working on.  
 
-![Norstone Stone Veneer Corner Unit Open and Closed](/uploads/2017/11/07/Norstone Stone Veneer Corner Unit Open and Closed.jpg)
+## ![Norstone Mid Installation](/uploads/2017/06/30/DIY Bathtastic Stone Feature Wall.jpg)Q: How are your products installed?
 
-## How and where do I purchase Norstone®?
+1. For the most thorough information, I recommend taking look at our [installation guide page](http://www.norstoneusa.com/how-to-install-stacked-stone).  There are a number of detailed downloads there that are very helpful.  In short, our products go up just like tile, if not easier.  Dry-stack and stagger your panels as you lay them, and that's it.  All of our products cut easily with a wet saw, and adhere using a polymodified thinset.  No grouting required; once they're on the wall, you're done. 
 
-1. You're exactly where you need to be!  We cater to residential and commercial projects of any size manufacturer direct in your area.  By not utilizing a dealer network, this eliminates the middle man markup.
-2. After placing an order, we have it delivered right to your doorstep at any commercial or residential location in just a few days.
+## Q: Where do I purchase Norstone?
 
-## Pricing Review
+1. You're exactly where you need to be.  We cater to residential and commercial projects of any size manufacturer direct in your area.  What this means, is that we do not have stores near you that carry our products.  However, this works to your advantage!  By not utilizing a dealer network, this eliminates middle man markup.  That leads to greater savings for you, and more money in left in your pocket! 
+2. After placing an order, we have the material delivered right to your doorstep in approximately a week or less. 
 
-1. Pricing on our products is based on color and sq footage required and will vary between about $7 - $17 per square foot + freight depending on product selected, color and quantity.
-2. Freight is calculated on an order by order basis, and is dependent on sq footage, delivery zip code, and delivery requirements.
-3. Contact us today with the specifics of your project for a formal quote!
+## Q: How much do Norstone products cost?
 
-![Norstone XL Series Samples](/uploads/2018/06/05/XL-Sample-FRONT-Etched-Web.jpg)
+1. Pricing is based on the product, color and square footage required.  In general, cost is typically between $7 - $17 per square foot. 
+2. Freight is calculated on an order by order basis, and is dependent on square footage, delivery zip code, and delivery requirements.
+3. Contact your personal consultant with the dimensions of your project for a formal quote!  We will do the calculations for you to figure out exactly how much material is required.
 
-## How do I get samples?
+![Norstone Sample Photo](/uploads/2018/06/08/Aksent3D-Samples-Back-Etched-Web.jpg)
 
-We highly recommend getting some of the actual Norstone rock panels in your hands so you can see, touch and get an idea of how it will look in the space you are about to improve
+## Q: Can I order samples to see the material in person?
 
-1. Sample kits are available for $13.95 or $16.95, depending on the number of samples your project requires.  The 6"x6" samples are actually free, but this cost covers the shipping.  Included in the $13.95 kit will be 2 samples (mix and match any colors you'd like) and a leaflet on our products.  Included in the $16.95 kit will be 4 samples (mix and match) and a leaflet on our products. Shipping time is 2-3 days.
-2. The cost of shipping the sample kit will be credited to your final order if you choose to go with Norstone.
-3. Sample Kits can be ordered by calling or emailing your sales rep directly or speaking to someone in our main office at 877-210-9248.
+1. Of course!  Sample kits are available for $13.95 or $16.95, depending on the number of samples your project requires.  The 6"x6" samples are actually fee, but this cost covers the shipping.  Included in the $13.95 kit will be 2 samples (mix and match any colors you'd like).  Included in the $16.95 kit will be 4 samples. Shipping time is 2-3 days. 
+2. The cost of shipping the sample kit will be credited to your final order if you choose to go with Norstone. 
+3. A kit can be ordered by calling your personal consultant, or our main line.  If the phone isn't your thing, you can also send an email to request a payment link.  
 
 ## Thank You!
 
-Thank you for inquiring through our website.  If you have _any_ questions, please do not hesitate to call or email me.  We offer phone consultations to anyone who would like to discuss their project more in depth before committing to purchase.  Also, don’t forget to give me a call or reply if you want me to shoot some samples over to you.
+If you have _any_ additional questions, please do not hesitate to call or email your personal consultant.  We offer consultations to anyone who would like to discuss their project more in depth before committing to purchase.  Think of us as your stone experts who will make your project easier than you ever imagined.
