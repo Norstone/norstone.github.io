@@ -15,31 +15,31 @@ image:
 excerpt: ''
 date: 2017-01-01 15:35:21 +0000
 ---
-Thank you for your interest in our products!  Below you will find important details on each collection including installation, where to purchase, and pricing.  We've also included some guided links to important areas on our website that should be very helpful in completing your project.  
+Thank you for your interest in our products!  Below you will find important details on each collection including installation, where to purchase, and pricing.  We've also included some guided links to important areas on our website that should be very helpful in completing your project. 
 
-If you have further questions, or need anything else, please do not hesitate to contact your personal consultant, or call **866-717-4548**.
+If you have further questions, please do not hesitate to contact your personal consultant, or call **866-717-4548**.
 
 ![Norstone Stacked Stone submerged in a pool application](/uploads/2017/06/02/Ochre Stacked Stone Submerged Tile in Pool.jpg)
 
-## Q: Why Norstone & what products do you offer?
+## Q: What products do you offer, and Why Norstone?
 
-1. The [Slim Line Rock Panel](https://www.norstoneusa.com/blog/norstone-slim-line-budget-stone-veneer/), [Standard Series Rock Panel](https://www.norstoneusa.com/products/stacked-stone-cladding/), [XL Series Rock Panel](https://www.norstoneusa.com/products/thin-stone-veneer-panels/), as well as the [Aksent 3D Panels](https://www.norstoneusa.com/products/aksent-modern-tiles/), stand exactly 6" tall and spans 24" in width.  These panels allow you to side-step the painstaking labor of installing stones or tiles 1 piece at a time.
-2. The [Lynia IL](https://www.norstoneusa.com/products/lynia-mosaic-tiles/) tiles are on a mesh backing, and each mat measures 15" tall and spans 17" at it widest point.  These are more like typical tile in that grout is needed.
-3. The [Planc](https://www.norstoneusa.com/products/large-format-stone-veneer/), our newest addition, is our largest offering.  They are large, individual planks that range from 2.4" - 5.5" tall and are 31.5" long.
+1. The <a href="https://www.norstoneusa.com/blog/norstone-slim-line-budget-stone-veneer/" target="_blank">Slim Line Rock Panel</a>, <a href="https://www.norstoneusa.com/products/stacked-stone-cladding/" target="_blank">Standard Series Rock Panel</a>, <a href="https://www.norstoneusa.com/products/thin-stone-veneer-panels/" target="_blank">XL Series Rock Panel</a>, as well as the <a href="https://www.norstoneusa.com/products/aksent-modern-tiles/" target="_blank">AKSENT™ 3D Panels</a>, stand exactly 6" tall and spans 24" in width.  These panels allow you to side-step the painstaking labor of installing stones or tiles 1 piece at a time.
+2. The <a href="https://www.norstoneusa.com/products/lynia-mosaic-tiles/" target="_blank">LYNIA™ IL Tiles</a> are on a mesh backing, and each mat measures 15" tall and spans 17" at it widest point.  These are more like typical tile in that grout is needed.
+3. The <a href="https://www.norstoneusa.com/products/large-format-stone-veneer/" target="_blank">PLANC™</a>, our newest addition, is our largest offering.  They are large, individual planks that range from 2.4" - 5.5" tall and are 31.5" long.
 4. All of our collections are 100% natural stone and are designed to provide you with a seamless, rich and eye catching result.
 5. Natural quarried stone eliminates any worries about problems inherent to manufactured (faux or fake) stone, which is molded concrete or plastic.  No concerns about fading or cracking with age with Norstone!
 6. All of our collections are considered a lightweight, thin stone veneer which lessens support requirements.  This allows the products to be installed on existing structures without weight issues.
 7. Versatile, easy to use - a DIY delight.  Or, if you'd rather have a professional, any general contractor or tile setter can get the job done.  No mason needed!
 
-![Norstone Ivory Rock Panels on a Fireplace with Inset TV](/uploads/2018/06/08/TV_Ivory.JPG)
+<a href="http://www.norstoneusa.com/gallery/rock-panels" target="_blank"><img src="/uploads/2018/06/08/TV_Ivory.JPG"></a>
 
 ## Q: Do you have photos of your products installed to get a better idea of the final look?
 
-1. We have a ton of finished project photos that should be very helpful!  Please visit our [Products Gallery](http://www.norstoneusa.com/gallery/rock-panels) where we are sure to have pictures that emulate, or have similar qualities, to the project you're working on.
+1. We have a ton of finished project photos that should be very helpful!  Please visit our <a href="http://www.norstoneusa.com/gallery/rock-panels" target="_blank">Products Gallery</a> where we are sure to have pictures that emulate, or have similar qualities, to the project you're working on.
 
-## ![Norstone Mid Installation](/uploads/2017/06/30/DIY Bathtastic Stone Feature Wall.jpg)Q: How are your products installed?
+## <a href="http://www.norstoneusa.com/how-to-install-stacked-stone" target="_blank"><img src="/uploads/2017/06/30/DIYBathtasticStoneFeatureWall-1copy.jpg"></a>Q: How are your products installed?
 
-1. For the most thorough information, I recommend taking look at our [installation guide page](http://www.norstoneusa.com/how-to-install-stacked-stone).  There are a number of detailed downloads there that are very helpful.  In short, our products go up just like tile, if not easier.  Dry-stack and stagger your panels as you lay them, and that's it.  All of our products cut easily with a wet saw, and adhere using a polymodified thinset.  No grouting required; once they're on the wall, you're done.
+1. For the most thorough information, I recommend taking look at our <a href="http://www.norstoneusa.com/how-to-install-stacked-stone" target="_blank">installation guide page</a>.  There are a number of detailed downloads there that are very helpful.  In short, our products go up just like tile, if not easier.  Dry-stack and stagger your panels as you lay them, and that's it.  All of our products cut easily with a wet saw, and adhere using a polymer modified thinset.  No grouting required; once they're on the wall, you're done.
 
 ## Q: Where do I purchase Norstone?
 
