@@ -31,13 +31,13 @@ If you have further questions, please do not hesitate to contact your personal c
 6. All of our collections are considered a lightweight, thin stone veneer which lessens support requirements.  This allows the products to be installed on existing structures without weight issues.
 7. Versatile, easy to use - a DIY delight.  Or, if you'd rather have a professional, any general contractor or tile setter can get the job done.  No mason needed!
 
-<a href="http://www.norstoneusa.com/gallery/rock-panels" target="_blank"><img src="/uploads/2018/06/08/TV_Ivory.JPG"></a>
+<a href="http://www.norstoneusa.com/gallery/rock-panels" target="_blank"><img src="/uploads/2018/06/08/TV_Ivory.JPG" alt="Norstone Ivory Quartz Stacked Stone Panel used on a fireplace"></a>
 
 ## Q: Do you have photos of your products installed to get a better idea of the final look?
 
 1. We have a ton of finished project photos that should be very helpful!  Please visit our <a href="http://www.norstoneusa.com/gallery/rock-panels" target="_blank">Products Gallery</a> where we are sure to have pictures that emulate, or have similar qualities, to the project you're working on.
 
-## <a href="http://www.norstoneusa.com/how-to-install-stacked-stone" target="_blank"><img src="/uploads/2017/06/30/DIYBathtasticStoneFeatureWall-1copy.jpg"></a>Q: How are your products installed?
+## <a href="http://www.norstoneusa.com/how-to-install-stacked-stone" target="_blank"><img src="/uploads/2017/06/30/DIYBathtasticStoneFeatureWall-1copy.jpg" alt="Norstone Ochre Blend Panel on DIY Show"></a>Q: How are your products installed?
 
 1. For the most thorough information, I recommend taking look at our <a href="http://www.norstoneusa.com/how-to-install-stacked-stone" target="_blank">installation guide page</a>.  There are a number of detailed downloads there that are very helpful.  In short, our products go up just like tile, if not easier.  Dry-stack and stagger your panels as you lay them, and that's it.  All of our products cut easily with a wet saw, and adhere using a polymer modified thinset.  No grouting required; once they're on the wall, you're done.
 
