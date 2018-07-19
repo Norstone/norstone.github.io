@@ -1,4 +1,5 @@
 ---
+label: Products
 hide_body: false
 is_partial: false
 fields:
@@ -117,7 +118,7 @@ fields:
 pages:
 - _products/xlx-rock/xlx-rock.html
 - _products/pencil-tiles.html
-- _products/planc/planc.html
-- _products/basalt/lynia.html
 - _products/basalt-3d/aksent-3d.html
+- _products/basalt/lynia.html
+- _products/planc/planc.html
 - _products/rock/rock.html
