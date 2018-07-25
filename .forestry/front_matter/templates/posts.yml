@@ -71,6 +71,7 @@ fields:
   hidden: false
   default: blog
 pages:
+- _posts/the-ultimate-guide-to-grouting-norstone-lynia-mosaic-tile.md
 - _posts/2017-08-02-banking-on-the-great-design-of-ebony-basalt-3d-panels.md
 - _posts/2017-06-23-learning-the-best-practices-for-tile-and-stone-installations-by-the-tile-council-of-north-america.md
 - _posts/2017-05-01-how-to-install-mesh-backed-tile.md
