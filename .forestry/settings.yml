@@ -3,23 +3,31 @@ new_page_extension: md
 auto_deploy: false
 admin_path: 
 webhook_url: 
-collections:
-- path: _posts
+sections:
+- type: jekyll-posts
   label: Posts
   create: all
-- path: _products
+- type: directory
+  path: _products
   label: Products
   create: all
-- path: _colors
+  match: "**/*"
+- type: directory
+  path: _colors
   label: Colors
   create: all
-- path: _gallery_lists
+  match: "**/*"
+- type: directory
+  path: _gallery_lists
   label: Gallery_lists
   create: all
-- path: _galleries
+  match: "**/*"
+- type: directory
+  path: _galleries
   label: Galleries
   create: all
-- path: ''
+  match: "**/*"
+- type: jekyll-pages
   label: Pages
   create: all
 upload_dir: uploads
