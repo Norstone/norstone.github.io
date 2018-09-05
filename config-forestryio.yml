@@ -1,0 +1,133 @@
+---
+title: Norstone USA
+description: New dimensions in natural stone.
+url: https://www.norstoneusa.com
+author: Rassan Grant
+markdown: kramdown
+exclude:
+- bower_components
+- node_modules
+- Gemfile*
+- bower.json
+- gulpfile.js
+- package.json
+- wercker.yml
+plugins:
+- html-proofer
+- jekyll-feed
+- jekyll-redirect-from
+jekyll_tidy:
+  compress_html: false
+collections:
+  products:
+    output: true
+  colors:
+    output: true
+  gallery_lists:
+    output: true
+  galleries:
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: products
+  values:
+    layout: collection
+    title: ''
+    meta:
+      title: ''
+      description: ''
+    permalink: "/products/"
+    header:
+      title: ''
+      image: ''
+      link: ''
+      subtitle: ''
+      description: ''
+    products:
+    - title: ''
+      link: ''
+      image: ''
+    gallery:
+      text: ''
+      link: ''
+- scope:
+    path: ''
+    type: colors
+  values:
+    layout: collection
+    title: ''
+    meta:
+      title: ''
+      description: ''
+    permalink: ''
+    header:
+      title: ''
+      image: ''
+      link: ''
+      subtitle: ''
+      description: ''
+    products:
+    - title: ''
+      link: ''
+      image: ''
+    gallery:
+      text: ''
+      link: ''
+    slides:
+    - alt: ''
+      title: ''
+      src: ''
+- scope:
+    path: ''
+    type: gallery_lists
+  values:
+    layout: gallery-list
+    title: ''
+    meta:
+      title: ''
+      description: ''
+    permalink: ''
+    images: ''
+- scope:
+    path: ''
+    type: galleries
+  values:
+    layout: gallery
+    title: ''
+    meta:
+      title: ''
+      description: ''
+    permalink: ''
+    product: ''
+    gallery:
+    - alt: ''
+      title: ''
+      src: ''
+      type: ''
+      tags: ''
+    other_galleries: ''
+    rows:
+    - image:
+        alt: ''
+        title: ''
+        src: ''
+      heading: ''
+      body: ''
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: blog
+    permalink: "/blog/:title/"
+    classes: blog
+    title: ''
+    meta:
+      title: ''
+      description: ''
+    image:
+      src: ''
+      title: ''
+      alt: ''
+    excerpt: ''
+timezone: America/New_York
