@@ -45,11 +45,11 @@ fields:
   hidden: false
   default: gallery-list
 pages:
+- _gallery_lists/xl-rock-panels.html
 - _gallery_lists/index.html
 - _gallery_lists/application.html
 - _gallery_lists/basalt.html
 - _gallery_lists/rock-panels.html
 - _gallery_lists/basalt-3d.html
 - _gallery_lists/stone-planks.html
-- _gallery_lists/xl-rock-panels.html
 - _gallery_lists/project.html

@@ -135,9 +135,13 @@ fields:
     title: ''
     src: ''
 pages:
-- _colors/planc/silver-grey-quartz.html
-- _colors/basalt-3d/white-3d-marble.html
 - _colors/basalt/white-marble.html
+- _colors/rock/ochre.html
+- _colors/basalt-3d/ebony.html
+- _colors/pencil-tiles/green-pencil-tiles-small-format-tile-mosaics.html
+- _colors/planc/silver-grey-quartz.html
+- _colors/planc/platiunum.html
+- _colors/basalt-3d/white-3d-marble.html
 - _colors/xlx-rock/aztec.html
 - _colors/xlx-rock/ochre.html
 - _colors/basalt-3d/ash-grey.html
@@ -148,12 +152,8 @@ pages:
 - _colors/rock/charcoal.html
 - _colors/pencil-tiles/pencil-tiles-red.html
 - _colors/rock/ivory.html
-- _colors/planc/platiunum.html
-- _colors/rock/ochre.html
 - _colors/basalt/ebony.html
 - _colors/xlx-rock/charcoal.html
-- _colors/basalt-3d/ebony.html
-- _colors/pencil-tiles/green-pencil-tiles-small-format-tile-mosaics.html
 - _colors/planc/ebony.html
 - _colors/rock/white.html
 - _colors/planc/grey.html
