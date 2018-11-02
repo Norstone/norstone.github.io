@@ -67,6 +67,8 @@ fields:
   type: text
   hidden: false
   default: blog
+  config:
+    required: true
 - name: classes
   label: Classes
   type: text
