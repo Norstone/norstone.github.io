@@ -117,6 +117,8 @@ fields:
   type: text
   hidden: false
   default: collection
+  config:
+    required: true
 pages:
 - _products/planc/planc.html
 - _products/basalt-3d/aksent-3d.html
