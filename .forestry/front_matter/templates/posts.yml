@@ -55,6 +55,8 @@ fields:
   type: datetime
   hidden: false
   default: ''
+  config:
+    required: true
 - name: permalink
   label: Permalink
   type: textarea

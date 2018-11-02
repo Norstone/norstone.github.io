@@ -13,11 +13,15 @@ fields:
   type: datetime
   hidden: false
   default: ''
+  config:
+    required: true
 - name: layout
   label: Layout
   type: text
   hidden: false
   default: gallery
+  config:
+    required: true
 - name: meta
   label: Meta
   type: field_group
