@@ -13,6 +13,8 @@ fields:
   type: datetime
   hidden: false
   default: ''
+  config:
+    required: true
 - name: meta
   label: Meta
   type: field_group
