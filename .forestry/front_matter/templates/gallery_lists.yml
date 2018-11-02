@@ -13,6 +13,8 @@ fields:
   type: datetime
   hidden: false
   default: ''
+  config:
+    required: true
 - name: meta
   label: Meta
   type: field_group
@@ -44,6 +46,8 @@ fields:
   type: text
   hidden: false
   default: gallery-list
+  config:
+    required: true
 pages:
 - _gallery_lists/xl-rock-panels.html
 - _gallery_lists/index.html
