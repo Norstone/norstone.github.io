@@ -75,6 +75,7 @@ fields:
   hidden: false
   default: blog
 pages:
+- _posts/norstone-s-favorite-stacked-stone-man-caves.md
 - _posts/2018-11-05-planc-large-format-tile-hollywood-house.md
 - _posts/2018-10-04-a-one-of-a-kind-stone-bathroom.md
 - _posts/2018-10-11-installing-stone-veneer-over-a-metal-substrate.md
