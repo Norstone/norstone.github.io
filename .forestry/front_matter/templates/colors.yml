@@ -139,10 +139,10 @@ fields:
     title: ''
     src: ''
 pages:
-- _colors/planc/platiunum.html
-- _colors/planc/silver-grey-quartz.html
 - _colors/pencil-tiles/green-pencil-tiles-small-format-tile-mosaics.html
 - _colors/basalt/white-marble.html
+- _colors/planc/silver-grey-quartz.html
+- _colors/planc/platiunum.html
 - _colors/basalt-3d/white-3d-marble.html
 - _colors/planc/ebony.html
 - _colors/pencil-tiles/pencil-tiles-red.html
