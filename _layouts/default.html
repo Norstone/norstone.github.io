@@ -7,6 +7,7 @@
 {% include head.html %}
 
 <body class="no-js{% if page.classes %} {{ page.classes }}{% endif %}">
+  {% include google-tag-noscript.html %}
   <div class="off-canvas position-right" id="offCanvas" data-off-canvas data-position="right">
     <ul class="vertical menu">
       {% include navigation.html %}
