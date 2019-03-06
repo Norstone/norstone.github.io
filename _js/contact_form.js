@@ -69,7 +69,7 @@ $(function ($, global) {
 
 $(function ($, global) {
   function checkHoneypot() {
-    return $('.honeypot input[name=body]').val() === '';
+    return $('.honeypot input[name=url]').val() === '';
   }
 
   global.checkHoneypot = checkHoneypot;
