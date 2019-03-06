@@ -3,9 +3,10 @@
   class="clearfix contactForm"
   name="WebToLeads983222000011193033"
   method="POST"
-  onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()'
+  onSubmit='javascript:document.charset="UTF-8"; return checkHoneypot() && checkMandatory()'
   accept-charset="UTF-8"
 >
+  {% include honeypot.html %}
 
   <!-- DO NOT REMOVE THE CODE BELOW -->
   <input

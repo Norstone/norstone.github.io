@@ -66,3 +66,11 @@ $(function ($, global) {
   }
 
 }(jQuery, window));
+
+$(function ($, global) {
+  function checkHoneypot() {
+    return $('.honeypot input[name=body]').val() === '';
+  }
+
+  global.checkHoneypot = checkHoneypot;
+}(jQuery, window));

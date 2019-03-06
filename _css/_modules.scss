@@ -827,3 +827,7 @@ textarea:-webkit-autofill:focus {
   box-shadow: 0 0 0 1000px #d8f5ff inset;
   -webkit-text-fill-color: #333;
 }
+
+.honeypot {
+  display: none !important;
+}
