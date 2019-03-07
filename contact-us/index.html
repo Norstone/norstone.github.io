@@ -296,9 +296,14 @@ We can help. Email us, or give us a call.</h1>
   class="clearfix contactForm"
   name="WebToLeads983222000011193033"
   method="POST"
-  onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()'
+  onSubmit='javascript:document.charset="UTF-8"; return checkHoneypot() && checkMandatory()'
   accept-charset="UTF-8"
 >
+  <div class="honeypot">
+  If you see this, leave this form field blank and invest in CSS support.
+  <input type="text" name="url" value="" />
+</div>
+
 
   <!-- DO NOT REMOVE THE CODE BELOW -->
   <input
