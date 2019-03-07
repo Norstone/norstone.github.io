@@ -8379,3 +8379,7 @@ a#admin-link-admin-settings-zillaForm span.icon {
 .captcha #edit-captcha-response-wrapper .description {
   display: none
 }
+
+.honeypot {
+  display: none !important;
+}

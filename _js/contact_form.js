@@ -74,3 +74,10 @@ $(function ($, global) {
 
   global.checkHoneypot = checkHoneypot;
 }(jQuery, window));
+
+function reloadImg() {  if(document.getElementById('imgid').src.indexOf('&d') !== -1 ) {
+    document.getElementById('imgid').src=document.getElementById('imgid').src.substring(0,document.getElementById('imgid').src.indexOf('&d'))+'&d'+new Date().getTime();
+  }  else {
+    document.getElementById('imgid').src = document.getElementById('imgid').src+'&d'+new Date().getTime();
+  } 
+}
