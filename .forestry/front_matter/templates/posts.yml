@@ -1,7 +1,6 @@
 ---
 label: Posts
 hide_body: false
-is_partial: false
 fields:
 - name: title
   label: Title
@@ -75,9 +74,6 @@ fields:
   hidden: false
   default: blog
 pages:
-- _posts/charcoal-xl-on-a-modern-long-island-home-exterior.md
-- _posts/how-will-rising-chinese-tariffs-impact-the-stacked-stone-industry.md
-- _posts/vertically-installed-white-lynia-tile-to-make-a-small-space-look-bigger.md
 - _posts/2018-11-05-planc-large-format-tile-hollywood-house.md
 - _posts/2018-12-10-stone-fireplace-101-the-hearth.md
 - _posts/2018-12-14-awesome-exterior-platinum-planc-on-a-reno-hillside.md
