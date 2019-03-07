@@ -322,15 +322,8 @@
     <option value="Home&#x20;Owner">Home Owner</option>
   </select>
   <textarea cols="60" rows="5" placeholder="Project Name and Details*." name="Description" class="required"></textarea>
-  <div class="row columns">
-    <div style="nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:200px;">Enter the Captcha</div>
-    <input type="text" style="width:250px;" maxlength="80" name="enterdigest" />
-    <img id="imgid" src="https://crm.zoho.com/crm/CaptchaServlet?formId=3eb312b2c96dfcebb1d32e34d12ece6535d61490672852db75c524550ed81c2b&grpid=9b3d2834bcb7d6b6001a49e3bbb389f013750d41e1b68c22e1a5df5b28cc0ae4" alt="captcha image">
-    <a href="javascript:;" onclick="reloadImg()">Reload</a>
-  </div>
   <input class="button--main float-right" type="submit" value="Submit" />
 </form>
-<iframe name='captchaFrame' style='display:none;'></iframe>
 <script>
   var mndFields = new Array('Last Name', 'Phone', 'Email', 'Zip Code');
 
