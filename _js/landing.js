@@ -3160,10 +3160,8 @@ function loadType(node) {
 
 ;
 
-$(function() {
-  if ($('[name="LEADCF29"]').length) {
-    $.getJSON('//freegeoip.net/json/?callback=?', function(data) {
-      $('[name="LEADCF29"]').val(data.ip);
-    });
+$.get("https://ipinfo.io", function(response) {
+  $('#LEADCF29').val(response.ip);
+}, "jsonp");
   }
 });
