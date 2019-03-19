@@ -197,9 +197,10 @@ $(function() {
     $(this).click();
   })
 
-  if ($.get("https://ipinfo.io", function(response) {
-  $('#LEADCF29').val(response.ip);
-}, "jsonp");
+  if ($('#LEADCF29').length) {
+    $.get("https://ipinfo.io", function(response) {
+      $('#LEADCF29').val(response.ip);
+    }, "jsonp");
   }
 });
 
