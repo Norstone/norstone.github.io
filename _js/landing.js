@@ -3162,7 +3162,7 @@ function loadType(node) {
 
 $(function() {
   if ($('#LEADCF29').length) {
-		$.get("https://ipinfo.io", function(response) {
+		$.get("https://ipinfo.io/json", function(response) {
 			$('#LEADCF29').val(response.ip);
 		}, "jsonp");
   }
