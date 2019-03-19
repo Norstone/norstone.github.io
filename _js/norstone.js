@@ -197,10 +197,10 @@ $(function() {
     $(this).click();
   })
 
-  if ($('[name="LEADCF29"]').length) {
-    $.getJSON('//freegeoip.net/json/?callback=?', function(data) {
-      $('[name="LEADCF29"]').val(data.ip);
-    });
+  if ($('#LEADCF29').length) {
+    $.get("https://ipinfo.io/json", function(response) {
+      $('#LEADCF29').val(response.ip);
+    }, "jsonp");
   }
 });
 
