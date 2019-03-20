@@ -1,0 +1,216 @@
+<form
+  action="https://crm.zoho.com/crm/WebToLeadForm"
+  class="clearfix contactForm"
+  name="WebToLeads983222000038967585"
+  method="POST"
+  onSubmit='javascript:document.charset="UTF-8"; return checkHoneypot() && checkMandatory()'
+  accept-charset="UTF-8"
+>
+  {% include honeypot.html %}
+
+  <!-- DO NOT REMOVE THE CODE BELOW -->
+  <input
+    type='text'
+    style='display:none;'
+    name='xnQsjsdp'
+    value='9b3d2834bcb7d6b6001a49e3bbb389f013750d41e1b68c22e1a5df5b28cc0ae4'
+  />
+  <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+  <input
+    type='text'
+    style='display:none;'
+    name='xmIwtLD'
+    value='3eb312b2c96dfcebb1d32e34d12ece653f76d03121c23e3e6b0347c85ca2b968'
+  />
+  <input type='text' style='display:none;' name='actionType' value='TGVhZHM='/>
+  <input
+    type='text'
+    style='display:none;'
+    name='returnURL'
+    value='http&#x3a;&#x2f;&#x2f;www.norstoneusa.com&#x2f;thank-you&#x2f;'
+  />
+  <input type='hidden' style='display:none;' name='Lead Source' value='{{ page.lead_source }}' />
+  <input type='hidden' style='display:none;' name='LEADCF29' id='LEADCF29' value="" />
+  <!-- DO NOT REMOVE THE CODE ABOVE -->
+
+  <div class="row">
+    <div class="medium-6 columns">
+      <input
+        class="required"
+        type="text"
+        name="First Name"
+        size="60"
+        placeholder="First name"
+        autocomplete="given-name"
+        required
+      />
+    </div>
+    <div class="medium-6 columns">
+      <input
+        class="required"
+        type="text"
+        name="Last Name"
+        size="60"
+        placeholder="Last name*"
+        autocomplete="family-name"
+        required
+      />
+    </div>
+  </div>
+
+  <input type="text" name="Company" size="60" placeholder="Company name" />
+
+  <div class="row">
+    <div class="medium-6 columns">
+      <input
+        lass="required"
+        type="email"
+        name="Email"
+        size="60"
+        placeholder="Email*"
+        autocomplete="email"
+        required
+      />
+    </div>
+    <div class="medium-6 columns">
+      <input
+        class="required"
+        type="tel"
+        name="Phone"
+        size="60"
+        placeholder="Phone"
+        autocomplete="tel"
+        required
+      />
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="medium-8 columns">
+      <select class="required contactForm__countrySelect" name="Country" autocomplete="country" required>
+        {% include country-options.html %}
+      </select>
+    </div>
+    <div class="medium-4 columns">
+      <input
+        class="required"
+        type="text"
+        name="Zip Code"
+        size="60"
+        placeholder="Postal code*"
+        autocomplete="postal-code"
+        required
+      />
+    </div>
+  </div>
+
+  <div class="row collapse columns">
+    <label style="color: #6b6b6b">I am interested in:</label>
+  </div>
+
+  <div class="row collapse">
+    <div class="columns small-6 contactForm__productOfInterest">
+      <input id="product__rockPanels" class="contactForm__productOfInterestCheckbox" type="checkbox" name="LEADCF1" value="Rock&#x20;Panels" />
+      <label for="product__rockPanels" class="contactForm__productOfInterestLabel">Rock Panels</label>
+    </div>
+    <div class="columns small-6 contactForm__productOfInterest">
+      <input id="product__xlRockPanels" class="contactForm__productOfInterestCheckbox" type="checkbox" name="LEADCF1" value="XL&#x20;Rock&#x20;Panels" />
+      <label for="product__xlRockPanels" class="contactForm__productOfInterestLabel">XL Rock Panels</label>
+    </div>
+    <div class="columns small-6 contactForm__productOfInterest">
+      <input id="product__lyniaILTiles" class="contactForm__productOfInterestCheckbox" type="checkbox" name="LEADCF1" value="Lynia&#x20;IL&#x20;Tiles" />
+      <label for="product__lyniaILTiles" class="contactForm__productOfInterestLabel">Lynia™ IL Tiles</label>
+    </div>
+    <div class="columns small-6 contactForm__productOfInterest">
+      <input id="product__askent3dPanels" class="contactForm__productOfInterestCheckbox" type="checkbox" name="LEADCF1" value="Aksent&#x20;3D&#x20;Tiles" />
+      <label for="product__askent3dPanels" class="contactForm__productOfInterestLabel">Aksent 3D™ Panels</label>
+    </div>
+    <div class="columns small-6 end contactForm__productOfInterest">
+      <input id="product__planc" class="contactForm__productOfInterestCheckbox" type="checkbox" name="LEADCF1" value="PLANC" />
+      <label for="product__planc" class="contactForm__productOfInterestLabel">PLANC™</label>
+    </div>
+  </div>
+
+  <div class="row columns small-12 contactForm__row--productQuantity">
+    <input class="contactForm__productQuantity" type="number" name="LEADCF12" placeholder="Quantity" min="0" />
+    <input id="quantity__feet" type="radio" name="LEADCF9" value="Feet" />
+    <label for="quantity__feet" class="contactForm__productQuantityLabel">Feet&sup2;</label>
+    <input id="quantity__meters" type="radio" name="LEADCF9" value="Meters" />
+    <label for="quantity__meters" class="contactForm__productQuantityLabel">Meters&sup2;</label>
+  </div>
+
+  <div class="row columns">
+    <select name="LEADCF4" class="required">
+      <option value="Which best describes you?" disabled selected>Which best describes you?</option>
+      <option value="Architect&#x20;&#x2f;&#x20;Designer">Architect / Designer</option>
+      <option value="Property&#x20;Developer">Property Developer</option>
+      <option value="Builder&#x20;&#x2f;&#x20;Contractor">Builder / Contractor</option>
+      <option value="Distributor&#x20;&#x2f;&#x20;Reseller">Distributor / Reseller</option>
+      <option value="Home&#x20;Owner">Home Owner</option>
+    </select>
+  </div>
+
+  <div class="row columns">
+    <textarea
+      cols="60"
+      rows="5"
+      placeholder="Tell us about your project."
+      name="Description"
+      class="required"
+    ></textarea>
+  </div>
+
+  <input class="button--main float-right" type="submit" value="Submit" />
+
+  <!-- This section will be shown via JS only during business hours -->
+  <div class="contactForm__callUsNow hidden">
+    <p class="show-for-medium">
+      Prefer to speak with us about your project now?
+      <br />
+      Give us a call instead, we are currently: <span style="color: #4fb1d5;">OPEN.</span>
+    </p>
+    <p class="show-for-small-only">
+      Prefer to discuss your project now instead? <a href="tel:+18772109248">Call us</a>, we're currently: <a href="tel:+18772109248">OPEN</a>.
+    </p>
+  </div>
+
+</form>
+
+<script>
+  var mndFields = new Array('Last Name', 'Phone', 'Email', 'Zip Code');
+
+  function checkMandatoryWebToLeads983222000038967585() {
+    for (i=0; i < mndFields.length; i++) {
+      var fieldObj = document.forms['WebToLeads983222000038967585'][mndFields[i]];
+      if (fieldObj) {
+        if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) {
+          if (fieldObj.type =='file') {
+            alert('Please select a file to upload.');
+            fieldObj.focus();
+            return false;
+          }
+          alert(mndFields[i] + ' cannot be empty.');
+          fieldObj.focus();
+          return false;
+        } else if (fieldObj.nodeName == 'SELECT') {
+          if (fieldObj.options[fieldObj.selectedIndex].value == '-None-') {
+            alert(mndFields[i] + ' cannot be none.');
+            fieldObj.focus();
+            return false;
+          }
+        } else if (fieldObj.type == 'checkbox') {
+          if (fieldObj.checked == false) {
+            alert('Please accept  '+ mndFields[i]);
+            fieldObj.focus();
+            return false;
+          }
+        }
+        try {
+          if (fieldObj.name == 'Last Name') {
+            name = fieldObj.value;
+          }
+        } catch (e) {}
+      }
+    }
+  }
+</script>
