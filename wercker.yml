@@ -1,4 +1,4 @@
-box: mwallasch/docker-ruby-node
+box: starefossen/ruby-node
 
 build:
   steps:
