@@ -3,7 +3,7 @@ box: jekyll/jekyll
 build:
   steps:
     # Install all required NodeJS and Ruby dependencies
-    - bundle-install
+    # - bundle-install
     - npm-install
 
     # Set locale
