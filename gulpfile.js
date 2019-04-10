@@ -77,7 +77,7 @@ gulp.task('html-minify', function() {
 });
 
 gulp.task('jekyll', function(gulpCallback) {
-  const jekyll = child.spawn('jekyll.bat', ['build'], { stdio: 'inherit' });
+  const jekyll = child.spawn('jekyll', ['build']);
 
   const jekyllLogger = function(buffer) {
     buffer.toString()
