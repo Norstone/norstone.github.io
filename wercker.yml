@@ -1,4 +1,4 @@
-box: jekyll/jekyll
+box: jekyll/jekyll:3.8.4
 
 build:
   steps:
