@@ -77,7 +77,7 @@ gulp.task('html-minify', function() {
 });
 
 gulp.task('jekyll', function(gulpCallback) {
-  const jekyll = child.spawn('jekyll.bat', ['build']);
+  const jekyll = child.spawn('jekyll.bat', ['build'], { stdio: 'inherit' });
 
   const jekyllLogger = function(buffer) {
     buffer.toString()
@@ -90,7 +90,7 @@ gulp.task('jekyll', function(gulpCallback) {
   if (jekyll.stdout) {
     jekyll.stdout.on('data', jekyllLogger);
   }
-  
+
   if (jekyll.stderr) {
     jekyll.stderr.on('data', jekyllLogger);
   }
