@@ -7,19 +7,19 @@ build:
     - npm-install
 
     # Set locale
-    - script:
-        name: set locale
-        code: |
-          sudo apt-get update
-          sudo apt-get install -y locales
-          dpkg-reconfigure locales
-          locale-gen C.UTF-8
-          /usr/sbin/update-locale LANG=C.UTF-8
-          echo 'en_US.UTF-8 UTF-8' >> /etc/locale.gen
-          locale-gen
-          export LC_ALL=C.UTF-8
-          export LANG=en_US.UTF-8
-          export LANGUAGE=en_US.UTF-8
+    # - script:
+    #     name: set locale
+    #     code: |
+    #       sudo apt-get update
+    #       sudo apt-get install -y locales
+    #       dpkg-reconfigure locales
+    #       locale-gen C.UTF-8
+    #       /usr/sbin/update-locale LANG=C.UTF-8
+    #       echo 'en_US.UTF-8 UTF-8' >> /etc/locale.gen
+    #       locale-gen
+    #       export LC_ALL=C.UTF-8
+    #       export LANG=en_US.UTF-8
+    #       export LANGUAGE=en_US.UTF-8
 
     # Compile all static assets with Bower and Gulp
     - script:
