@@ -42,20 +42,22 @@ build:
       channel: static-conversion
       username: werckerbot
 
-deploy-github:
-  steps:
-    - yuzroz/gh-pages:
-        token: $GIT_TOKEN
-        basedir: _site
-        branch: master
+# deploy-github:
+#   steps:
+#     - yuzroz/gh-pages:
+#         token: $GIT_TOKEN
+#         basedir: _site
+#         branch: master
 
 deploy-webenabled:
   steps:
-    - script:
-        name: rsync install
-        code: |
-          sudo apt-get update
-          sudo apt-get install -y rsync
+    # - script:
+    #     name: rsync install
+    #     code: |
+    #       sudo apt-get update
+    #       sudo apt-get install -y rsync
+    - install-packages:
+        packages: rsync
     - add-to-known_hosts:
         hostname: nrstn.prod3.webenabled.net
     - mktemp:
@@ -72,11 +74,11 @@ deploy-webenabled:
         directory: ~/public_html/norstoneusa.com/pub
         sshkey: $PRIVATEKEY_PATH
 
-deploy-s3:
-  steps:
-    - s3sync:
-      key-id: $AWS_ACCESS_KEY_ID
-      key-secret: $AWS_SECRET_ACCESS_KEY
-      bucket-url: $AWS_BUCKET
-      source-dir: ./_site/
-      opts: --add-header=Cache-Control:max-age=60
+# deploy-s3:
+#   steps:
+#     - s3sync:
+#       key-id: $AWS_ACCESS_KEY_ID
+#       key-secret: $AWS_SECRET_ACCESS_KEY
+#       bucket-url: $AWS_BUCKET
+#       source-dir: ./_site/
+#       opts: --add-header=Cache-Control:max-age=60
