@@ -87,13 +87,8 @@ gulp.task('jekyll', function(gulpCallback) {
       });
   };
 
-  if (jekyll.stdout) {
-    jekyll.stdout.on('data', jekyllLogger);
-  }
-
-  if (jekyll.stderr) {
-    jekyll.stderr.on('data', jekyllLogger);
-  }
+  jekyll.stdout.on('data', jekyllLogger);
+  jekyll.stderr.on('data', jekyllLogger);
 
   jekyll.on('exit', gulpCallback);
 });

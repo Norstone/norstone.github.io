@@ -1,4 +1,4 @@
-box: starefossen/ruby-node
+box: jekyll/jekyll
 
 build:
   steps:
@@ -30,7 +30,7 @@ build:
         code: npm rebuild node-sass
     - script:
         name: Compile static assets
-        code: gem install bunlder jekyll && node node_modules/gulp/bin/gulp build
+        code: node node_modules/gulp/bin/gulp build
     - script:
         name: html proofer
         code: bundle exec htmlproofer --disable-external ./_site
