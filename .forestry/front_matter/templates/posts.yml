@@ -74,6 +74,7 @@ fields:
   hidden: false
   default: blog
 pages:
+- _posts/lynia-interlocking-tiles-for-commercial-landscape-wall.md
 - _posts/2019-04-15-spring-means-convention-season-for-the-stone-industry.md
 - _posts/2018-11-05-planc-large-format-tile-hollywood-house.md
 - _posts/2018-12-10-stone-fireplace-101-the-hearth.md
