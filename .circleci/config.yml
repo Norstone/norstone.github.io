@@ -13,43 +13,48 @@ jobs:
     steps:
       - checkout
       - restore_cache:
+          name: Getting Cached Ruby Dependencies
           keys:
             - v1-ruby-deps-{{ checksum "Gemfile.lock" }}
       - run:
-          name: install ruby dependencies
-          command: |
-            bundle install --jobs=4 --retry=3 --path vendor/bundle
+          name: Install Ruby Dependencies
+          command: bundle install --jobs=4 --retry=3 --path vendor/bundle
           environment:
             NOKOGIRI_USE_SYSTEM_LIBRARIES: true
       - save_cache:
+          name: Caching Ruby Dependencies
           paths:
             - ./vendor/bundle
           key: v1-ruby-deps-{{ checksum "Gemfile.lock" }}
       - restore_cache:
+          name: Getting Cached Node Dependencies
           keys:
             - v1-node-deps-{{ checksum "package.json" }}
       - run:
-          name: install node dependencies
+          name: Install Node Dependencies
           command: npm i
       - save_cache:
+          name: Caching Node Dependencies
           paths:
             - ./node_modules
           key: v1-node-deps-{{ checksum "package.json" }}
       - restore_cache:
+          name: Getting Cached Bower Dependencies
           keys:
             - v1-bower-deps-{{ checksum "bower.json" }}
       - run:
-          name: install bower dependencies
-          command: bower install
+          name: Install Bower Dependencies
+          command: ./node_modules/.bin/bower install
       - save_cache:
+          name: Caching Bower Dependencies
           paths:
             - ./bower_components
           key: v1-bower-deps-{{ checksum "bower.json" }}
       - run:
-          name: build project (production mode)
+          name: Build Project in Production Mode
           command: npm run build:prod
       - run:
-          name: run tests
+          name: Run Tests
           command: npm run test
       - persist_to_workspace:
           root: ./
