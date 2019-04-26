@@ -1,0 +1,81 @@
+# Ruby CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-ruby/ for more details
+#
+version: 2
+defaults: &defaults
+  working_directory: ~/repo
+jobs:
+  build:
+    docker:
+      - image: circleci/ruby:2.4.1-node-browsers
+
+    steps:
+      - checkout
+
+      - restore_cache:
+          keys:
+            - key: v1-ruby-deps-{{ checksum "Gemfile.lock" }}
+
+      - run:
+          name: install ruby dependencies
+          command: |
+            bundle install --jobs=4 --retry=3 --path vendor/bundle
+          environment:
+            NOKOGIRI_USE_SYSTEM_LIBRARIES: true
+
+      - save_cache:
+          paths:
+            - ./vendor/bundle
+          key: v1-ruby-deps-{{ checksum "Gemfile.lock" }}
+      
+      - restore_cache:
+          keys:
+            - key: v1-node-deps-{{ checksum "package.json" }}
+
+      - run:
+          name: install node dependencies
+          command: npm i
+
+      - save_cache:
+          paths:
+            - ./node_modules
+          key: v1-node-deps-{{ checksum "package.json" }}
+      
+      - restore_cache:
+          keys:
+            - key: v1-bower-deps-{{ checksum "bower.json" }}
+
+      - run:
+          name: install bower dependencies
+          command: bower install
+
+      - save_cache:
+          paths:
+            - ./bower_components
+          key: v1-bower-deps-{{ checksum "bower.json" }}
+
+      - run:
+          name: build project (production mode)
+          command: npm run build:prod
+
+      - run:
+          name: run tests
+          command: |
+            npm run test
+      
+      - persist_to_workspace:
+          root: ./
+          paths:
+            - _site
+workflows:
+  version: 2
+  test-deploy:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: develop
