@@ -14,7 +14,7 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-            - key: v1-ruby-deps-{{ checksum "Gemfile.lock" }}
+            - v1-ruby-deps-{{ checksum "Gemfile.lock" }}
       - run:
           name: install ruby dependencies
           command: |
@@ -27,7 +27,7 @@ jobs:
           key: v1-ruby-deps-{{ checksum "Gemfile.lock" }}
       - restore_cache:
           keys:
-            - key: v1-node-deps-{{ checksum "package.json" }}
+            - v1-node-deps-{{ checksum "package.json" }}
       - run:
           name: install node dependencies
           command: npm i
@@ -37,7 +37,7 @@ jobs:
           key: v1-node-deps-{{ checksum "package.json" }}
       - restore_cache:
           keys:
-            - key: v1-bower-deps-{{ checksum "bower.json" }}
+            - v1-bower-deps-{{ checksum "bower.json" }}
       - run:
           name: install bower dependencies
           command: bower install
