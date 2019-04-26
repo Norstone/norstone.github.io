@@ -57,6 +57,8 @@ jobs:
             - _site
   deploy:
     <<: *defaults
+    machine:
+      enabled: true
     steps:
       - run: rsync
 workflows:
