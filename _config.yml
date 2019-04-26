@@ -11,6 +11,9 @@ exclude:
 - gulpfile.js
 - package.json
 - wercker.yml
+# CircleCI installs bundle in vendor/bundle.
+# Look at .circleci/config.yml for more info
+- vendor
 plugins:
 - html-proofer
 - jekyll-feed
