@@ -65,10 +65,16 @@ jobs:
     machine:
       enabled: true
     steps:
-      - run: rsync
+      - add_ssh_keys:
+          fingerprints:
+            - 9e:fe:8d:3a:21:1a:a5:42:48:ab:50:29:cc:4d:6e:ba
+      - run:
+          name: Add Webenabled Server as Known Host
+          command: echo $REMOTE_HOSTKEY >> ~/.ssh/known_hosts
+      - run: rsync -avce ssh _site w_nrstn@nrstn.prod3.webenabled.net:~/public_html/norstoneusa.com/pub
 workflows:
   version: 2
-  test-deploy:
+  build_and_deploy:
     jobs:
       - build
       - deploy:
