@@ -80,4 +80,4 @@ jobs:
           command: echo $REMOTE_HOSTKEY >> ~/.ssh/known_hosts
       - run: 
           name: Deploying to Webenabled
-          command: rsync -avce ssh _site/ w_nrstn@nrstn.prod3.webenabled.net:~/public_html/norstoneusa.com/pub
+          command: rsync -avce ssh -o StrictHostKeyChecking=no _site/ w_nrstn@nrstn.prod3.webenabled.net:~/public_html/norstoneusa.com/pub
