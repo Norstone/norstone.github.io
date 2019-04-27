@@ -55,7 +55,7 @@ jobs:
           paths:
             - ./bower_components
           key: v1-bower-deps-{{ checksum "bower.json" }}
-      -run:
+      - run:
           name: Node and NPM versions
           command: |
             node -v
