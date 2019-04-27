@@ -71,7 +71,7 @@ jobs:
       - run:
           name: Add Webenabled Server as Known Host
           command: echo $REMOTE_HOSTKEY >> ~/.ssh/known_hosts
-      - run: rsync -avce ssh ./_site/ w_nrstn@nrstn.prod3.webenabled.net:~/public_html/norstoneusa.com/pub
+      - run: rsync -avce ssh _site/ w_nrstn@nrstn.prod3.webenabled.net:~/public_html/norstoneusa.com/pub
 workflows:
   version: 2
   build_and_deploy:
