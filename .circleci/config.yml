@@ -67,11 +67,11 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints:
-            - "9e:fe:8d:3a:21:1a:a5:42:48:ab:50:29:cc:4d:6e:ba"
+            - "59:30:20:f9:49:9f:8b:86:f0:47:4d:a0:e2:bb:89:9b"
       - run:
           name: Add Webenabled Server as Known Host
           command: echo $REMOTE_HOSTKEY >> ~/.ssh/known_hosts
-      - run: rsync -avce ssh _site w_nrstn@nrstn.prod3.webenabled.net:~/public_html/norstoneusa.com/pub
+      - run: rsync -avce ssh ./_site/ w_nrstn@nrstn.prod3.webenabled.net:~/public_html/norstoneusa.com/pub
 workflows:
   version: 2
   build_and_deploy:
