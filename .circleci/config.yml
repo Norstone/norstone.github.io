@@ -56,10 +56,11 @@ jobs:
             - ./bower_components
           key: v1-bower-deps-{{ checksum "bower.json" }}
       - run:
-          name: Node and NPM versions
+          name: Node, NPM, and Jekyll versions
           command: |
             node -v
             npm -v
+            jekyll -v
       # - run:
       #     name: Rebuild node-sass
       #     command: npm rebuild node-sass
