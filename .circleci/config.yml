@@ -55,6 +55,11 @@ jobs:
           paths:
             - ./bower_components
           key: v1-bower-deps-{{ checksum "bower.json" }}
+      -run:
+          name: Node and NPM versions
+          command: |
+            node -v
+            npm -v
       - run:
           name: Rebuild node-sass
           command: npm rebuild node-sass
