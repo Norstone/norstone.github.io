@@ -26,6 +26,14 @@ jobs:
           command: bundle install --jobs=4 --retry=3 --path vendor/bundle
           environment:
             NOKOGIRI_USE_SYSTEM_LIBRARIES: true
+      - run:
+          name: Node, NPM, and Jekyll versions
+          command: |
+            echo $PATH
+            node -v
+            npm -v
+            bundle exec jekyll -v
+            jekyll -v
       # - save_cache:
       #     name: Caching Ruby Dependencies
       #     paths:
@@ -55,13 +63,6 @@ jobs:
       #     paths:
       #       - ./bower_components
       #     key: v1-bower-deps-{{ checksum "bower.json" }}
-      - run:
-          name: Node, NPM, and Jekyll versions
-          command: |
-            node -v
-            npm -v
-            bundle exec jekyll -v
-            jekyll -v
       # - run:
       #     name: Rebuild node-sass
       #     command: npm rebuild node-sass
