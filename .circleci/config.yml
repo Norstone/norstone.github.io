@@ -20,7 +20,7 @@ jobs:
       - restore_cache:
           name: Getting Cached Ruby Dependencies
           keys:
-            - v1-ruby-deps-{{ checksum "Gemfile.lock" }}
+            - v1-ruby-deps-{{ checksum "Gemfile" }}-{{ checksum "Gemfile.lock" }}
       - run:
           name: Install Ruby Dependencies
           command: bundle install --jobs=4 --retry=3 --path vendor/bundle
@@ -30,7 +30,7 @@ jobs:
           name: Caching Ruby Dependencies
           paths:
             - ./vendor/bundle
-          key: v1-ruby-deps-{{ checksum "Gemfile.lock" }}
+          key: v1-ruby-deps-{{ checksum "Gemfile" }}-{{ checksum "Gemfile.lock" }}
       - restore_cache:
           name: Getting Cached Node Dependencies
           keys:
