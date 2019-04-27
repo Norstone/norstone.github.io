@@ -33,7 +33,7 @@ jobs:
             node -v
             npm -v
             bundle exec jekyll -v
-            jekyll -v
+            # jekyll -v
       # - save_cache:
       #     name: Caching Ruby Dependencies
       #     paths:
