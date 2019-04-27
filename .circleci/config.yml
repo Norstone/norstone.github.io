@@ -9,7 +9,7 @@ jobs:
   build:
     <<: *defaults
     docker:
-      - image: circleci/ruby:2.4.1-node-browsers
+      - image: circleci/ruby:2.4.1-node
     steps:
       - checkout
       - run:
