@@ -56,6 +56,9 @@ jobs:
             - ./bower_components
           key: v1-bower-deps-{{ checksum "bower.json" }}
       - run:
+          name: Rebuild node-sass
+          command: npm rebuild node-sass
+      - run:
           name: Build Project in Production Mode
           command: npm run build:prod
       - run:
