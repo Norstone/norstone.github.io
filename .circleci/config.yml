@@ -27,45 +27,38 @@ jobs:
           environment:
             NOKOGIRI_USE_SYSTEM_LIBRARIES: true
       - run:
-          name: Node, NPM, and Jekyll versions
-          command: |
-            echo $PATH
-            node -v
-            npm -v
-            bundle exec jekyll -v
-            # jekyll -v
+          name: check
+          command: gem env
       # - save_cache:
       #     name: Caching Ruby Dependencies
       #     paths:
-      #       - ./vendor/bundle
+      #       - /usr/local/bundle/bin
+      #       - /usr/local/bundle/gems/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
       #     key: v1-ruby-deps-{{ checksum "Gemfile" }}-{{ checksum "Gemfile.lock" }}
-      # - restore_cache:
-      #     name: Getting Cached Node Dependencies
-      #     keys:
-      #       - v1-node-deps-{{ checksum "package.json" }}-{{ checksum "package-lock.json" }}
+      - restore_cache:
+          name: Getting Cached Node Dependencies
+          keys:
+            - v1-node-deps-{{ checksum "package.json" }}-{{ checksum "package-lock.json" }}
       - run:
           name: Install Node Dependencies
           command: npm i
-      # - save_cache:
-      #     name: Caching Node Dependencies
-      #     paths:
-      #       - ./node_modules
-      #     key: v1-node-deps-{{ checksum "package.json" }}-{{ checksum "package-lock.json" }}
-      # - restore_cache:
-      #     name: Getting Cached Bower Dependencies
-      #     keys:
-      #       - v1-bower-deps-{{ checksum "bower.json" }}
+      - save_cache:
+          name: Caching Node Dependencies
+          paths:
+            - ./node_modules
+          key: v1-node-deps-{{ checksum "package.json" }}-{{ checksum "package-lock.json" }}
+      - restore_cache:
+          name: Getting Cached Bower Dependencies
+          keys:
+            - v1-bower-deps-{{ checksum "bower.json" }}
       - run:
           name: Install Bower Dependencies
           command: ./node_modules/.bin/bower install
-      # - save_cache:
-      #     name: Caching Bower Dependencies
-      #     paths:
-      #       - ./bower_components
-      #     key: v1-bower-deps-{{ checksum "bower.json" }}
-      # - run:
-      #     name: Rebuild node-sass
-      #     command: npm rebuild node-sass
+      - save_cache:
+          name: Caching Bower Dependencies
+          paths:
+            - ./bower_components
+          key: v1-bower-deps-{{ checksum "bower.json" }}
       - run:
           name: Build Project in Production Mode
           command: npm run build:prod
