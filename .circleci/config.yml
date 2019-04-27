@@ -34,7 +34,7 @@ jobs:
       - restore_cache:
           name: Getting Cached Node Dependencies
           keys:
-            - v1-node-deps-{{ checksum "package.json" }}
+            - v1-node-deps-{{ checksum "package.json" }}-{{ checksum "package-lock.json" }}
       - run:
           name: Install Node Dependencies
           command: npm i
@@ -42,7 +42,7 @@ jobs:
           name: Caching Node Dependencies
           paths:
             - ./node_modules
-          key: v1-node-deps-{{ checksum "package.json" }}
+          key: v1-node-deps-{{ checksum "package.json" }}-{{ checksum "package-lock.json" }}
       - restore_cache:
           name: Getting Cached Bower Dependencies
           keys:
