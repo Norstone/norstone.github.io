@@ -14,7 +14,7 @@ jobs:
       - checkout
       - run:
           name: Install "rsync"
-          command: sudo apt-get install rsync
+          command: sudo apt-get install rsync --fix-missing
       - restore_cache:
           name: Getting Cached Ruby Dependencies
           keys:
