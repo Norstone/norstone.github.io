@@ -60,9 +60,9 @@ jobs:
           command: |
             node -v
             npm -v
-      - run:
-          name: Rebuild node-sass
-          command: npm rebuild node-sass
+      # - run:
+      #     name: Rebuild node-sass
+      #     command: npm rebuild node-sass
       - run:
           name: Build Project in Production Mode
           command: npm run build:prod
