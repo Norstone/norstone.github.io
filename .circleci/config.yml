@@ -31,35 +31,36 @@ jobs:
       #     paths:
       #       - ./vendor/bundle
       #     key: v1-ruby-deps-{{ checksum "Gemfile" }}-{{ checksum "Gemfile.lock" }}
-      - restore_cache:
-          name: Getting Cached Node Dependencies
-          keys:
-            - v1-node-deps-{{ checksum "package.json" }}-{{ checksum "package-lock.json" }}
+      # - restore_cache:
+      #     name: Getting Cached Node Dependencies
+      #     keys:
+      #       - v1-node-deps-{{ checksum "package.json" }}-{{ checksum "package-lock.json" }}
       - run:
           name: Install Node Dependencies
           command: npm i
-      - save_cache:
-          name: Caching Node Dependencies
-          paths:
-            - ./node_modules
-          key: v1-node-deps-{{ checksum "package.json" }}-{{ checksum "package-lock.json" }}
-      - restore_cache:
-          name: Getting Cached Bower Dependencies
-          keys:
-            - v1-bower-deps-{{ checksum "bower.json" }}
+      # - save_cache:
+      #     name: Caching Node Dependencies
+      #     paths:
+      #       - ./node_modules
+      #     key: v1-node-deps-{{ checksum "package.json" }}-{{ checksum "package-lock.json" }}
+      # - restore_cache:
+      #     name: Getting Cached Bower Dependencies
+      #     keys:
+      #       - v1-bower-deps-{{ checksum "bower.json" }}
       - run:
           name: Install Bower Dependencies
           command: ./node_modules/.bin/bower install
-      - save_cache:
-          name: Caching Bower Dependencies
-          paths:
-            - ./bower_components
-          key: v1-bower-deps-{{ checksum "bower.json" }}
+      # - save_cache:
+      #     name: Caching Bower Dependencies
+      #     paths:
+      #       - ./bower_components
+      #     key: v1-bower-deps-{{ checksum "bower.json" }}
       - run:
           name: Node, NPM, and Jekyll versions
           command: |
             node -v
             npm -v
+            bundle exec jekyll -v
             jekyll -v
       # - run:
       #     name: Rebuild node-sass
