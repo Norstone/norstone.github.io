@@ -12,6 +12,9 @@ jobs:
       - image: circleci/ruby:2.4.1-node-browsers
     steps:
       - checkout
+      - run:
+          name: Install "rsync"
+          command: apt-get install rsync
       - restore_cache:
           name: Getting Cached Ruby Dependencies
           keys:
