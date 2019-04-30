@@ -11,7 +11,7 @@ image:
   title: Dimensionality in Stacked Stone Veneer Panels
   alt: Feature Wall in Lobby of Bank showing the dimensionality of stacked stone veneer
     panels
-  src: "/uploads/2019/04/30/Dimensionality in Stacked Stone Feature Wall.jpg"
+  src: "/uploads/2019/04/30/Dimensionality in Stacked Stone Feature Wall-2.jpg"
 excerpt: If dimensionality isn't something you are looking at when evaluating stacked
   stone veneer products- it should be.  Dimensionality determines a lot about how
   the product will look when it gets up on a wall.  Let's dive deep on dimensionality
