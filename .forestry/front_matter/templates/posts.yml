@@ -74,6 +74,7 @@ fields:
   hidden: false
   default: blog
 pages:
+- _posts/diy-stone-wall-just-in-time-for-summer.md
 - _posts/2019-04-15-freeze-thaw-testing-for-stacked-stone-veneer.md
 - _posts/2019-04-15-spring-means-convention-season-for-the-stone-industry.md
 - _posts/2018-04-03-stacked-stone-outdoor-kitchen-for-spring.md
