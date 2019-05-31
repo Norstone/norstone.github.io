@@ -20,22 +20,19 @@ jobs:
       - restore_cache:
           name: Getting Cached Ruby Dependencies
           keys:
-            - v1-ruby-deps-{{ checksum "Gemfile" }}-{{ checksum "Gemfile.lock" }}
+            - v2-ruby-deps-{{ checksum "Gemfile" }}-{{ checksum "Gemfile.lock" }}
       - run:
           name: Install Ruby Dependencies
           command: bundle install --jobs=4 --retry=3
           environment:
             NOKOGIRI_USE_SYSTEM_LIBRARIES: true
-      - run:
-          name: check
-          command: gem env
       - save_cache:
           name: Caching Ruby Dependencies
           paths:
             - /usr/local/bundle
             - /usr/local/bundle/bin
             - /usr/local/bundle/gems/bin
-          key: v1-ruby-deps-{{ checksum "Gemfile" }}-{{ checksum "Gemfile.lock" }}
+          key: v2-ruby-deps-{{ checksum "Gemfile" }}-{{ checksum "Gemfile.lock" }}
       - restore_cache:
           name: Getting Cached Node Dependencies
           keys:
