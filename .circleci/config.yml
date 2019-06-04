@@ -17,6 +17,9 @@ jobs:
           command: |
             sudo apt-get update
             sudo apt-get install rsync --fix-missing
+      - run:
+          name: Changing ownership of cached folder
+          command: sudo chown -R circleci /usr/local/bundle
       - restore_cache:
           name: Getting Cached Ruby Dependencies
           keys:
