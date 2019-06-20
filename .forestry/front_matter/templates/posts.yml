@@ -74,6 +74,7 @@ fields:
   hidden: false
   default: blog
 pages:
+- _posts/stunning-two-story-white-stacked-stone-fireplace.md
 - _posts/pairing-furniture-with-natural-stone-veneer-walls.md
 - _posts/uk-ochre-slimline-residential-interior-exterior.md
 - _posts/natural-stone-veneer-contractor-grade-vs-architectural-grade.md
