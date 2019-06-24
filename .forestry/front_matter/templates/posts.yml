@@ -74,6 +74,7 @@ fields:
   hidden: false
   default: blog
 pages:
+- _posts/installing-stone-veneer-over-an-eifs-system.md
 - _posts/stunning-two-story-white-stacked-stone-fireplace.md
 - _posts/pairing-furniture-with-natural-stone-veneer-walls.md
 - _posts/uk-ochre-slimline-residential-interior-exterior.md
