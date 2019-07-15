@@ -74,6 +74,7 @@ fields:
   hidden: false
   default: blog
 pages:
+- _posts/ebony-planc-outdoor-kitchen-project-built-from-scratch.md
 - _posts/stacked-stone-veneer-the-perfect-choice-for-health-care-office-buildouts-and-remodels.md
 - _posts/white-marble-lynia-interlocking-tile-backsplash.md
 - _posts/installing-stone-veneer-over-an-eifs-system.md
