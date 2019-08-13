@@ -74,6 +74,7 @@ fields:
   hidden: false
   default: blog
 pages:
+- _posts/white-stacked-stone-is-white-hot-for-summer.md
 - _posts/what-the-proper-thinset-coverage-is-for-adhering-stacked-stone-rock-panels.md
 - _posts/ebony-planc-outdoor-kitchen-project-built-from-scratch.md
 - _posts/white-marble-lynia-interlocking-tile-backsplash.md
