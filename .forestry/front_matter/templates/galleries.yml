@@ -137,6 +137,7 @@ fields:
   hidden: false
   default: ''
 pages:
+- _galleries/application/showers.html
 - _galleries/stone-planks/interiors.html
 - _galleries/stone-planks/exteriors.html
 - _galleries/xlx-rock-panels/ochre.html
@@ -158,7 +159,6 @@ pages:
 - _galleries/basalt-3d/interiors.html
 - _galleries/basalt-3d/exteriors.html
 - _galleries/basalt-3d/ebony.html
-- _galleries/application/showers.html
 - _galleries/application/pools.html
 - _galleries/application/kitchens.html
 - _galleries/application/interiors.html
