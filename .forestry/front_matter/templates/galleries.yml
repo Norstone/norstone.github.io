@@ -137,10 +137,10 @@ fields:
   hidden: false
   default: ''
 pages:
+- _galleries/application/showers.html
 - _galleries/application/interiors.html
 - _galleries/application/fireplace.html
 - _galleries/application/exteriors.html
-- _galleries/application/showers.html
 - _galleries/stone-planks/interiors.html
 - _galleries/stone-planks/exteriors.html
 - _galleries/xlx-rock-panels/ochre.html
