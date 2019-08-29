@@ -137,6 +137,7 @@ fields:
   hidden: false
   default: ''
 pages:
+- _galleries/application/fireplace.html
 - _galleries/application/exteriors.html
 - _galleries/application/showers.html
 - _galleries/stone-planks/interiors.html
@@ -163,7 +164,6 @@ pages:
 - _galleries/application/pools.html
 - _galleries/application/kitchens.html
 - _galleries/application/interiors.html
-- _galleries/application/fireplace.html
 - _galleries/basalt/gallery-basalt-il-pools.html
 - _galleries/xlx-rock-panels/aztec.html
 - _galleries/rock-panels/ivory.html
