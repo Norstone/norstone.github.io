@@ -214,8 +214,8 @@ RewriteCond %{HTTP_HOST} ^norstoneusa\.com$
 RewriteRule ^(.*) https://www.norstoneusa.com/$1 [R=301]
 
 # Replace "//" with "/"
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/{2,} [NC]
-RewriteRule ^(.*) $1 [R=301,L]
+RewriteCond %{REQUEST_URI} ^(.*)/{2,}(.*)$
+RewriteRule . %1/%2 [R=301,L]
 
 # One year for image files
 <filesMatch ".(jpg|jpeg|png|gif|ico)$">
