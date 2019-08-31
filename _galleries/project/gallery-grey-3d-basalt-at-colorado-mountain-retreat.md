@@ -59,7 +59,7 @@ rows:
     with Norstone’s amazing staff, they offer the support needed to make every project
     a success.\"  \n\n- Bekah Spaude\nInterior Designer\nSpringhaus Designs, LLC\n"
 ---
-<h2 class="standard standard-gallery text-center">ROCKY MOUNTAIN MODERN FIREPLACE</h2>
+<h2 class="standard standard-gallery text-center uppercase">Rocky Mountain Modern Fireplace</h2>
 <hr />
 {% for row in page.rows %}
 <div class="row">
