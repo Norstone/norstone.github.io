@@ -15,7 +15,12 @@
     <meta name="robots" content="{{ page.meta.robots }}" />
   {% endif %}
 
-  <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html', ''}}">
+  {% if page.meta.canonical != blank %}
+    <link rel="canonical" href="{{ site.url }}{{ page.meta.canonical }}" />
+  {% else %}
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html', ''}}" />
+  {% endif %}
+
   <link type="text/css" rel="stylesheet" media="all" href="https://fonts.googleapis.com/css?family=Abel:regular|Josefin Slab:regular|Open+Sans:300,400,600,700,800|Open Sans Condensed:700" />
   <link type="text/css" rel="stylesheet" media="all" href="/css/norstone.css" />
   {% if page.schema %}
