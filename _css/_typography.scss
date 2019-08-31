@@ -75,6 +75,10 @@ input[type]:not([type="submit"]), textarea, select {
   font-size: 65px;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .product-category .orbit-bullets button {
   text-transform: lowercase;
 }
