@@ -74,6 +74,7 @@ fields:
   hidden: false
   default: blog
 pages:
+- _posts/top-5-residential-stacked-stone-backyard-projects.md
 - _posts/2014-01-08-small-can-be-beautiful-too.md
 - _posts/2018-05-15-ebony-lynia-interlocking-tiles-for-outdoor-corporate-space.md
 - _posts/2013-08-06-designing-with-norstone-series---natural-stone-backsplashes.md
