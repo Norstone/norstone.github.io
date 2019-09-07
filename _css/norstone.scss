@@ -63,3 +63,7 @@
 @import 'modules';
 @import 'buttons';
 @import 'footer';
+
+// Component styling (independent and order not important)
+@import 'components/productHeaderOverlay';
+@import 'components/productPage';

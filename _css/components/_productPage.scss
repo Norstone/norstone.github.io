@@ -1,0 +1,51 @@
+.productPage__banner,
+.productPage__banner .orbit-container,
+.productPage__banner .orbit-container li.orbit-slide > div {
+  height: 450px;
+
+  @include breakpoint(large down) {
+    height: 520px;
+  }
+  // position: relative;
+}
+
+.productPage__banner .orbit-slide {
+  height: 100%;
+}
+
+.productPage__banner.slider-main {
+  margin-bottom: 0;
+}
+
+.productPage__overTheSlider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  @include breakpoint(large down) {
+    padding-right: 3rem;
+  }
+
+  @include breakpoint (small only) {
+    height: 100%;
+  }
+}
+
+// Need specificity to override original bad positioning
+.slider-main .productPage__overTheSlider .productPage__orbitBullets {
+  position: relative;
+  right: initial;
+  top: initial;
+  margin-bottom: 2rem;
+}
+
+.productPage__productImage {
+  padding: 0 4rem 2rem 0;
+
+  @include breakpoint(medium only) {
+    float: right;
+    width: 60%;
+    padding: 0 0 0 2rem;
+  }
+}
