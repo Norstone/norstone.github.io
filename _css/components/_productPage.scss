@@ -1,11 +1,22 @@
-.productPage__banner,
-.productPage__banner .orbit-container,
-.productPage__banner .orbit-container li.orbit-slide > div {
+.productPage__banner {
   height: 450px;
 
-  @include breakpoint(large down) {
+  @include breakpoint(medium down) {
+    height: 520px;
+  }
+
+  @include breakpoint(small only) {
     height: 600px;
   }
+}
+
+.productPage__banner .orbit-container,
+.productPage__banner .orbit-container li.orbit-slide > div {
+  // Foundation's orbit plugin sets an inline-style for orbit-container to the height of initial
+  // load so it's difficult to make it responsive (like what we need in this case). So we have to
+  // resort to using !important. Another option would be to override that plugin behavior through
+  // JS.
+  height: 100% !important;
 }
 
 .productPage__banner .orbit-slide {
