@@ -4,9 +4,8 @@
   height: 450px;
 
   @include breakpoint(large down) {
-    height: 520px;
+    height: 600px;
   }
-  // position: relative;
 }
 
 .productPage__banner .orbit-slide {

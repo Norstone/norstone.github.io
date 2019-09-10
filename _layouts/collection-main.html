@@ -41,9 +41,11 @@ title: Norstone Gallery
       <p class="productHeaderOverlay__paragraph">{{ page.header.description }}</p>
       <div class="productHeaderOverlay__cta">
         {% if collection_or_color == '_products' %}
-          <a class="button--main" href="#select-color">Select Color Below</a>
+          <a class="button button--main button--small show-for-small-only" href="#select-color">Select Color Below</a>
+          <a class="button button--main show-for-medium" href="#select-color">Select Color Below</a>
         {% else %}
-          <a class="button--main" href="/contact-us">Request a Sample</a>
+          <a class="button button--main button--small show-for-small-only" href="/contact-us">Request a Sample</a>
+          <a class="button button--main show-for-medium" href="/contact-us">Request a Sample</a>
         {% endif %}
       </div>
     </div>
