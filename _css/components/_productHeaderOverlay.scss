@@ -2,20 +2,24 @@
 .productHeaderOverlay {
   @extend .clearfix;
   @extend .float-right;
+  position: absolute;
+  right: 0;
+  top: -400px;
   background-color: rgba(0,0,0,0.85);
   max-width: 300px;
-  padding-top: .5rem;
-  padding-left: 1rem;
-  padding-right: 1.25rem;
-  padding-bottom: 1rem;
+  padding: .5rem 1.25rem 1rem 1rem;
+
+  @include breakpoint (medium down) {
+    right: 3rem;
+    top: -475px;
+  }
 
   @include breakpoint(small only) {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    position: relative;
     max-width: 100%;
-    padding-top: 0 1rem 1rem 1rem;
+    top: 0;
+    right: 0;
+    padding: 0 1rem 1rem 1rem;
   }
 }
 

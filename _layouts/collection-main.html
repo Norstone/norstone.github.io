@@ -16,7 +16,10 @@ title: Norstone Gallery
     <button class="orbit-next"><span class="show-for-sr">Next Slide</span></button>
     {% for slide in page.slides %}
     <li class="{% if forloop.index0 == 0 %}is-active{% endif %} orbit-slide">
-      <div style="background-image: url('{{ slide.image_mobile | default: slide.image }}'); background-repeat: no-repeat; background-size: cover;"></div>
+      <div
+        style="background-image: url('{{ slide.image_mobile | default: slide.image }}'); background-repeat: no-repeat; background-size: cover;"
+        title="{{ slide.title }}">
+      </div>
     </li>
     {% endfor %}
   </ul>
@@ -25,31 +28,35 @@ title: Norstone Gallery
     <nav class="productPage__orbitBullets orbit-bullets">
       {% for slide in page.slides %}
         <button
-          data-slide="{{ forloop.index0 }}"{% if forloop.index0 == 0 %}
-          class="is-active"{% endif %}
+          data-slide="{{ forloop.index0 }}"
+          {% if forloop.index0 == 0 %}
+            class="is-active"
+          {% endif %}
         >
           <span class="show-for-sr"></span>
         </button>
       {% endfor %}
     </nav>
 
-    <div class="productHeaderOverlay">
-      <h2 itemprop="name" class="productHeaderOverlay__title" style="margin-bottom: 5px">
-        {{ page.header.title }}
-      </h2>
-      <h1 class="productHeaderOverlay__subtitle">{{ page.header.subtitle }}</h1>
-      <p class="productHeaderOverlay__paragraph">{{ page.header.description }}</p>
-      <div class="productHeaderOverlay__cta">
-        {% if collection_or_color == '_products' %}
-          <a class="button button--main button--small show-for-small-only" href="#select-color">Select Color Below</a>
-          <a class="button button--main show-for-medium" href="#select-color">Select Color Below</a>
-        {% else %}
-          <a class="button button--main button--small show-for-small-only" href="/contact-us">Request a Sample</a>
-          <a class="button button--main show-for-medium" href="/contact-us">Request a Sample</a>
-        {% endif %}
-      </div>
-    </div>
+  </div>
+</div>
 
+<div class="row columns small-expanded medium-unexpanded productPage__productHeaderOverlay">
+  <div class="productHeaderOverlay">
+    <h2 itemprop="name" class="productHeaderOverlay__title" style="margin-bottom: 5px">
+      {{ page.header.title }}
+    </h2>
+    <h1 class="productHeaderOverlay__subtitle">{{ page.header.subtitle }}</h1>
+    <p class="productHeaderOverlay__paragraph">{{ page.header.description }}</p>
+    <div class="productHeaderOverlay__cta">
+      {% if collection_or_color == '_products' %}
+        <a class="button button--main button--small show-for-small-only" href="#select-color">Select Color Below</a>
+        <a class="button button--main show-for-medium" href="#select-color">Select Color Below</a>
+      {% else %}
+        <a class="button button--main button--small show-for-small-only" href="/contact-us">Request a Sample</a>
+        <a class="button button--main show-for-medium" href="/contact-us">Request a Sample</a>
+      {% endif %}
+    </div>
   </div>
 </div>
 

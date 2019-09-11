@@ -6,7 +6,7 @@
   }
 
   @include breakpoint(small only) {
-    height: 600px;
+    height: 360px;
   }
 }
 
@@ -48,6 +48,15 @@
   right: initial;
   top: initial;
   margin-bottom: 2rem;
+}
+
+.productPage__productHeaderOverlay {
+  position: relative;
+
+  @include breakpoint(small only) {
+    // Effectively goes to "expanded" mode for mobile
+    padding: 0;
+  }
 }
 
 .productPage__productImage {
