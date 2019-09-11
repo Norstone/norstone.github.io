@@ -27,11 +27,11 @@
 }
 
 .productHeaderOverlay__subtitle {
-  @extend .show-for-medium;
   @extend .small;
   @extend .text-center;
   @extend .medium-text-right;
   color: #FFF;
+  margin-bottom: 0.75rem;
 }
 
 .productHeaderOverlay__paragraph {
