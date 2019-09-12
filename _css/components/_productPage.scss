@@ -1,0 +1,70 @@
+.productPage__banner {
+  height: 450px;
+
+  @include breakpoint(medium down) {
+    height: 520px;
+  }
+
+  @include breakpoint(small only) {
+    height: 360px;
+  }
+}
+
+.productPage__banner .orbit-container,
+.productPage__banner .orbit-container li.orbit-slide > div {
+  // Foundation's orbit plugin sets an inline-style for orbit-container to the height of initial
+  // load so it's difficult to make it responsive (like what we need in this case). So we have to
+  // resort to using !important. Another option would be to override that plugin behavior through
+  // JS.
+  height: 100% !important;
+}
+
+.productPage__banner .orbit-slide {
+  height: 100%;
+}
+
+.productPage__banner.slider-main {
+  margin-bottom: 0;
+}
+
+.productPage__overTheSlider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  @include breakpoint(large down) {
+    padding-right: 3rem;
+  }
+
+  @include breakpoint (small only) {
+    height: 100%;
+  }
+}
+
+// Need specificity to override original bad positioning
+.slider-main .productPage__overTheSlider .productPage__orbitBullets {
+  position: relative;
+  right: initial;
+  top: initial;
+  margin-bottom: 2rem;
+}
+
+.productPage__productHeaderOverlay {
+  position: relative;
+
+  @include breakpoint(small only) {
+    // Effectively goes to "expanded" mode for mobile
+    padding: 0;
+  }
+}
+
+.productPage__productImage {
+  padding: 0 4rem 2rem 0;
+
+  @include breakpoint(medium only) {
+    float: right;
+    width: 60%;
+    padding: 0 0 0 2rem;
+  }
+}

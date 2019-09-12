@@ -37,6 +37,7 @@ title: Norstone Gallery
     {{ content }}
   </div>
   <div id="select-color" class="large-4 columns">
-    {% include products-sidebar-planc.html %}
+    {% capture sidebar_choice %}PLANC<span class="trademark"></span>{% endcapture %}
+    {% include products-sidebar.html %}
   </div>
 </div>

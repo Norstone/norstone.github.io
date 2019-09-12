@@ -1,0 +1,54 @@
+
+.productHeaderOverlay {
+  @extend .clearfix;
+  @extend .float-right;
+  position: absolute;
+  right: 0;
+  top: -400px;
+  background-color: rgba(0,0,0,0.85);
+  max-width: 300px;
+  padding: .5rem 1.25rem 1rem 1rem;
+
+  @include breakpoint (medium down) {
+    right: 3rem;
+    top: -475px;
+  }
+
+  @include breakpoint(small only) {
+    position: relative;
+    max-width: 100%;
+    top: 0;
+    right: 0;
+    padding: 0 1rem 1rem 1rem;
+  }
+}
+
+.productHeaderOverlay__title {
+  @extend .xx-large;
+  @extend .color-secondary;
+  @extend .text-center;
+  @extend .medium-text-right;
+}
+
+.productHeaderOverlay__subtitle {
+  @extend .small;
+  @extend .text-center;
+  @extend .medium-text-right;
+  color: #FFF;
+  margin-bottom: 0.75rem;
+}
+
+.productHeaderOverlay__paragraph {
+  @extend .text-center;
+  @extend .medium-text-right;
+  color: #EDEDED;
+}
+
+.productHeaderOverlay__cta {
+  float: right;
+
+  @include breakpoint (small only) {
+    float: none;
+    text-align: center;
+  }
+}
