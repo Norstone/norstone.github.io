@@ -74,6 +74,7 @@ fields:
   hidden: false
   default: blog
 pages:
+- _posts/in-process-residential-graphite-planc-large-format-tile-installation.md
 - _posts/what-to-expect-when-receiving-a-delivery-of-natural-stone-panels.md
 - _posts/restaurant-build-out-with-platinum-planc-large-format-wall-tile.md
 - _posts/top-5-residential-stacked-stone-backyard-projects.md
