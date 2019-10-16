@@ -74,6 +74,7 @@ fields:
   hidden: false
   default: blog
 pages:
+- _posts/white-marble-aksent-3d-panel-showroom-feature-wall.md
 - _posts/2019-10-04-top-5-stone-entryways-in-time-for-halloween.md
 - _posts/in-process-residential-graphite-planc-large-format-tile-installation.md
 - _posts/what-to-expect-when-receiving-a-delivery-of-natural-stone-panels.md
