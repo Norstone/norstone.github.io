@@ -19,7 +19,7 @@ excerpt: Stacked Stone Panels with their natural stone pedigree and ease of inst
 date: 2019-10-21 00:00:00 -0400
 
 ---
-Natural stone has always been a great option for a timeless and durable look for exterior applications, and with the advent of pre-made natural stone panel systems, this look and the benefits of an exterior stone veneer are easier to attain than ever. Let's take a look at some of the different [Stacked Stone Panel Systems](https://www.norstoneusa.com/products/) that we make at Norstone and learn what makes they excellent choices for exterior stone veneer applications.
+Natural stone has always been a great option for a timeless and durable look for exterior applications, and with the advent of pre-made natural stone panel systems, this look and the benefits of an exterior stone veneer are easier to attain than ever. Let's take a look at some of the different [Stacked Stone Panel Systems](https://www.norstoneusa.com/products/) that we make at Norstone and learn what makes them excellent choices for exterior stone veneer applications.
 
 ![Norstone Charcoal XL Stone Veneer Panels used on exterior residential feature wall](/uploads/2019/10/22/Exterior Stone Veneer Residential Feature Wall.jpg)
 
