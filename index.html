@@ -112,7 +112,10 @@ schema:
   <div class="row columns">
     <nav class="orbit-bullets">
       {% for slide in page.slides %}
-      <button data-slide="{{ forloop.index0 }}"{% if forloop.index0 == 0 %} class="is-active"{% endif %}><span class="show-for-sr"></span></button>
+      <button data-slide="{{ forloop.index0 }}"{% if forloop.index0 == 0 %} class="is-active"{% endif %}>
+        <span class="show-for-sr"></span>
+        {% if forloop.index0 == 0 %}<span class="show-for-sr">Current slide</span>{% endif %}
+      </button>
       {% endfor %}
     </nav>
   </div>
@@ -123,7 +126,7 @@ schema:
     <button class="orbit-next"><span class="show-for-sr">Next Slide</span></button>
     {% for slide in page.slides %}
     <li class="{% if forloop.index0==0 %}is-active {% endif %} orbit-slide">
-      <div style="background-image: url('{{ slide.image }}'); background-repeat: no-repeat"></div>
+      <img src="{{ slide.image }}" />
       <figcaption class="orbit-caption x-large">
         <div class="row columns" style="font-family: 'Open Sans'">
           <a alt="View Norstone Product" class="float-right text-shadow box-shadow-center button--main" href="{{ site.url }}/{{ slide.link.href }}">{{ slide.link.text }}</a>
@@ -140,7 +143,10 @@ schema:
   <div class="row columns">
     <nav class="orbit-bullets">
       {% for slide in page.slides %}
-      <button data-slide="{{ forloop.index0 }}"{% if forloop.index0 == 0 %} class="is-active"{% endif %}><span class="show-for-sr"></span></button>
+      <button data-slide="{{ forloop.index0 }}"{% if forloop.index0 == 0 %} class="is-active"{% endif %}>
+        <span class="show-for-sr"></span>
+        {% if forloop.index0 == 0 %}<span class="show-for-sr">Current slide</span>{% endif %}
+      </button>
       {% endfor %}
     </nav>
   </div>

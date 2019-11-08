@@ -34,6 +34,7 @@ title: Norstone Gallery
           {% endif %}
         >
           <span class="show-for-sr"></span>
+          {% if forloop.index0 == 0 %}<span class="show-for-sr">Current slide</span>{% endif %}
         </button>
       {% endfor %}
     </nav>
