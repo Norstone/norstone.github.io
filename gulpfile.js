@@ -6,15 +6,6 @@ var htmlmin = require('gulp-htmlmin');
 var sass = require('gulp-sass');
 var uglify = require('gulp-uglify');
 var gutil = require('gulp-util');
-var sequence = require('run-sequence');
-
-gulp.task('default', function(done) {
-  sequence('sass', 'js', 'jekyll:serve', 'sass:watch', 'js:watch', done);
-});
-
-gulp.task('build', function(done) {
-  sequence('sass', 'js', 'jekyll', 'html-minify', done);
-});
 
 gulp.task('sass', function() {
   // Move static CSS files.
@@ -39,7 +30,7 @@ gulp.task('sass', function() {
 });
 
 gulp.task('sass:watch', function() {
-  gulp.watch('./_css/**/*.scss', ['sass']);
+  gulp.watch('./_css/**/*.scss', gulp.series('sass'));
 });
 
 gulp.task('js', function() {
@@ -51,7 +42,7 @@ gulp.task('js', function() {
   // Compile JS.
   return gulp.src([
     './bower_components/jquery/dist/jquery.js',
-    './bower_components/what-input/what-input.js',
+    './bower_components/what-input/dist/what-input.js',
     './bower_components/foundation-sites/dist/js/foundation.js',
     './bower_components/owl.carousel/dist/owl.carousel.js',
     './bower_components/owl.carousel2.thumbs/dist/owl.carousel2.thumbs.js',
@@ -67,7 +58,7 @@ gulp.task('js', function() {
 });
 
 gulp.task('js:watch', function() {
-  gulp.watch('./_js/**/*.js', ['js']);
+  gulp.watch('./_js/**/*.js', gulp.series('js'));
 });
 
 gulp.task('html-minify', function() {
@@ -107,3 +98,17 @@ gulp.task('jekyll:serve', function() {
   jekyll.stdout.on('data', jekyllLogger);
   jekyll.stderr.on('data', jekyllLogger);
 });
+
+gulp.task(
+  'build',
+  gulp.series('sass', 'js', 'jekyll', 'html-minify', function (done) {
+    done();
+  }),
+);
+
+gulp.task(
+  'default',
+  gulp.series('sass', 'js', 'jekyll:serve', 'sass:watch', 'js:watch', function (done) {
+    done();
+  }),
+);

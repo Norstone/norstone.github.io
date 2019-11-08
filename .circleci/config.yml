@@ -65,7 +65,7 @@ jobs:
           key: v1-bower-deps-{{ checksum "bower.json" }}
       - run:
           name: Build Project in Production Mode
-          command: node -v && gulp -v && npm run build:prod
+          command: npm run build:prod
       - run:
           name: Run Tests
           command: npm run test
