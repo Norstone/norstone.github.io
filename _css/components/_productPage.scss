@@ -36,10 +36,6 @@
   @include breakpoint(large down) {
     padding-right: 3rem;
   }
-
-  @include breakpoint (small only) {
-    height: 100%;
-  }
 }
 
 // Need specificity to override original bad positioning
