@@ -74,6 +74,7 @@ fields:
   hidden: false
   default: blog
 pages:
+- _posts/norstone-s-top-5-commercial-stone-veneer-projects.md
 - _posts/under-construction-ebony-planc-home-in-the-hamptons.md
 - _posts/the-difference-between-norstone-standard-and-xl-series-rock-panels.md
 - _posts/mixed-ochre-rock-panel-installation-at-wisconsin-country-club.md
