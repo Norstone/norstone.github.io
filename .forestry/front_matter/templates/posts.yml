@@ -74,6 +74,7 @@ fields:
   hidden: false
   default: blog
 pages:
+- _posts/aztec-stacked-stone-outdoor-kitchen.md
 - _posts/outside-corner-options-for-norstone-s-planc-series-large-format-tiles.md
 - _posts/grey-lynia-interlocking-tile-spa-inspired-miami-bathroom-and-shower.md
 - _posts/norstone-s-top-5-commercial-stone-veneer-projects.md
