@@ -10,6 +10,8 @@ RewriteRule (.*) https://www.norstoneusa.com/$1 [R=301,L]
 
 ErrorDocument 404 /404.html
 
+Redirect 301 "/products/thin-stone-veneer-panels/sierra/" /products/thin-stone-veneer-panels/
+Redirect 301 "/products/thin-stone-veneer-panels/pearl/" /products/thin-stone-veneer-panels/
 Redirect 301 "/products/modern-wall-tile/grey" /products/lynia-mosaic-tiles/basalt/
 Redirect 301 "/products/modern-wall-tile/ebony" /products/lynia-mosaic-tiles/ebony/
 Redirect 301 "/products/basalt-stone-panels/ash-grey-stone" /products/aksent-modern-tiles/grey/
