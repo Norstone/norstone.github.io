@@ -158,8 +158,10 @@
       name="Description"
       class="required"
     ></textarea>
+    <!-- Google ReCaptcha -->
+     <script src='https://www.google.com/recaptcha/api.js' async defer></script>
+     <div class='g-recaptcha float-right' data-sitekey='6LeA_twUAAAAAOfh5DluEyvEqVoyNudwuALfFQ9n' data-theme='light' data-callback='rccallback' captcha-verified='false' id='recap'></div>
   </div>
-
   <input class="button--main float-right" type="submit" value="Submit" />
 
   <!-- This section will be shown via JS only during business hours -->
@@ -213,4 +215,5 @@
       }
     }
   }
+
 </script>
