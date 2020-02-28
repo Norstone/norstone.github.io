@@ -54,6 +54,13 @@
         a.appendChild(r);
     })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
+<!-- Google ReCAPTCHA -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script>
+function onSubmit(token) {
+document.getElementById("demo-form").submit();
+}
+</script>
 <!-- Pinterest Tag -->
 <script>
 !function(e){if(!window.pintrk){window.pintrk = function () {
