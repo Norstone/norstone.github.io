@@ -3,7 +3,7 @@
   class="clearfix contactForm"
   name="WebToLeads983222000011193033"
   method="POST"
-  onSubmit='event.preventDefault(); checkReCapSubmit(event)'
+  onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()'
   accept-charset="UTF-8"
   id='contact-form'
 >
@@ -160,7 +160,7 @@
       class="required"
     ></textarea>
   <div class='g-recaptcha' data-sitekey='6Le4WN0UAAAAAGDneOVFz5V6WzI5HjoLwes7JqB9' data-theme='light' data-callback='rccallback' captcha-verified='false' id="recap"></div>
-  <input class="button--main float-right" type="submit" value="Submit" id="btnSubmit" name="btnSubmit">
+  <input class="button--main float-right" type="submit" value="Submit" id="btnSubmit" name="btnSubmit" disabled>
 
   <!-- This section will be shown via JS only during business hours -->
   <div class="contactForm__callUsNow hidden">
@@ -183,17 +183,24 @@
 
   /* Do not remove this code. */
   function rccallback() {
-    var recap = document.getElementById('recap');
+    console.log('a');
+    document.getElementById('btnSubmit').removeAttribute('disabled');
+    console.log('b');
+    if (document.getElementById('privacyTool') != undefined){ 
+    console.log('c');
+      var recap = document.getElementById('recap');
 
-    recap.setAttribute('captcha-verified',true);
+      recap.setAttribute('captcha-verified',true);
+    }
+    console.log('d');
   }
 
   function checkReCapSubmit(e) {
     if (document.getElementById('recap') != undefined) {
       var captcha_verified = document.getElementById('recap').getAttribute('captcha-verified');
 
-      if (captcha_verified === 'true') {
-        document.getElementById('contact-form').submit();
+      if (captcha_verified === 'false') {
+        document.getElementById('btnSubmit').setAttribute('disabled', true);
       }
     }
   }
@@ -234,5 +241,7 @@
       }
     }
   }
+
+  document.getElementById('btnSubmit').disabled = true;
 
 </script>
