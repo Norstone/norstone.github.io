@@ -3,9 +3,9 @@
   class="clearfix contactForm"
   name="WebToLeads983222000011193033"
   method="POST"
-  onSubmit='javascript:document.charset="UTF-8"; return checkHoneypot() && checkMandatory()'
+  onSubmit='event.preventDefault(); checkReCapSubmit(event)'
   accept-charset="UTF-8"
-  id='demo-form'
+  id='contact-form'
 >
   {% include honeypot.html %}
 
@@ -159,8 +159,8 @@
       name="Description"
       class="required"
     ></textarea>
-    <input class="button--main float-right" data-callback='onSubmit' type="submit" value="Submit" data-callback='rccallback' captcha-verified='false' id='recap'>
-    <button class="g-recaptcha" data-sitekey="6LfoPt0UAAAAADfDdkYbl750cDqNOQcMunkkSEJc" data-callback='onSubmit' />
+  <div class='g-recaptcha' data-sitekey='6LfoPt0UAAAAADfDdkYbl750cDqNOQcMunkkSEJc' data-theme='light' data-callback='rccallback' captcha-verified='false' id="recap"></div>
+  <input class="button--main float-right" type="submit" value="Submit" id="btnSubmit" name="btnSubmit">
 
   <!-- This section will be shown via JS only during business hours -->
   <div class="contactForm__callUsNow hidden">
@@ -183,21 +183,21 @@
 
   /* Do not remove this code. */
   function rccallback() {
-   document.getElementById('formsubmit').removeAttribute('disabled');
-if(document.getElementById('privacyTool')!=undefined){
- var recap = document.getElementById('recap');
- recap.setAttribute('captcha-verified',true);
- }
- }
- function checkReCapSubmit() {
- if(document.getElementById('recap') != undefined){
- var submitbutton = document.getElementById('formsubmit');
- var recap = document.getElementById('recap');
-if( recap.getAttribute('captcha-verified') == 'false'){
-submitbutton.setAttribute('disabled', true);
-}
- }
- }
+    var recap = document.getElementById('recap');
+
+    recap.setAttribute('captcha-verified',true);
+  }
+
+  function checkReCapSubmit(e) {
+    if (document.getElementById('recap') != undefined) {
+      var captcha_verified = document.getElementById('recap').getAttribute('captcha-verified');
+
+      if (captcha_verified === 'true') {
+        document.getElementById('contact-form').submit();
+      }
+    }
+  }
+
   var mndFields = new Array('Last Name', 'Phone', 'Email', 'Zip Code');
 
   function checkMandatory() {
