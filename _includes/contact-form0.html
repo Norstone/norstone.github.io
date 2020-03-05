@@ -1,0 +1,240 @@
+<!-- Note :
+   - You can modify the font style and form style to suit your website.
+   - Code lines with comments ���Do not remove this code���  are required for the form to work properly, make sure that you do not remove these lines of code.
+   - The Mandatory check script can modified as to suit your business needs.
+   - It is important that you test the modified form before going live.-->
+<div id='crmWebToEntityForm' style='width:600px;margin:auto;'>
+   <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
+   <script src='https://www.google.com/recaptcha/api.js' async defer></script>
+<form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads983222000011193033 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory983222000011193033()' accept-charset='UTF-8'>
+ <input type='text' style='display:none;' name='xnQsjsdp' value='9b3d2834bcb7d6b6001a49e3bbb389f013750d41e1b68c22e1a5df5b28cc0ae4'></input>
+ <input type='hidden' name='zc_gad' id='zc_gad' value=''></input>
+ <input type='text' style='display:none;' name='xmIwtLD' value='3eb312b2c96dfcebb1d32e34d12ece65e386af6a53b27f90e98a14f14b6b90e2'></input>
+ <input type='text'  style='display:none;' name='actionType' value='TGVhZHM='></input>
+ <input type='text' style='display:none;' name='returnURL' value='http://www.norstoneusa.com/thank-you/' > </input><br></br>
+	 <!-- Do not remove this code. -->
+	<style>
+		#crmWebToEntityForm tr , #crmWebToEntityForm td {
+			padding:6px;
+			border-spacing:0px;
+			border-width:0px;
+			}
+	</style>
+  <!-- DO NOT REMOVE THE CODE BELOW -->
+  <input
+    type='text'
+    style='display:none;'
+    name='xnQsjsdp'
+    value='9b3d2834bcb7d6b6001a49e3bbb389f013750d41e1b68c22e1a5df5b28cc0ae4'
+  />
+  <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+  <input
+    type='text'
+    style='display:none;'
+    name='xmIwtLD'
+    value='3eb312b2c96dfcebb1d32e34d12ece65e386af6a53b27f90e98a14f14b6b90e2'
+  />
+  <input type='text' style='display:none;' name='actionType' value='TGVhZHM='/>
+  <input
+    type='text'
+    style='display:none;'
+    name='returnURL'
+    value='http&#x3a;&#x2f;&#x2f;www.norstoneusa.com&#x2f;thank-you&#x2f;'
+  />
+  <input type='hidden' style='display:none;' name='Lead Source' value='{{ page.lead_source }}' />
+  <input type='hidden' style='display:none;' name='LEADCF29' id='LEADCF29' value="" />
+  <!-- DO NOT REMOVE THE CODE ABOVE -->
+
+  <div class="row">
+    <div class="medium-6 columns">
+      <input
+        class="required"
+        type="text"
+        name="First Name"
+        size="60"
+        placeholder="First name"
+        autocomplete="given-name"
+        required
+      />
+    </div>
+    <div class="medium-6 columns">
+      <input
+        class="required"
+        type="text"
+        name="Last Name"
+        size="60"
+        placeholder="Last name*"
+        autocomplete="family-name"
+        required
+      />
+    </div>
+  </div>
+
+  <input type="text" name="Company" size="60" placeholder="Company name" />
+
+  <div class="row">
+    <div class="medium-6 columns">
+      <input
+        lass="required"
+        type="email"
+        name="Email"
+        size="60"
+        placeholder="Email*"
+        autocomplete="email"
+        required
+      />
+    </div>
+    <div class="medium-6 columns">
+      <input
+        class="required"
+        type="tel"
+        name="Phone"
+        size="60"
+        placeholder="Phone"
+        autocomplete="tel"
+        required
+      />
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="medium-8 columns">
+      <select class="required contactForm__countrySelect" name="Country" autocomplete="country" required>
+        {% include country-options.html %}
+      </select>
+    </div>
+    <div class="medium-4 columns">
+      <input
+        class="required"
+        type="text"
+        name="Zip Code"
+        size="60"
+        placeholder="Postal code*"
+        autocomplete="postal-code"
+        required
+      />
+    </div>
+  </div>
+
+  <div class="row collapse columns">
+    <label style="color: #6b6b6b">I am interested in:</label>
+  </div>
+
+  <div class="row collapse">
+    <div class="columns small-6 contactForm__productOfInterest">
+      <input id="product__rockPanels" class="contactForm__productOfInterestCheckbox" type="checkbox" name="LEADCF1" value="Rock&#x20;Panels" />
+      <label for="product__rockPanels" class="contactForm__productOfInterestLabel">Rock Panels</label>
+    </div>
+    <div class="columns small-6 contactForm__productOfInterest">
+      <input id="product__xlRockPanels" class="contactForm__productOfInterestCheckbox" type="checkbox" name="LEADCF1" value="XL&#x20;Rock&#x20;Panels" />
+      <label for="product__xlRockPanels" class="contactForm__productOfInterestLabel">XL Rock Panels</label>
+    </div>
+    <div class="columns small-6 contactForm__productOfInterest">
+      <input id="product__lyniaILTiles" class="contactForm__productOfInterestCheckbox" type="checkbox" name="LEADCF1" value="Lynia&#x20;IL&#x20;Tiles" />
+      <label for="product__lyniaILTiles" class="contactForm__productOfInterestLabel">Lynia™ IL Tiles</label>
+    </div>
+    <div class="columns small-6 contactForm__productOfInterest">
+      <input id="product__askent3dPanels" class="contactForm__productOfInterestCheckbox" type="checkbox" name="LEADCF1" value="Aksent&#x20;3D&#x20;Tiles" />
+      <label for="product__askent3dPanels" class="contactForm__productOfInterestLabel">Aksent 3D™ Panels</label>
+    </div>
+    <div class="columns small-6 end contactForm__productOfInterest">
+      <input id="product__planc" class="contactForm__productOfInterestCheckbox" type="checkbox" name="LEADCF1" value="PLANC" />
+      <label for="product__planc" class="contactForm__productOfInterestLabel">PLANC™</label>
+    </div>
+  </div>
+
+  <div class="row columns small-12 contactForm__row--productQuantity">
+    <input class="contactForm__productQuantity" type="number" name="LEADCF12" placeholder="Quantity" min="0" />
+    <input id="quantity__feet" type="radio" name="LEADCF9" value="Feet" />
+    <label for="quantity__feet" class="contactForm__productQuantityLabel">Feet&sup2;</label>
+    <input id="quantity__meters" type="radio" name="LEADCF9" value="Meters" />
+    <label for="quantity__meters" class="contactForm__productQuantityLabel">Meters&sup2;</label>
+  </div>
+
+  <div class="row columns">
+    <select name="LEADCF4" class="required">
+      <option value="Which best describes you?" disabled selected>Which best describes you?</option>
+      <option value="Architect&#x20;&#x2f;&#x20;Designer">Architect / Designer</option>
+      <option value="Property&#x20;Developer">Property Developer</option>
+      <option value="Builder&#x20;&#x2f;&#x20;Contractor">Builder / Contractor</option>
+      <option value="Distributor&#x20;&#x2f;&#x20;Reseller">Distributor / Reseller</option>
+      <option value="Home&#x20;Owner">Home Owner</option>
+    </select>
+  </div>
+
+  <div class="row columns">
+    <textarea
+      cols="60"
+      rows="5"
+      placeholder="Tell us about your project."
+      name="Description"
+      class="required"
+    ></textarea>
+		<td style='width:30%;'></td><tr><td></td><td><div class='g-recaptcha' data-sitekey='6Le4WN0UAAAAAGDneOVFz5V6WzI5HjoLwes7JqB9' data-theme='light' data-callback='rccallback' captcha-verified='false' id='recap'></div></td><td></td></tr>
+
+	<tr><td colspan='2' style='text-align:center; padding-top:15px;font-size:12px;'>
+		<input style='margin-right: 5px;cursor: pointer;font-size:12px;color:#000000' id='formsubmit' type='submit' value='Submit' disabled ></input> <input type='reset' name='reset' style='cursor: pointer;font-size:12px;color:#000000' value='Reset' ></input> </td></tr>
+	<script>
+ 	  var mndFileds=new Array('Last Name','Phone','Email','Zip Code');
+ 	  var fldLangVal=new Array('Last Name','Phone','Email','Zip Code');
+		var name='';
+		var email='';
+
+  /* Do not remove this code. */
+ 	  function rccallback() {
+		 document.getElementById('formsubmit').removeAttribute('disabled');
+	if(document.getElementById('privacyTool')!=undefined){
+	 var recap = document.getElementById('recap');
+	 recap.setAttribute('captcha-verified',true);
+ 	 }
+ 	 }
+ 	 function checkReCapSubmit() {
+	 if(document.getElementById('recap') != undefined){
+	 var submitbutton = document.getElementById('formsubmit');
+ 	 var recap = document.getElementById('recap');
+	if( recap.getAttribute('captcha-verified') == 'false'){
+	submitbutton.setAttribute('disabled', true);
+	}
+	 }
+	 }
+
+
+ 	  function checkMandatory983222000011193033() {
+		for(i=0;i<mndFileds.length;i++) {
+		  var fieldObj=document.forms['WebToLeads983222000011193033'][mndFileds[i]];
+		  if(fieldObj) {
+			if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0) {
+			 if(fieldObj.type =='file')
+				{
+				 alert('Please select a file to upload.');
+				 fieldObj.focus();
+				 return false;
+				}
+			alert(fldLangVal[i] +' cannot be empty.');
+   	   	  	  fieldObj.focus();
+   	   	  	  return false;
+			}  else if(fieldObj.nodeName=='SELECT') {
+  	   	   	 if(fieldObj.options[fieldObj.selectedIndex].value=='-None-') {
+				alert(fldLangVal[i] +' cannot be none.');
+				fieldObj.focus();
+				return false;
+			   }
+			} else if(fieldObj.type =='checkbox'){
+ 	 	 	 if(fieldObj.checked == false){
+				alert('Please accept  '+fldLangVal[i]);
+				fieldObj.focus();
+				return false;
+			   }
+			 }
+			 try {
+			     if(fieldObj.name == 'Last Name') {
+				name = fieldObj.value;
+ 	 	 	    }
+			} catch (e) {}
+		    }
+		}
+		document.getElementById('formsubmit').disabled=true;
+	}
+</script>
+	</form>
+</div>
