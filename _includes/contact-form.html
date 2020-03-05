@@ -162,7 +162,7 @@
       class="required"
     ></textarea>
 <div class='g-recaptcha' data-sitekey='6Le4WN0UAAAAAGDneOVFz5V6WzI5HjoLwes7JqB9' data-theme='light' data-callback='rccallback' captcha-verified='false' id='recap'></div>
-     <input style="button--main float-right" id='btnSubmit' type='submit' value='Submit' disabled ></input>
+     <input style="button--main float-right" id='formsubmit' type='submit' value='Submit' disabled ></input>
 
   <!-- This section will be shown via JS only during business hours -->
   <div class="contactForm__callUsNow hidden">
@@ -180,7 +180,7 @@
 
 <script>
   function rccallback() {
-   document.getElementById('btnSubmit').removeAttribute('disabled');
+   document.getElementById('formsubmit').removeAttribute('disabled');
 if(document.getElementById('privacyTool')!=undefined){
  var recap = document.getElementById('recap');
  recap.setAttribute('captcha-verified',true);
@@ -188,7 +188,7 @@ if(document.getElementById('privacyTool')!=undefined){
  }
  function checkReCapSubmit() {
  if(document.getElementById('recap') != undefined){
- var submitbutton = document.getElementById('btnSubmit');
+ var submitbutton = document.getElementById('formsubmit');
  var recap = document.getElementById('recap');
 if( recap.getAttribute('captcha-verified') == 'false'){
 submitbutton.setAttribute('disabled', true);
@@ -232,6 +232,6 @@ submitbutton.setAttribute('disabled', true);
       }
     }
   }
-  document.getElementById('btnSubmit').disabled=true;
+  document.getElementById('formsubmit').disabled=true;
 }
 </script>
