@@ -160,19 +160,24 @@
       name="Description"
       class="required"
     ></textarea>
-  <div class='g-recaptcha' data-sitekey='6Le4WN0UAAAAAGDneOVFz5V6WzI5HjoLwes7JqB9' data-theme='light' data-callback='rccallback' captcha-verified='false' id="recap"></div>
-  <input class="button--main float-right" type="submit" value="Submit" id="formsubmit" />
+  </div>
+  <div class="row columns text-right">
+    <div class='g-recaptcha' style="display:inline-block" data-sitekey='6Le4WN0UAAAAAGDneOVFz5V6WzI5HjoLwes7JqB9' data-theme='light' data-callback='rccallback' captcha-verified='false' id="recap"></div>
+  </div>
+  <div class="row columns">
+    <input class="button--main float-right" type="submit" value="Submit" id="formsubmit" style="margin-bottom:10px" />
 
-  <!-- This section will be shown via JS only during business hours -->
-  <div class="contactForm__callUsNow hidden">
-    <p class="show-for-medium">
-      Prefer to speak with us about your project now?
-      <br />
-      Give us a call instead, we are currently: <span style="color: #4fb1d5;">OPEN.</span>
-    </p>
-    <p class="show-for-small-only">
-      Prefer to discuss your project now instead? <a href="tel:+18772109248">Call us</a>, we're currently: <a href="tel:+18772109248">OPEN</a>.
-    </p>
+    <!-- This section will be shown via JS only during business hours -->
+    <div class="contactForm__callUsNow hidden">
+      <p class="show-for-medium">
+        Prefer to speak with us about your project now?
+        <br />
+        Give us a call instead, we are currently: <span style="color: #4fb1d5;">OPEN.</span>
+      </p>
+      <p class="show-for-small-only">
+        Prefer to discuss your project now instead? <a href="tel:+18772109248">Call us</a>, we're currently: <a href="tel:+18772109248">OPEN</a>.
+      </p>
+    </div>
   </div>
 
 <script>
