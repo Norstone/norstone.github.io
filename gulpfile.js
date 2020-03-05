@@ -85,7 +85,7 @@ gulp.task('jekyll', function(gulpCallback) {
 });
 
 gulp.task('jekyll:serve', function() {
-  const jekyll = child.spawn('jekyll', ['serve']);
+  const jekyll = child.spawn('bundle', ['exec', 'jekyll', 'serve']);
 
   const jekyllLogger = function(buffer) {
     buffer.toString()
