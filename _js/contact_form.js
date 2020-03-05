@@ -34,8 +34,6 @@ $(function ($, global) {
     // EST to UTC based on Daylight Savings Time
     var hourOpenUTC = hourOpenEST + (now.dst() ? 4 : 5);
     var hourCloseUTC = hourCloseEST + (now.dst() ? 4 : 5);
-    console.log(hourOpenUTC);
-    console.log(hourCloseUTC);
     
     var rightNow = now.getUTCHours();
     var isOpenToday = daysOpen.indexOf(now.getUTCDay()) !== -1;
