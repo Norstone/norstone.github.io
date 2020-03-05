@@ -1,11 +1,10 @@
 <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
-<script src='https://www.google.com/recaptcha/api.js' async defer></script>
 <form
   action="https://crm.zoho.com/crm/WebToLeadForm"
   class="clearfix contactForm"
   name="WebToLeads983222000011193033"
   method="POST"
-  onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()'
+  onSubmit='checkMandatory()'
   accept-charset="UTF-8"
   id='contact-form'
 >
@@ -161,6 +160,7 @@
       name="Description"
       class="required"
     ></textarea>
+  <div class='g-recaptcha' data-sitekey='6Le4WN0UAAAAAGDneOVFz5V6WzI5HjoLwes7JqB9' data-theme='light' data-callback='rccallback' captcha-verified='false' id="recap"></div>
   <input class="button--main float-right" type="submit" value="Submit" id="formsubmit" />
 
   <!-- This section will be shown via JS only during business hours -->
@@ -178,21 +178,9 @@
 <script>
   function rccallback() {
     document.getElementById('formsubmit').removeAttribute('disabled');
-    if (document.getElementById('privacyTool')!=undefined) {
-      var recap = document.getElementById('recap');
-      recap.setAttribute('captcha-verified',true);
-    }
-  }
+    var recap = document.getElementById('recap');
 
-  function checkReCapSubmit() {
-    if (document.getElementById('recap') != undefined) {
-      var submitbutton = document.getElementById('formsubmit');
-      var recap = document.getElementById('recap');
-
-      if (recap.getAttribute('captcha-verified') == 'false') {
-        submitbutton.setAttribute('disabled', true);
-      }
-    }
+    recap.setAttribute('captcha-verified',true);
   }
 
   var mndFields = new Array('Last Name', 'Phone', 'Email', 'Zip Code');
