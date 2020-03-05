@@ -3,7 +3,7 @@
    - Code lines with comments ���Do not remove this code���  are required for the form to work properly, make sure that you do not remove these lines of code.
    - The Mandatory check script can modified as to suit your business needs.
    - It is important that you test the modified form before going live.-->
-<div id='crmWebToEntityForm' style='width:600px;margin:auto;'>
+<div id='crmWebToEntityForm'>
    <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
    <script src='https://www.google.com/recaptcha/api.js' async defer></script>
 <form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads983222000011193033 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory983222000011193033()' accept-charset='UTF-8'>
@@ -173,12 +173,24 @@
 		<td style='width:30%;'></td><tr><td></td><td><div class='g-recaptcha' data-sitekey='6Le4WN0UAAAAAGDneOVFz5V6WzI5HjoLwes7JqB9' data-theme='light' data-callback='rccallback' captcha-verified='false' id='recap'></div></td><td></td></tr>
 
 	<tr><td colspan='2' style='text-align:center; padding-top:15px;font-size:12px;'>
-		<input style='margin-right: 5px;cursor: pointer;font-size:12px;color:#000000' id='formsubmit' type='submit' value='Submit' disabled ></input> <input type='reset' name='reset' style='cursor: pointer;font-size:12px;color:#000000' value='Reset' ></input> </td></tr>
+		<input style='margin-right: 5px;cursor: pointer;font-size:12px;color:#000000' id='formsubmit' type='submit' value='Submit' disabled ></input> </td></tr>
 	<script>
  	  var mndFileds=new Array('Last Name','Phone','Email','Zip Code');
  	  var fldLangVal=new Array('Last Name','Phone','Email','Zip Code');
 		var name='';
 		var email='';
+
+    <!-- This section will be shown via JS only during business hours -->
+    <div class="contactForm__callUsNow hidden">
+      <p class="show-for-medium">
+        Prefer to speak with us about your project now?
+        <br />
+        Give us a call instead, we are currently: <span style="color: #4fb1d5;">OPEN.</span>
+      </p>
+      <p class="show-for-small-only">
+        Prefer to discuss your project now instead? <a href="tel:+18772109248">Call us</a>, we're currently: <a href="tel:+18772109248">OPEN</a>.
+      </p>
+    </div>
 
   /* Do not remove this code. */
  	  function rccallback() {
