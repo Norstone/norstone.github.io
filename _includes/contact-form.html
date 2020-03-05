@@ -180,7 +180,7 @@
 
 <script>
   function rccallback() {
-   document.getElementById('contact-form').removeAttribute('disabled');
+   document.getElementById('btnSubmit').removeAttribute('disabled');
 if(document.getElementById('privacyTool')!=undefined){
  var recap = document.getElementById('recap');
  recap.setAttribute('captcha-verified',true);
@@ -188,7 +188,7 @@ if(document.getElementById('privacyTool')!=undefined){
  }
  function checkReCapSubmit() {
  if(document.getElementById('recap') != undefined){
- var submitbutton = document.getElementById('contact-form');
+ var submitbutton = document.getElementById('btnSubmit');
  var recap = document.getElementById('recap');
 if( recap.getAttribute('captcha-verified') == 'false'){
 submitbutton.setAttribute('disabled', true);
@@ -232,6 +232,6 @@ submitbutton.setAttribute('disabled', true);
       }
     }
   }
-  document.getElementById('contact-form').disabled=true;
+  document.getElementById('btnSubmit').disabled=true;
 }
 </script>
