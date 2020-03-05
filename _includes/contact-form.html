@@ -161,7 +161,7 @@
       name="Description"
       class="required"
     ></textarea>
-<input class="button--main float-right" type="submit" value="Submit" />
+  <input class="button--main float-right" type="submit" value="Submit" id="formsubmit" />
 
   <!-- This section will be shown via JS only during business hours -->
   <div class="contactForm__callUsNow hidden">
@@ -177,21 +177,23 @@
 
 <script>
   function rccallback() {
-   document.getElementById('formsubmit').removeAttribute('disabled');
-if(document.getElementById('privacyTool')!=undefined){
- var recap = document.getElementById('recap');
- recap.setAttribute('captcha-verified',true);
- }
- }
- function checkReCapSubmit() {
- if(document.getElementById('recap') != undefined){
- var submitbutton = document.getElementById('formsubmit');
- var recap = document.getElementById('recap');
-if( recap.getAttribute('captcha-verified') == 'false'){
-submitbutton.setAttribute('disabled', true);
-}
- }
- }
+    document.getElementById('formsubmit').removeAttribute('disabled');
+    if (document.getElementById('privacyTool')!=undefined) {
+      var recap = document.getElementById('recap');
+      recap.setAttribute('captcha-verified',true);
+    }
+  }
+
+  function checkReCapSubmit() {
+    if (document.getElementById('recap') != undefined) {
+      var submitbutton = document.getElementById('formsubmit');
+      var recap = document.getElementById('recap');
+
+      if (recap.getAttribute('captcha-verified') == 'false') {
+        submitbutton.setAttribute('disabled', true);
+      }
+    }
+  }
 
   var mndFields = new Array('Last Name', 'Phone', 'Email', 'Zip Code');
 
