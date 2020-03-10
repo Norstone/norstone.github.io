@@ -19,7 +19,10 @@
 
   
 
-  <link rel="canonical" href="https://www.norstoneusa.com/contact-us/">
+  
+    <link rel="canonical" href="https://www.norstoneusa.com/contact-us/" />
+  
+
   <link type="text/css" rel="stylesheet" media="all" href="https://fonts.googleapis.com/css?family=Abel:regular|Josefin Slab:regular|Open+Sans:300,400,600,700,800|Open Sans Condensed:700" />
   <link type="text/css" rel="stylesheet" media="all" href="/css/norstone.css" />
   
@@ -49,6 +52,8 @@
         a.appendChild(r);
     })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
+<!-- Google ReCAPTCHA -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <!-- Pinterest Tag -->
 <script>
 !function(e){if(!window.pintrk){window.pintrk = function () {
@@ -287,17 +292,19 @@ We can help. Email us, or give us a call.</h1>
         <span class="color-secondary">Email</span>
         <a href="mailto:sales@norstoneusa.com?subject=Norstone Email Inquiry&amp;body=Please tell us where you're located and what you're interested in and we'll get back with you right away!">sales@norstoneusa.com <img alt="arrow-img" src="/assets/images/theme/arrows-img.png" title="arrows-img.png" /></a>
         <br />
-        <span style="font-size:14px;color:#6b6b6b;"><a href="http://norstone.global/">Contact Our International Distributors <img alt="arrow-img" src="/assets/images/theme/arrows-img.png" title="arrows-img.png" /></span></a></p>
+        <span style="font-size:14px;color:#6b6b6b;"><a href="http://norstoneglobal.com/">Contact Our International Distributors <img alt="arrow-img" src="/assets/images/theme/arrows-img.png" title="arrows-img.png" /></span></a></p>
     </div>
   </div>
   <div class="large-6 columns">
-    <form
+    <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
+<form
   action="https://crm.zoho.com/crm/WebToLeadForm"
   class="clearfix contactForm"
   name="WebToLeads983222000011193033"
   method="POST"
-  onSubmit='javascript:document.charset="UTF-8"; return checkHoneypot() && checkMandatory()'
+  onSubmit='checkMandatory()'
   accept-charset="UTF-8"
+  id='contact-form'
 >
   <div class="honeypot">
   If you see this, leave this form field blank and invest in CSS support.
@@ -695,24 +702,33 @@ We can help. Email us, or give us a call.</h1>
       class="required"
     ></textarea>
   </div>
+  <div class="row columns text-right">
+    <div class='g-recaptcha' style="display:inline-block" data-sitekey='6Le4WN0UAAAAAGDneOVFz5V6WzI5HjoLwes7JqB9' data-theme='light' data-callback='rccallback' captcha-verified='false' id="recap"></div>
+  </div>
+  <div class="row columns">
+    <input class="button--main float-right" type="submit" value="Submit" id="formsubmit" style="margin-bottom:10px" />
 
-  <input class="button--main float-right" type="submit" value="Submit" />
-
-  <!-- This section will be shown via JS only during business hours -->
-  <div class="contactForm__callUsNow hidden">
-    <p class="show-for-medium">
-      Prefer to speak with us about your project now?
-      <br />
-      Give us a call instead, we are currently: <span style="color: #4fb1d5;">OPEN.</span>
-    </p>
-    <p class="show-for-small-only">
-      Prefer to discuss your project now instead? <a href="tel:+18772109248">Call us</a>, we're currently: <a href="tel:+18772109248">OPEN</a>.
-    </p>
+    <!-- This section will be shown via JS only during business hours -->
+    <div class="contactForm__callUsNow hidden">
+      <p class="show-for-medium">
+        Prefer to speak with us about your project now?
+        <br />
+        Give us a call instead, we are currently: <span style="color: #4fb1d5;">OPEN.</span>
+      </p>
+      <p class="show-for-small-only">
+        Prefer to discuss your project now instead? <a href="tel:+18772109248">Call us</a>, we're currently: <a href="tel:+18772109248">OPEN</a>.
+      </p>
+    </div>
   </div>
 
-</form>
-
 <script>
+  function rccallback() {
+    document.getElementById('formsubmit').removeAttribute('disabled');
+    var recap = document.getElementById('recap');
+
+    recap.setAttribute('captcha-verified',true);
+  }
+
   var mndFields = new Array('Last Name', 'Phone', 'Email', 'Zip Code');
 
   function checkMandatory() {
@@ -749,7 +765,10 @@ We can help. Email us, or give us a call.</h1>
       }
     }
   }
+
+  document.getElementById('formsubmit').disabled=true;
 </script>
+</form>
 
     <div class="hide-for-large clearfix">
       <img alt="Contact Norstone" title="Charcoal-Natural-Stone-Close-Up-Contact-Us(1).jpg" src="/assets/images/unsorted/Charcoal-Natural-Stone-Close-Up-Contact-Us(1).jpg" style="display: block;margin: 20px 0 10px" />
@@ -761,7 +780,7 @@ We can help. Email us, or give us a call.</h1>
         <span class="color-secondary">Email</span>
         <a href="mailto:sales@norstoneusa.com?subject=Norstone-Email-Inquiry&amp;body=Please-tell-us-where-you're-located-and-what-you're-interested-in-and-we'll-get-back-with-you-right-away!">sales@norstoneusa.com<img alt="arrow-img" title="arrows-img.png" src="/assets/images/theme/arrows-img.png" /></a>
       </p>
-      <p><a href="http://norstone.global/">Contact Our International Distributors <img alt="arrow-img" src="/assets/images/theme/arrows-img.png" title="arrows-img.png" /></a></p>
+      <p><a href="http://norstoneglobal.com/">Contact Our International Distributors <img alt="arrow-img" src="/assets/images/theme/arrows-img.png" title="arrows-img.png" /></a></p>
     </div>
   </div>
 </div>
@@ -877,7 +896,7 @@ We can help. Email us, or give us a call.</h1>
   <div class="row">
     <div class="columns small-12 medium-8 large-9">
       <div class="footer__copyright-info">
-        <p>All content, images, and website material Copyright 2019 Norstone USA. All rights reserved.</p>
+        <p>All content, images, and website material Copyright 2020 Norstone USA. All rights reserved.</p>
       </div>
     </div>
 

@@ -6,6 +6,8 @@ RewriteRule (.*) https://www.norstoneusa.com/$1 [R=301,L]
 
 ErrorDocument 404 /404.html
 
+Redirect 301 "/products/thin-stone-veneer-panels/sierra/" /products/thin-stone-veneer-panels/
+Redirect 301 "/products/thin-stone-veneer-panels/pearl/" /products/thin-stone-veneer-panels/
 Redirect 301 "/products/modern-wall-tile/grey" /products/lynia-mosaic-tiles/basalt/
 Redirect 301 "/products/modern-wall-tile/ebony" /products/lynia-mosaic-tiles/ebony/
 Redirect 301 "/products/basalt-stone-panels/ash-grey-stone" /products/aksent-modern-tiles/grey/
@@ -190,12 +192,28 @@ Redirect 301 /gallery/project/Outdoor%20Living%20in%20Cyprus /gallery/project/iv
 Redirect 301 /assets/images/Aztec%20Stacked%20Stone%20Kitchen%20Backsplash%20-%20Orlando /assets/images/Aztec%20Stacked%20Stone%20Kitchen%20Backsplash%20-%20Orlando,%20FL.jpg
 Redirect 301 /gallery/featured/rural-virginia-kitchen-family-room /gallery/project/virginia-treehouse-retreat/
 Redirect 301 /fireplace/ /gallery/application/fireplace/
+Redirect 301 /blog/cast-stone-vs-natural-stone-‚Äì-norstone-industry-series/ /blog
+Redirect 301 /blog/ceramic-wall-tile-‚Äì-color-variation-natural-stone-vs-manmade-tile-products-norstone-classroom-s/ /blog
+Redirect 301 /blog/designing-norstone-series-natural-stone-backsplashes/ /gallery/application/backsplash/
+Redirect 301 /blog/2018-a-year-in-natural-stone/ /blog/
+Redirect 301 /blog/a-norstone-hurricane-story/ /blog/
+Redirect 301 /blog/an-ivory-comeback-for-the-summer-of-2017/ /blog/
+Redirect 301 /blog/freeze-thaw-testing-stacked-stone-veneer/ /blog/freeze-thaw-and-stacked-stone/
+Redirect 301 /blog/info-to-purchase-norstone/ /how-to-buy/
+Redirect 301 /blog/lynia-and-aksent-launch/ /products/
+Redirect 301 /blog/norstone-blog-goes-live/ /blog/
+Redirect 301 /blog/top-5-stone-fireplaces-2017/ /gallery/application/fireplace/
+Redirect 301 /stone-veneer-for-interiors/ /gallery/application/interiors/
 
 RewriteCond %{HTTP_HOST} ^nrstn.prod3.webenabled.net$ [NC]
 RewriteRule ^(.*)$ https://www.norstoneusa.com/$1 [R=301,L]
 
 RewriteCond %{HTTP_HOST} ^norstoneusa\.com$
 RewriteRule ^(.*) https://www.norstoneusa.com/$1 [R=301]
+
+# Replace "//" with "/"
+RewriteCond %{REQUEST_URI} ^(.*)/{2,}(.*)$
+RewriteRule . %1/%2 [R=301,L]
 
 # One year for image files
 <filesMatch ".(jpg|jpeg|png|gif|ico)$">
