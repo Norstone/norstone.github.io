@@ -10,6 +10,15 @@ RewriteRule (.*) https://www.norstoneusa.com/$1 [R=301,L]
 
 ErrorDocument 404 /404.html
 
+Redirect 301 "/natural-stone-veneer-solutions/" /products/
+Redirect 301 "/natural-stone-for-backsplashes/" /gallery/application/backsplash/
+Redirect 301 "/natural-stacked-stone-for-fireplaces/" /gallery/application/fireplace/
+Redirect 301 "/natural-stone-for-pools/" /gallery/application/pools/
+Redirect 301 "/ledgestone-feature-walls/" /gallery/application/natural-stone-feature-walls/
+Redirect 301 "/natural-stone-for-feature-walls/" /gallery/application/natural-stone-feature-walls/
+Redirect 301 "/stone-veneer-for-interiors/" /gallery/application/interiors/
+Redirect 301 "/natural-stone-retaining-walls/" /gallery/application/exteriors/
+Redirect 301 "/exterior-stone-veneer/" /gallery/application/exteriors/
 Redirect 301 "/products/thin-stone-veneer-panels/sierra/" /products/thin-stone-veneer-panels/
 Redirect 301 "/products/thin-stone-veneer-panels/pearl/" /products/thin-stone-veneer-panels/
 Redirect 301 "/products/modern-wall-tile/grey" /products/lynia-mosaic-tiles/basalt/
