@@ -1,10 +1,12 @@
+<META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
 <form
   action="https://crm.zoho.com/crm/WebToLeadForm"
   class="clearfix contactForm"
   name="WebToLeads983222000038967585"
   method="POST"
-  onSubmit='javascript:document.charset="UTF-8"; return checkHoneypot() && checkMandatory()'
+  onSubmit='checkMandatory()'
   accept-charset="UTF-8"
+  id='contact-form'
 >
   {% include honeypot.html %}
 
@@ -159,8 +161,11 @@
       class="required"
     ></textarea>
   </div>
-
-  <input class="button--main float-right" type="submit" value="Submit" />
+  <div class="row columns text-right">
+    <div class='g-recaptcha' style="display:inline-block" data-sitekey='6LdYNOgUAAAAAE8dvXhzAlRbB3mkiYvdmw07DgZ2' data-theme='light' data-callback='rccallback' captcha-verified='false' id="recap"></div>
+  </div>
+  <div class="row columns">
+    <input class="button--main float-right" type="submit" value="Submit" id="formsubmit" style="margin-bottom:10px" />
 
   <!-- This section will be shown via JS only during business hours -->
   <div class="contactForm__callUsNow hidden">
@@ -173,13 +178,19 @@
       Prefer to discuss your project now instead? <a href="tel:+18772109248">Call us</a>, we're currently: <a href="tel:+18772109248">OPEN</a>.
     </p>
   </div>
-
-</form>
+</div>
 
 <script>
+  function rccallback() {
+    document.getElementById('formsubmit').removeAttribute('disabled');
+    var recap = document.getElementById('recap');
+
+    recap.setAttribute('captcha-verified',true);
+  }
+
   var mndFields = new Array('Last Name', 'Phone', 'Email', 'Zip Code');
 
-  function checkMandatoryWebToLeads983222000038967585() {
+  function checkMandatory() {
     for (i=0; i < mndFields.length; i++) {
       var fieldObj = document.forms['WebToLeads983222000038967585'][mndFields[i]];
       if (fieldObj) {
@@ -213,4 +224,7 @@
       }
     }
   }
+
+  document.getElementById('formsubmit').disabled=true;
 </script>
+</form>
