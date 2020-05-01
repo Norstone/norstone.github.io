@@ -20,9 +20,11 @@ date: 2020-04-30 00:00:00 -0400
 ---
 Over the years Norstone has been fortunate to have had our products featured on a number of network television programs on HGTV and the DIY Network including Bathtastic!, I Hate My Bath, I Hate My Kitchen, and many others. In the fall of 2018 we connected with Chris Heider who runs a popular website and YouTube channel called HandyDad TV. Chris was re-doing his fireplace and was interested in our stone products to feature as part of a multi part design, installation, and finished project video series on his YouTube channel. We had no idea what to expect from a YouTuber with a sizable following and a couple videos that had gone certifiable “viral” with several million views. Chris was such a great guy to work with we were eager to give it a shot.
 
+![https://player.vimeo.com/video/402672129](/uploads/2020/05/01/Norstone Planc Installation Video Handy Dad TV.JPG)
+
 Initially, the design focus of the fireplace was more aimed at our stacked stone panels, which give that more traditional “split face” or ledge stone look commonly associated with fireplace design, especially in the Northeast where Chris lives. At the time, we were starting to see a lot of traction with a product we had launched a few months prior, the [Planc Large Format Tile](https://www.norstoneusa.com/products/large-format-stone-veneer/). The Planc product is set of three tiles each 31.5” long with three heights (5.5”, 3.1”, and 2.4”). We were pretty excited when Chris got his hands on the Planc in our Platinum Lavastone color and agreed to switch up his design concept for the fireplace and give it a shot. The results as you can see in his video are amazing!
 
-<iframe src="[https://player.vimeo.com/video/402672129](https://player.vimeo.com/video/402672129 "https://player.vimeo.com/video/402672129")" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+!<iframe src="[https://player.vimeo.com/video/402672129](https://player.vimeo.com/video/402672129 "https://player.vimeo.com/video/402672129")" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 The video above is over 14 minutes long, so below I've listed out a few specific points that you might find interesting and relevant depending on what you're working on or what questions you have.
 
