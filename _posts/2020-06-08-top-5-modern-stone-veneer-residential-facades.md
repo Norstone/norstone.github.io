@@ -23,6 +23,8 @@ date: 2020-06-08 00:00:00 -0400
 
 ### 1. UK Garden House
 
+![Norstone Charcoal Slimline Stacked Stone Rock Panels on the base and blade wall of a modern garden home](/uploads/2020/06/09/charcoal-slimline-split-face-modern-stone-veneer-residential-garden-home.jpg)
+
 Our first project is a tiny garden house in the UK that sits on raised foundation cladded in our [Charcoal Slimline Stacked Stone Panels](https://www.norstoneusa.com/blog/norstone-slim-line-budget-stone-veneer/). The stone continues on as a blade wall bisecting the home. The amazing glass walls, steel trim and even the roofing joists embody that modern design and while the smooth finish of these surfaces contrast with the split face finish of the stone, everything works together in a harmonious bit of modern design glory.
 
 ### 2. Denver Duplex
