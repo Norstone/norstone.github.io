@@ -15,7 +15,8 @@ image:
 excerpt: Our new PLANC series has gotten us more excited than any other product we've
   ever launched.  Check out this week's article introducing the product and diiving
   into what it makes it so unique!
-date: 2018-04-12 00:00:00 +0000
+date: 2018-04-12T00:00:00.000+00:00
+
 ---
 One of the things we as product developers at Norstone have focused on over the last couple years is trying to bring products to market that are super unique in terms of look and feel, trending in terms of color, and at price points that make them practical for all sorts of applications.  With the roll out of our latest product, [PLANC Large Format Wall Tiles](https://www.norstoneusa.com/products/large-format-stone-veneer/) happening during Spring of 2018, we feel like we checked all those boxes and are super excited to share this great product with our customers.
 
@@ -31,7 +32,7 @@ PLANC is also an incredibly versatile product in terms of how the installer choo
 
 ![Custom Lavastone Blend on an exterior urban garden wall](/uploads/2018/04/12/Custom Lavastone PLANC Platinum Exterior Wall-1.jpg)
 
-Price wise, Platinum and Graphite PLANC will be some of the lowest cost products Norstone has ever brought to the market.  With a recommended retail price point on these two products in the mid $11 / square foot range, with substantial discounts typically being available for quantity and wholesale opportunities.  The relatively lower source cost of Lavastone as compared to other stones like [Quartz](https://www.norstoneusa.com/blog/quartz-ledgestone-vs-countertop/) and Basalt allow us the opportunity to price these two colors at points making them attractive for both large scale architecturally specified products as well as residential projects of all sizes and scopes.  All PLANC colors can be used in both [interior](https://www.norstoneusa.com/gallery/application/interiors/) and exterior applications.  These stones are currently undergoing independent lab testing to ensure their stability in those areas and we hope to be able to make a recommendation soon on using them in freeze / thaw regions.
+Price wise, Platinum and Graphite PLANC will be some of the lowest cost products Norstone has ever brought to the market.  The relatively lower source cost of Lavastone as compared to other stones like [Quartz](https://www.norstoneusa.com/blog/quartz-ledgestone-vs-countertop/) and Basalt allow us the opportunity to price these two colors at points making them attractive for both large scale architecturally specified products as well as residential projects of all sizes and scopes.  All PLANC colors can be used in both [interior](https://www.norstoneusa.com/gallery/application/interiors/) and exterior applications.  These stones are currently undergoing independent lab testing to ensure their stability in those areas and we hope to be able to make a recommendation soon on using them in freeze / thaw regions.
 
 ![Planc Platinum used on a backsplash of a small modern kitchen with cabinets and white marble counter tops](/uploads/2018/04/12/Norstone Planc Platinum Kitchen Backsplash.jpg)
 
