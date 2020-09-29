@@ -46,6 +46,29 @@ cite {
   }
 }
 
+blockquote-2 {
+  background: #fafafa;
+  border: 1px solid #b5b5b5;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  color: #8f8f8f;
+  font-family: "Abel";
+  font-size: 16px;
+  float:left;
+  line-height: 25px;
+  margin-bottom: 18px;
+  padding: 10px 8px 10px 24px;
+  width: 100%;
+}
+
+cite {
+  color: #3399cc;
+  float: right;
+  font: normal 13px "Open Sans";
+  &:before {
+    content: "\2013 \0020";
+  }
+}
+
 .accordion-title {
   background: url("/assets/images/theme/faq-header-bg.jpg") repeat-x;
   padding: 9px 25px 9px 30px;
