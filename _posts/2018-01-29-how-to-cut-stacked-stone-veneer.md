@@ -14,7 +14,7 @@ image:
   src: "/uploads/2018/01/29/Norstone Installation with Tile Wet Saw.jpg"
 excerpt: Calling all you DIY'ers out there – ever wondered how to best cut stacked
   stone under different conditions?  Ask and you shall receive with this week's blog
-  focusing on how to cut stacked stone veneer.
+  focusing on how to cut stacked stone veneer!
 date: 2018-01-29 00:00:00 +0000
 ---
 [Installing stacked stone veneer](https://www.norstoneusa.com/how-to-install-stacked-stone/) is a challenging, but achievable project for most DIY'ers.  One of the first questions we get when talking with potential customers is “How do I cut it?”.  Stone is a new building product for most people, unlike more traditional mediums like wood, metal, concrete, and tile, so bridging that gap with easy to understand knowledge is something we know our customers appreciate.  The short answer is that stacked stone veneer panels are best cut using a combination of two tools – a wet saw designed to cut tile and stone, and a angle grinder for more precision and unique cuts.  Let's take a look at each of these tools and some things a first time [stone veneer DIY installer](https://www.norstoneusa.com/blog/norstone-diy-infographic/) will want to know about each of them.
