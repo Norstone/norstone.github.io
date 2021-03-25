@@ -26,16 +26,16 @@ Redirect 301 "/exterior-stone-veneer/" /gallery/application/exteriors/
 Redirect 301 "/products/thin-stone-veneer-panels/sierra/" /products/thin-stone-veneer-panels/
 Redirect 301 "/products/thin-stone-veneer-panels/pearl/" /products/thin-stone-veneer-panels/
 Redirect 301 "/products/modern-wall-tile/grey" /products/lynia-mosaic-tiles/basalt/
-Redirect 301 "/products/modern-wall-tile/ebony" /products/lynia-mosaic-tiles/ebony/
+Redirect 301 "/products/modern-wall-tile/ebony" https://thesurfaceshop.com/natural-stone-veneer/linear-wall-cladding/ebony-basalt-lynia/
 Redirect 301 "/products/basalt-stone-panels/ash-grey-stone" /products/aksent-modern-tiles/grey/
 Redirect 301 "/products/basalt-stone-panels/black-stone" /products/aksent-modern-tiles/ebony/
 Redirect 301 /products/modern-wall-tile/grey/ /products/lynia-mosaic-tiles/basalt/
-Redirect 301 /products/modern-wall-tile/ebony/ /products/lynia-mosaic-tiles/ebony/
+Redirect 301 /products/modern-wall-tile/ebony/ https://thesurfaceshop.com/natural-stone-veneer/linear-wall-cladding/ebony-basalt-lynia/
 Redirect 301 /products/basalt-stone-panels/ash-grey-stone/ /products/aksent-modern-tiles/grey/
 Redirect 301 /products/basalt-stone-panels/black-stone/ /products/aksent-modern-tiles/ebony/
-Redirect 301 "/products/modern-wall-tile" /products/lynia-mosaic-tiles/
+Redirect 301 "/products/modern-wall-tile" https://thesurfaceshop.com/natural-stone-veneer/linear-wall-cladding/
 Redirect 301 "/products/basalt-stone-panels" /products/aksent-modern-tiles/
-Redirect 301 /products/modern-wall-tile/ /products/lynia-mosaic-tiles/
+Redirect 301 /products/modern-wall-tile/ https://thesurfaceshop.com/natural-stone-veneer/linear-wall-cladding/
 Redirect 301 /products/basalt-stone-panels/ /products/aksent-modern-tiles/
 Redirect 301 /assets/images/gallery/IMGP1531_cropped2-copy-1800.jpg /assets/images/gallery/Norstone-White-Stacked-Stone-Veneer.jpg
 Redirect 301 "/gallery/project/Stanmore Place" /gallery/project/stanmore-residential-complex/
@@ -56,7 +56,7 @@ Redirect 301 /gallery/project/Stacked-Stone-Interior-Basement-Walls /gallery/pro
 Redirect 301 /gallery/project/Ivory-Natural-Stone-Walls /gallery/project/ivory-natural-stone-walls/
 Redirect 301 /gallery/application/Exteriors /gallery/application/exteriors/
 Redirect 301 /gallery/application/Backsplash /gallery/application/backsplash/
-Redirect 301 /stackedstonecladding.asp /products/stacked-stone-cladding/
+Redirect 301 /stackedstonecladding.asp https://thesurfaceshop.com/natural-stone-veneer/stacked-stone-wall-panels/
 Redirect 301 "/sites/default/files/file/installation_guide_pdf/Norstone_Installation Guide(1).pdf" /assets/pdfs/Norstone_Installation-Guide(3).pdf
 Redirect 301 "/sites/default/files/file/installation_guide_pdf/Norstone Spec Sheet Basalt IL Tile.pdf" /assets/pdfs/Norstone-Spec-Sheet-Basalt-IL-Tile(1).pdf
 Redirect 301 /sites/default/files/file/installation_guide_pdf/MapeiMapelasticAquaDefense.pdf /assets/pdfs/MapeiMapelasticAquaDefense.pdf
@@ -103,7 +103,7 @@ Redirect 301 "/gallery/application/Feature  Walls" /gallery/application/natural-
 Redirect 301 /stacked_stone_rock_panel_whitequartz.asp /products/rock-panels/white/
 Redirect 301 /stackedstonecladding.asp?gclid=CK-JxcKbmJcCFRIcawodlmhS-A /products/stacked-stone-cladding/
 Redirect 301 "/sites/default/files/file/installation_guide_pdf/SGM Multi-Lite.pdf" /assets/pdfs/SGM-Multi-Lite.pdf
-Redirect 301 /stacked_stone_rock_panel_ochre.asp /products/rock-panels/ochre/
+Redirect 301 /stacked_stone_rock_panel_ochre.asp https://thesurfaceshop.com/natural-stone-veneer/stacked-stone-wall-panels/ochre/
 Redirect 301 /gallery/featured/denver-multifamily /
 Redirect 301 /node/2 /
 Redirect 301 /image-1 /
