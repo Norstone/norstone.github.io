@@ -12,6 +12,7 @@ ErrorDocument 404 /404.html
 
 Redirect 301 "/natural-stone-veneer-solutions/" /products/
 Redirect 301 "/blog/how-to-install-a-flat-screen-tv-on-a-stacked-stone-wall/" https://thesurfaceshop.com/how-to-install-a-flat-screen-tv-on-a-stacked-stone-wall/
+Redirect 301 "/blog/how-to-cut-stacked-stone-veneer/" https://thesurfaceshop.com/how-to-cut-stacked-stone-veneer/
 Redirect 301 "/natural-stone-for-backsplashes/" /gallery/application/backsplash/
 Redirect 301 "/natural-stacked-stone-for-fireplaces/" /gallery/application/fireplace/
 Redirect 301 "/natural-stone-for-pools/" /gallery/application/pools/
