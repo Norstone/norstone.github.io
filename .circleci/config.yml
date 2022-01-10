@@ -18,7 +18,7 @@ jobs:
       - run:
           name: Install "rsync"
           command: |
-            sudo apt-get update
+            sudo apt-get update --allow-releaseinfo-change
             sudo apt-get install rsync --fix-missing
       - run:
           name: Changing ownership of cached folder
@@ -75,6 +75,6 @@ jobs:
       - run:
           name: Add Webenabled Server as Known Host
           command: echo $REMOTE_HOSTKEY >> ~/.ssh/known_hosts
-      - run: 
+      - run:
           name: Deploying to Webenabled
           command: rsync -avce "ssh -o StrictHostKeyChecking=no" _site/ w_nrstn@nrstn.prod3.webenabled.net:~/public_html/norstoneusa.com/pub
