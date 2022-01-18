@@ -18,7 +18,7 @@ excerpt: This past weekend it officially became Fall, and with the change in sea
 date: 2018-09-25 00:00:00 +0000
 
 ---
-As summer gives way to Fall and then Winter, one of the things we work with a lot of our clients on is understanding how stone veneer can be installed in cold weather climates.  For the sake of defining what cold weather is, we'll peg it as the ambient temperate of the installation being below 40 degrees Fahrenheit.  Let's dig into this topic and learn more about why it's important to know about the cold weather installation procedures and what your options are.
+As summer gives way to Fall and then Winter, one of the things we work with a lot of our clients on is understanding how stone veneer can be installed in cold weather climates.  For the record, we're not talking about cozy [stacked stone fireplaces](https://www.norstoneusa.com/gallery/application/fireplace/) on the interior of the home, but mainly for common exterior projects in northern climates. For the sake of defining what cold weather is, we'll peg it as the ambient temperate of the installation being below 40 degrees Fahrenheit.  Let's dig into this topic and learn more about why it's important to know about the cold weather installation procedures and what your options are.
 
 ![Stacked Stone Installed on Columns in a Lake House in Wisconsin in the Fall](/uploads/2018/09/26/Stacked Stone Veneer Cold Weather Install in the Fall.jpg)
 
