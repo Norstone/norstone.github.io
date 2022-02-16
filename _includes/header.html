@@ -18,12 +18,12 @@
       <div class="row columns" style="padding: 10px 0 3px">
         {% include social-media-list.html %}
       </div>
-      <div itemscope itemtype="https://schema.org/Corporation" class="row columns">
+      <div class="row columns">
         <p class="browse-products text-right" style="margin-bottom: 8px"><a href="/products" style="color: #4fb1d5; font-size: 12px; font-family:helvetica">Browse Product Series</a></p>
         <p class="how-to-buy text-right">
           <a href="tel:8772109248">
             <span class="phone-number">
-              Phone: <span itemprop="telephone" content="+18772109248">+1 (877) 210 9248</span>
+              Phone: <span content="+18772109248">+1 (877) 210 9248</span>
             </span>
           </a>
           <a href="/how-to-buy">
@@ -32,5 +32,24 @@
         </p>
       </div>
     </div>
+    
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Corporation",
+        "url": "https://www.norstoneusa.com",
+        "image": "https://www.norstoneusa.com/assets/images/unsorted/norstone_natural_stacked_stone_logo(8).png",
+        "name": "Norstone",
+        "telephone": "877-210-9248",
+        "description": "At Norstone, our goal is simple: to make amazing natural stone veneer the way you want it.",
+        "priceRange": "$$$",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "NY",
+          "addressCountry": "US"
+        }
+      }
+      </script>
+    
   </div>
 </div>
