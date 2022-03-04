@@ -5,7 +5,7 @@ title: Norstone Gallery
 
 {% assign collection_or_color = page.path | downcase | split: '/' %}
 {% assign collection_or_color = collection_or_color[0] %}
-<span itemscope itemtype="http://schema.org/Product">
+<span>
 <div
   class="productPage__banner slider-main"
   data-orbit
@@ -44,7 +44,7 @@ title: Norstone Gallery
 
 <div class="row columns small-expanded medium-unexpanded productPage__productHeaderOverlay">
   <div class="productHeaderOverlay">
-    <h2 itemprop="name" class="productHeaderOverlay__title" style="margin-bottom: 5px">
+    <h2 class="productHeaderOverlay__title" style="margin-bottom: 5px">
       {{ page.header.title }}
     </h2>
     <h1 class="productHeaderOverlay__subtitle">{{ page.header.subtitle }}</h1>
@@ -65,7 +65,7 @@ title: Norstone Gallery
   {% include navigation-products-small.html %}
 </div>
 
-<div itemprop="brand" itemscope itemtype="http://schema.org/Brand" itemref="_logo6" class="row product-body">
+<div itemref="_logo6" class="row product-body">
   <div class="large-8 columns" style="margin-bottom: 30px">
     {{ content }}
   </div>
