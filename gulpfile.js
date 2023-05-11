@@ -3,7 +3,7 @@ var gulp = require('gulp');
 var concat = require('gulp-concat');
 var filelog = require('gulp-filelog');
 var htmlmin = require('gulp-htmlmin');
-var sass = require('gulp-sass');
+var sass = require('gulp-sass')(require('sass'));
 var uglify = require('gulp-uglify');
 var gutil = require('gulp-util');
 

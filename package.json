@@ -10,7 +10,7 @@
     "gulp-concat": "^2.6.1",
     "gulp-filelog": "^0.4.1",
     "gulp-htmlmin": "^3.0.0",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^5.1.0",
     "gulp-uglify": "^2.0.0",
     "gulp-util": "^3.0.7",
     "motion-ui": "~1.2.2",
@@ -33,5 +33,8 @@
   "bugs": {
     "url": "https://github.com/Norstone/norstone.github.io/issues"
   },
-  "homepage": "https://github.com/Norstone/norstone.github.io#readme"
+  "homepage": "https://github.com/Norstone/norstone.github.io#readme",
+  "dependencies": {
+    "sass": "^1.62.1"
+  }
 }
