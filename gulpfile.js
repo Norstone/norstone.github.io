@@ -18,9 +18,9 @@ gulp.task('sass', function() {
     .pipe(sass({
       includePaths: [
         './_css',
-        './bower_components/foundation-sites/scss',
-        './bower_components/motion-ui/src',
-        './bower_components/owl.carousel/src/scss'
+        './node_modules/foundation-sites/scss',
+        './node_modules/motion-ui/src',
+        './node_modules/owl.carousel/src/scss'
       ],
       outputStyle: 'compressed'
     })
@@ -41,11 +41,11 @@ gulp.task('js', function() {
 
   // Compile JS.
   return gulp.src([
-    './bower_components/jquery/dist/jquery.js',
-    './bower_components/what-input/dist/what-input.js',
-    './bower_components/foundation-sites/dist/js/foundation.js',
-    './bower_components/owl.carousel/dist/owl.carousel.js',
-    './bower_components/owl.carousel2.thumbs/dist/owl.carousel2.thumbs.js',
+    './node_modules/jquery/dist/jquery.js',
+    './node_modules/what-input/dist/what-input.js',
+    './node_modules/foundation-sites/dist/js/foundation.js',
+    './node_modules/owl.carousel/dist/owl.carousel.js',
+    './node_modules/owl.carousel2.thumbs/dist/owl.carousel2.thumbs.js',
     './_js/norstone.js',
     './_js/thumbnail_slider.js',
     './_js/top_bar.js',

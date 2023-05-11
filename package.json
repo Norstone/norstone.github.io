@@ -4,19 +4,21 @@
   "description": "",
   "main": "gulpfile.js",
   "devDependencies": {
-    "bower": "^1.8.8",
     "child_process": "^1.0.2",
+    "foundation-sites": "6.3.1",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-filelog": "^0.4.1",
     "gulp-htmlmin": "^3.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^2.0.0",
-    "gulp-util": "^3.0.7"
+    "gulp-util": "^3.0.7",
+    "motion-ui": "~1.2.2",
+    "owl.carousel": "^2.1.4",
+    "owl.carousel2.thumbs": "^0.1.7"
   },
   "scripts": {
     "build:prod": "node -v && gulp -v && JEKYLL_ENV=production npm run gulp:build",
-    "bower:install": "bower install --allow-root",
     "gulp:build": "gulp build",
     "htmlProofer": "bundle exec htmlproofer --disable-external ./_site",
     "test": "npm run htmlProofer",
