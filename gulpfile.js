@@ -68,7 +68,7 @@ gulp.task('html-minify', function() {
 });
 
 gulp.task('jekyll', function(gulpCallback) {
-  const jekyll = child.spawn('jekyll', ['build']);
+  const jekyll = child.spawn('bundle', ['exec', 'jekyll', 'build']);
 
   const jekyllLogger = function(buffer) {
     buffer.toString()
