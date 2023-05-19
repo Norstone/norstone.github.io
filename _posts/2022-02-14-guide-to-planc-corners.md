@@ -85,17 +85,4 @@ To utilize this method, there are some basic ground rules to follow:
 
 Results from this method will vary depending on the enhancer chosen and the amount of enhancer applied. Care should be taken with this method, and always test your enhancer on a scrap piece of stone to verify results are as intended.
 
-
-Efflorescence is a chemical process that occurs when cementitious materials, such as cement block, brick, or even thinset or grout come into contact with moisture for extended periods of time, then come into contact with the hot sun, resulting in a white residue on the surface of your [stone veneer application](https://www.norstoneusa.com/products/thin-stone-veneer-panels/).  
-
-![Client photo of Norstone product with effloresence](/uploads/stone-veneer-with-efflorescence.jpg)
-
-Here is how this process works:
-
-1.	Stone Veneer is selected for an [Exterior Application](https://www.norstoneusa.com/blog/stacked-stone-panels-for-exterior-stone-veneer/) and is adhered to a cementicious substrate, be it CMU, brick, concrete board, or cast-in-place concrete. It is adhered using a polymer modified thinset. These cementitious materials (substrate and thinset) all contain various amounts of sand, silica, and lime, along with other trace minerals.
-2.	Rain water and the elements saturate the stone veneer application.
-3.	The Sun heats up various parts of the stone application, essentially drying and baking the moisture out of the setting bed.
-4.	As the sun heats the surface of the stone, minerals travel through to the face of the stone from the back of the thinset.
-5.	When the moisture fully dries, voila you have efflorescent salts and minerals on the face of the stone.
-
-So while at first it my appear as though the stone is leaching, in fact the stone is acting as a <b>membrane</b>, and the minerals and salts are traveling through it from the substrate.
+At Norstone, we're happy to help you or your installer work through these details. Don't hesitate to reach out to one of our team members if you get stuck or have questions on how to finish your PLANC™ corners. 
