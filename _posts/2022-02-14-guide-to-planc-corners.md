@@ -6,6 +6,7 @@ title: Ultimate Guide on How to Finish PLANC™ Corners
 meta:
   title: How to Finish PLANC™ Stone Veneer Corners
   description: Detailed How to Guide on how to Miter, Polish, and Enhance your way to beautiful PLANC™ Corners on your Stone Veneer Project
+  canonical: "/blog/guide-to-planc-corners/"
 image:
   title: How do you finish a PLANC™ Stone Veneer Corner?
   alt: Closeup detail shot of a PLANC™ mitered corner near an elevated planter bed.
@@ -85,4 +86,4 @@ To utilize this method, there are some basic ground rules to follow:
 
 Results from this method will vary depending on the enhancer chosen and the amount of enhancer applied. Care should be taken with this method, and always test your enhancer on a scrap piece of stone to verify results are as intended.
 
-At Norstone, we're happy to help you or your installer work through these details. Don't hesitate to reach out to one of our team members if you get stuck or have questions on how to finish your PLANC™ corners. 
+At Norstone, we're happy to help you or your installer work through these details. Don't hesitate to reach out to one of our team members if you get stuck or have questions on how to finish your PLANC™ corners.
