@@ -6,7 +6,7 @@ title: Ultimate Guide on How to Finish PLANC™ Corners
 meta:
   title: How to Finish PLANC™ Stone Veneer Corners
   description: Detailed How to Guide on how to Miter, Polish, and Enhance your way to beautiful PLANC™ Corners on your Stone Veneer Project
-  canonical: "/blog/guide-to-planc-corners/"
+  canonical: /blog/guide-to-planc-corners/
 image:
   title: How do you finish a PLANC™ Stone Veneer Corner?
   alt: Closeup detail shot of a PLANC™ mitered corner near an elevated planter bed.
