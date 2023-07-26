@@ -16,7 +16,7 @@
     <meta name="robots" content="{{ page.meta.robots }}" />
   {% endif %}
 
-  {% if page.meta.canonical != blank %}
+  {% if page.meta.canonical %}
     <link rel="canonical" href="{{ site.url }}{{ page.meta.canonical }}" />
   {% else %}
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html', ''}}" />
