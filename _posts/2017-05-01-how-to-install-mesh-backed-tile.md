@@ -16,7 +16,7 @@ excerpt: Products like our Basalt Interlocking Tiles come mesh mounted to increa
   the ease and speed of installation by allowing the individual tile strips to maintain
   their pattern and spacing.  Here's a step by step guide on installing any mesh backed
   tile product successfully.
-date: 2017-05-01 12:02
+date: 2023-09-10 12:09
 ---
 
 
@@ -24,18 +24,22 @@ Mesh backed tile is a product both admired and despised in the industry.  Manufa
 
 ## Step 1: Understanding The Pattern
 
+<h3> Tips & Tricks </h3>
 Understand the pattern of the mesh backed tile and how that pattern works with the space to be tiled.  This is a critical step so often overlooked!  Mesh backed tiles that don't have a repeating pattern vertically can result in more waste.  A good way to know if your tile has a repeating pattern vertically is to put two tiles next to each other and flip one of them upside down.  If the horizontal lines of the two tiles still match up then your tiles have a repeating pattern.
 
+<h3> How Patterns Affect Wastage </h3>
 For mesh backed tiles without repeating patterns vertically, its important to plan for waste accordingly.  For example, if each of your tile units is 12” tall and you are are installing them on an 18” tall [backsplash](https://www.norstoneusa.com/blog/backsplash-tile-designs-norstone-industy-series/), you'll install one full unit, then cut the next unit in half to cover the 18”.  Since the half of the unit that was cut off does not match the pattern on the lower half it's likely that the cut off piece will  end up as waste.  So it's critical to understand your pattern and how that fits in the space to know how much to order.
 
 ![Mesh Backed Tile - Norstone Basalt Interlocking](/uploads/2017/05/01/Mesh%20Backed%20Tile%20-%20Norstone%20Basalt%20Interlocking.png)
 
 ## Step 2: Get the Right Substrate
 
+<h3> Not All Subtrates are Equal </h3>
 Generally speaking any vertical tile installation should be done on cement board or equivalent.  Drywall is not always designed to support the added weight of tile.  Cement board can always be layered over existing drywall to create a suitable tile substrate and any substrate for tiling should be rigid, level, plumb, and free of any contaminants that would prevent a good bond.
 
 ## Step 3: Have the Right Tools
 
+<h3> Every project is different, plan ahead. </h3>
 A few buckets for mixing and wipe down, a tile saw, paddle mixer, trowels, spacers, level, grout float, and a clean up sponge are all standard equipment for a successful mesh backed tile installation.  Depending on the type of tile being cut, for example stone vs glass vs porcelain, a different blade or other cutting tool might be needed for the cuts.
 
 ![Tile Installation Tools](/uploads/2017/05/01/Tile%20Installation%20Tools.JPG)
@@ -46,6 +50,7 @@ The manufacturer of the tile should provide guidelines for what type of thinset 
 
 ## Step 5: Mix and Set
 
+<h3> Nitty Gritty Details on Stone Setting </h3>
 Follow the thinset manufacturer's instructions on mixing the thinset to the desired consistency and don't mix more thinset than can be used in approximately a 15 – 20 minute time period.  Trowel the thinset onto the wall and notch using the appropriate size groove for the tile size.  Depending on the size and weight of the tile, a coat or “back buttering” of the back of the tile with thinset might be recommended to ensure full adhesion.
 
 Set the tiles onto the wall making sure to stay level and add spacers against hard surfaces like a floor, countertop, or windowsill to allow for a small expansion gap that can later be filled in with caulk.  When necessary use spaced between sheets or to maintain spacing on heavier individual tile strips.
