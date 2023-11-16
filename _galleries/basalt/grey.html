@@ -149,4 +149,50 @@ other_galleries:
 - xl-rock-panel-charcoal
 - basalt-ebony
 - rock-panel-interiors
+rows:
+- image:
+    alt: Grey Basalt Closeup
+    title: Grey Basalt Closeup
+    src: assets/images/unsorted/Grey-Basalt-Stone-Closeup.jpg
+  heading: Basalt Natural Stone Tiles
+  body: Basalt, which is a natural stone formed from lava that cools under pressure underneath the surface of the earth, is one of many things that make Norstone Grey Lynia Interlocking Tiles a unique product. Basalt stone is durable, consistent, has great stain resistance and a low water absorption rate making it an ideal product to consider for both interior and exterior applications.
+- image:
+    alt: Grey Basalt Interlocking Unit
+    title: Grey Basalt Interlocking Unit
+    src: assets/images/unsorted/Grey-Basalt-Full-Unit.png
+  heading: A Unique Interlocking Pattern
+  body: "The Lynia Interlocking tile is a product that stands out in Norstone's product offering. Each unit consists of 9 strips of basalt stone set in an interlocking pattern. Each strip at 12” long and up to 2.4” tall, we like to refer to this product as a medium format mosaic – large enough in scale for large exterior applications but equally adept in a kitchen backsplash project.  The strips create a visual straight edge look to the product, creating a modern clean line feel."
+- image:
+    alt: Grey Basalt Landscape Wall
+    title: Grey Basalt Landscape Wall
+    src: assets/images/unsorted/Grey-Basalt-Landscape-Application.jpg
+  heading: An Endless Variety of Possible Applications
+  body: "Being a natural stone product, the Grey Lynia Interlocking Tile can be used pretty much any where a ceramic tile or any type of porcelain tiles can be used.  Some of the coolest applications we've seen include outdoor pool water features, multi story exterior veneer accents on a hotel, and a luxe spa inspired bathroom complete with a Grey Lynia Tile shower and other high end touches including light and aroma therapy systems and underfloor heating. Don't be afraid to dream big with this product!"
+- image:
+    alt: Grey Basalt Linear Tile Pool Application
+    title: Grey Basalt Linear Tile Pool Application
+    src: assets/images/unsorted/Grey-Basalt-Linear-Tile-Pool-Application.jpg
+  heading: Natural Stone vs Ceramic Tile
+  body: "When it comes to wall tiles, natural stone has some clear benefits compared to ceramic tile.  Natural stone tile will always pass ceramic tile in terms of its unique, natural beauty, as it showcases intricate veining and color variations that add character and elegance to any space. Additionally, natural stone tile typically possesses superior durability and can age gracefully, making it a long-term investment that only enhances its charm over time. If you're flipping houses and seeking out a quantity discount choose ceramic tile. If you're looking to design and create a space you'll be proud of and inspired by for years to come, choose a natural stone like Norstone's Grey Lynia Interlocking Tile."
+- image:
+    alt: Grey Linear Rooftop Landscape Walls
+    title: Grey Linear Rooftop Landscape Walls
+    src: assets/images/unsorted/Grey-Linear-Rooftop-Landscape-Walls.jpg
+  heading: Order a Sample Tile Today
+  body: "We've been making natural stone wall tiles and veneer products for almost 20 years and know the importance of a sample tile in making the right decision for your project.  Most of our products have a sample tile that is 6”x6”, cut directly from a full unit of the product, and mounted on a thin backer that includes all the pertinent details of the product. Whether you're a design or building professional, or a homeowner working on their own project, reach out to our team to order a sample tile for your next project today!"
 ---
+
+<h2 class="standard standard-gallery text-center uppercase">Medium Format Linear Grey Stone Tiles</h2>
+<hr />
+{% for row in page.rows %}
+<div class="row">
+  <div class="large-5 columns {% cycle '', 'large-push-7' %}">
+    <img class="orbit-image" src="{{ site.url }}/{{ row.image.src }}" title="{{ row.image.title }}" alt="{{ row.image.alt }}" />
+  </div>
+  <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
+    <h3 class="large color-primary">{{ row.heading }}</h3>
+    <p class="text-justify">{{ row.body }}</p>
+  </div>
+  <hr />
+</div>
+{% endfor %}
