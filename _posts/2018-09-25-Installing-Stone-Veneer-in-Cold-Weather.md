@@ -15,14 +15,18 @@ excerpt: This past weekend it officially became Fall, and with the change in sea
   one of the things we start to hear more about is cold weather installations of stone
   veneer.  So let's dive into that topic in this week's blog and learn the do's and
   don't s of installing stone veneer in cold weather.
-date: 2018-09-25 00:00:00 +0000
+date: 2023-11-14 02:09:12 +0000
 
 ---
 As summer gives way to Fall and then Winter, one of the things we work with a lot of our clients on is understanding how stone veneer can be installed in cold weather climates.  For the record, we're not talking about cozy [stacked stone fireplaces](https://www.norstoneusa.com/gallery/application/fireplace/) on the interior of the home, but mainly for common exterior projects in northern climates. For the sake of defining what cold weather is, we'll peg it as the ambient temperate of the installation being below 40 degrees Fahrenheit.  Let's dig into this topic and learn more about why it's important to know about the cold weather installation procedures and what your options are.
 
 ![Stacked Stone Installed on Columns in a Lake House in Wisconsin in the Fall](/uploads/2018/09/26/Stacked Stone Veneer Cold Weather Install in the Fall.jpg)
 
+<h2>Why Natural Stone Veneer Can't be Installed in Cold Weather</h2>
+
 To understand more about why stone can't be set below 40 degrees Fahrenheit you actually need to understand the properties of the mortar or [thin set that's being used to install the stone veneer](https://www.norstoneusa.com/blog/what-is-the-difference-between-different-types-of-thinset-and-what-s-the-best-thinset-for-stacked-stone-installations/), not the stone itself.  The mortar is critically important because of the water content – which in an average / room temperature installation allows the setting material to cure along a prescribed time line, slowly drying out while allowing the other natural and chemical agents to fully cure and create a very strong bond with the stone.  A cold weather installation, particularly one where the temperature can drop below 40 degrees Fahrenheit at any point, night or day, during a 7 day window after installation, risks freezing the moisture content in the setting material and stalling / stopping the curing process, resulting in a bond strength between stone and wall that might not be sufficient to hold the stone over the long run of an average installation.
+
+<h2>Options for Installing Stone Veneer in Cold Weather</h2>
 
 As you probably know, and maybe even the reason why you're reading this article, construction time lines don't always work out the way they were originally planned.  Sometimes you might find yourself staring down the barrel of a project that needs to be completed, but has complicating factors like an [outdoor installation of stone veneer](https://www.norstoneusa.com/gallery/application/exteriors/) in the Fall or Winter.  As is the case with many things in life, prevention is the best solution in this situation.  Often times a project manager can get creative and have weather sensitive materials installed out of the traditional sequence, but before the cold weather sets in.
 
@@ -34,6 +38,17 @@ If the project is in an area, or a time of year, where the 40 degree mark is goi
 
 ![Stacked Stone Installation that has been tented using scaffolding and a heat source to allow for a cold weather installation](/uploads/2018/09/26/Stacked Stone Installation Tented for Cold Weather.jpg)
 
+<h2>Consequences of Improperly Installing Natural Stone Veneer in Cold Weather</h2>
+
 If you're thinking to yourself that having to tent a stone veneer installation to install in weather under 40 degrees sounds like a pain in the but – you're absolutely right, it is!  But rest assured that it is important – several years ago we worked with a contractor that installed our stone veneer panels on the exterior of a home in Northern New Jersey in January, literally while there was still snow on the ground!  Fast forward to the end of the next summer, the stone literally started to fall off the wall and ended up getting torn down and replaced.  So while it might not be fun, tenting and maintaining temperatures above 40 degrees is important for a [successful stone veneer installation](https://www.norstoneusa.com/how-to-install-stacked-stone/).
+
+<h2>Other Considerations for a Successful Stone Veneer Project</h2>
+
+Beyond just the right weather window, there are other more every day considerations for a successful stone veneer project.  An early on consideration in any stone veneer project is understanding the relevant building codes for the project. Generally speaking the Universal Building Codes classify the type of natural stone veneer products that Norstone makes as “adhered masonry veneer”, meaning they all weigh less than 15 lbs per square foot and are no longer than 36” in any one dimension. Adhered Masonry Veneer products can be installed using setting materials instead of via mechanical fastening, however we have come across very specific local building codes that supercede the Universal Building Code, so always be sure to know your local codes as part of the pre construction process.
+
+From an installation standpoint, some important considerations include making sure the stone pieces are clean and free from dirt and dust before they are installed on the wall.  Always use clean water when mixing up thinset and make sure when screeding the thinset onto the wall that the layer of mortar is the proper thickness. Too thin will result in insufficient coverage across the back of the veneer panel or tile, and too thick can result in the thinset not achieving its proper set and strength rating.  The proper sized notched trowel should always be used when screeding and notching the thinset just before the tiles or panels are installed.  
+
+Once the stone starts going up on the wall make sure to stagger where the vertical seams between each panel or tile are falling from one course to the other and plan for how outside corners will be addressed, either using outside corner pieces or whatever the appropriate technique is for the specific product being installed.
+
 
 If you have any technical questions, whether its about installing stone veneer in cold weather, or anything else, please give us a call or email us at [sales@norstoneusa.com](mailto:sales@norstoneusa.com) and we'd be happy to share our extensive knowledge of stone veneer installation with you.
