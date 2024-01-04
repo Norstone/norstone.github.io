@@ -15,7 +15,7 @@ excerpt: In the spirit of Halloween, we made a top 5 list of our favorite entryw
   that feature our natural stone veneer products.  We love all of these projects and
   hope behind these and all doors you visit this Halloween you find amazing treats
   and no tricks!
-date: 2019-10-04 00:00:00 -0400
+date: 2024-01-03 02:13:00 -0400
 
 ---
 The entryway of a home is a lot of things. From a practical standpoint, its the gateway between the outside public world and your inner private life. From a design standpoint, it's often the centerpiece of the overall design of at least the front facade of the building and offers lots of different opportunities to personalize the space to how you want to feel when moving from the public to the private side of life. Subtle features like lighting and door / handle fixtures are small areas of distinction, while the door itself and the materials used to surround it make a bigger impact. In the realm of design choices, few materials command attention and admiration quite like a stone exterior. Whether you're striving for timeless elegance or a rustic charm, a stone exterior emerges as the unsung hero, capable of transforming a mere entrance into a grand gateway. In this blog, we'll embark on a journey through some of our favorite stone entryway projects and see why a stone exterior stands out as the quintessential choice for enhancing the beauty, resilience, and overall allure of your home's entryway. So, buckle up as we delve into how stone becomes not just a product but a defining element in creating a welcoming and lasting first impression.
