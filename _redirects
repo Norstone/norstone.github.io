@@ -76,6 +76,8 @@
 /gallery/application/Pools /gallery/application/pools/
 /gallery/application/pools/ /gallery/application/pools/index.html 200!
 /gallery/application/Pools?page=1 /gallery/application/pools/
+/gallery/application/Showers /gallery/application/showers/
+/gallery/application/showers /gallery/application/showers/index.html 200!
 /gallery/featured/denver-multifamily /
 /gallery/featured/matrix-hotel /gallery/project/the-matrix-hotel/
 /gallery/featured/philadelphia-lower-level-retreat /gallery/project/stacked-stone-interior-basement-walls/
