@@ -1,6 +1,6 @@
 ---
 layout: blog
-permalink: "/blog/aztec-stacked-stone-outdoor-kitchen/"
+permalink: "/blog/aztec-stacked-stone-outdoor-kitchen-living-in-florida/"
 classes: blog
 title: Aztec Rock Panels for Outdoor Living in Florida
 meta:
