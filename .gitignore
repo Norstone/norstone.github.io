@@ -4,6 +4,7 @@ _builds/
 _cache/
 _projects/
 _site/
+dist
 _steps/
 bower_components/
 css/
