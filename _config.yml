@@ -3,6 +3,7 @@ description: New dimensions in natural stone.
 url: #https://www.norstoneusa.com
 author: Rassan Grant
 markdown: kramdown
+destination: dist
 include:
 - _redirects
 exclude:
