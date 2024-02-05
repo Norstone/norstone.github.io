@@ -14,8 +14,7 @@ image:
 excerpt: Unlock the secrets of modern stone facades. Dive into our ultimate guide for expert tips on design, durability, and timeless appeal.
 date: 2024-02-03 00:00:00 -0400
 ---
-<h1>Modern Stone Facades: The Ultimate Guide</h1>
-
+![Modern Stone Facade Panels - The Ultimate Guide](/uploads/Modern-stone-facades-ultimate-guide.jpg)
 In today’s design circles buildings wear their personalities on the outside and modern stone facades have strutted onto the architectural runway, stealing the spotlight with their blend of classic charm and contemporary flair. Picture-perfect Instagram feeds and urban landscapes alike are falling head over heels for these sturdy yet stylish exteriors. But behind the scenes, there's more than meets the eye! Choosing the right natural stone materials and design isn't just about looking good—it's about durability, sustainability, and creating a lasting impression.
 
 Norstone has been creating natural stone veneers with a bent towards modern design for nearly two decades and we’re excited to share our industry knowledge, beautiful products, and [amazing exterior stone projects](https://www.norstoneusa.com/gallery/application/exteriors/) with you. So, grab your hard hat and join us on a journey through the importance of picking the perfect pieces for your modern stone facade project.
@@ -40,24 +39,24 @@ Integrating a modern stone facade with complementary architectural elements requ
 Here are 5 real-life examples of modern stone facades that have been transformed using Norstone natural stone veneer products. Come with us on this quick tour to see the varied stone types used and design choices made on each of these stunning projects.
 
 <h3>Charcoal XL in the Hamptons</h3>
-![Norstone Ivory Stacked Stone Rock Panels on Entryway of Residential Suburban Home in Florida](/uploads/Stacked-Stone-Veneer-Panel-On-Modern-Exterior-Facade.jpg)
+![Stacked Stone Veneer Panel on Modern Exterior Facade](/uploads/Stacked-Stone-Veneer-Panel-On-Modern-Exterior-Facade.jpg)
 Flat roof, lots of glass, beautiful use of [Charcoal XL Rock Panels](https://www.norstoneusa.com/products/thin-stone-veneer-panels/charcoal/) to create texture while still keeping a clean line geometry to the overall aesthetic are all here in this stunner of a home in the Hamptons. Small architectural details like the corner window with eye catching metal trim piece elevate this design to the next level.
 
 
 <h3>Stylish modern combinations in the UK</h3>
-![Norstone Ivory Stacked Stone Rock Panels on Entryway of Residential Suburban Home in Florida](/uploads/Stylish-modern-combination-stone-wood-facade.jpg)
+![Stylish modern combination of stone and wood on a facade](/uploads/Stylish-modern-combination-stone-wood-facade.jpg)
 We love this stylish combination of [Norstone Grey Aksent 3D Panels](https://www.norstoneusa.com/products/aksent-modern-tiles/grey/) and metal siding that is designed to mimic the look of traditional wood siding. This contrasting color combination flows right into the texture difference between the flat metal siding and highly textured Aksent 3D panels all coming together in a beautiful and stylish modern residential facade.
 
 <h3>Modern Earth Tones in Austin, TX</h3>
-![Norstone Ivory Stacked Stone Rock Panels on Entryway of Residential Suburban Home in Florida](/uploads/Earth-toned-modern-facade-panels.jpg)
+![Modern Home with Earth Toned Stone Veneer on facade](/uploads/Earth-toned-modern-facade-panels.jpg)
 Proving that modern means more than just grey and black, this modern home in Austin, TX featuring [Norstone Ochre XLX Rock Panels](https://www.norstoneusa.com/products/thin-stone-veneer-panels/ochre/) on the columns and interspersed as veneer against large banks of windows embraces more of that mid century modern vibe. Earth tone neutrals might not be as trendy as grey has been recently but with great design will always hold up.
 
 <h3>Commercial Behemoth in Cheyenne, WY</h3>
-![Norstone Ivory Stacked Stone Rock Panels on Entryway of Residential Suburban Home in Florida](/uploads/stunning-modern-facade-linear-stone-veneer.jpg)
+![Massive Exterior Commercial Building with Linear Stone Facade](/uploads/stunning-modern-facade-linear-stone-veneer.jpg)
 Major commercial jobs are great places for modern stone facades as many companies embrace modern design as part of their brand and thus want their buildings to be reflective of that. Coupled with the durability and low maintenance of a stone facade as compared to other materials, products like the Platinum and [Graphite Planc Large Format Tile](https://www.norstoneusa.com/products/large-format-stone-veneer/graphite/) are excellent options for projects like this credit union campus in Wyoming.
 
 <h3>Modern Masterpiece in Niagara Falls, Ontario</h3>
-![Norstone Ivory Stacked Stone Rock Panels on Entryway of Residential Suburban Home in Florida](/uploads/Zerafa-Arhictects-Modern-Stone-Facade-Charcoal-Stone-Veneer.jpg)
+![Contemporary Box Design Home with textured grey stone veneer facade](/uploads/Zerafa-Arhictects-Modern-Stone-Facade-Charcoal-Stone-Veneer.jpg)
 This stunning modern styled home in Niagara Falls, Ontario has always captivated us, not just for the beautiful use of [Norstone Charcoal Rock Panels](https://www.norstoneusa.com/products/rock-panels/charcoal/) features prominently on the first floor facade, but for the unique design features like the massive cantilevered second floor. With a lighting package that will make you wish the sun never came up, this modern stone facade home has it all.
 
 <h2>Maintenance Considerations for Modern Stone Facades</h2>
