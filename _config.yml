@@ -19,6 +19,10 @@ exclude:
 plugins:
 - html-proofer
 - jekyll-feed
+- jekyll-sitemap
+feed:
+  disable_in_development: true
+
 #- jekyll-redirect-from
 jekyll_tidy:
   compress_html: false
