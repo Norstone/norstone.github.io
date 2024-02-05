@@ -4,7 +4,6 @@ source 'https://rubygems.org'
 
 gem 'jekyll'
 gem 'rack'
-gem 'octopress-minify-html'
 
 group :jekyll_plugins do
   gem 'json'
