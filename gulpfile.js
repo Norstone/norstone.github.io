@@ -101,7 +101,7 @@ gulp.task('jekyll:serve', function() {
 
 gulp.task(
   'build',
-  gulp.series('sass', 'js', 'jekyll', 'html-minify', function (done) {
+  gulp.series('sass', 'js', 'jekyll',  function (done) {
     done();
   }),
 );
