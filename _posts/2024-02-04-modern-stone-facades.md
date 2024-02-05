@@ -2,19 +2,17 @@
 layout: blog
 permalink: "/blog/modern-stone-facades/"
 classes: blog
-title: Modern Stone Facades: The Ultimate Guide
+title: "Modern Stone Facades: The Ultimate Guide"
 meta:
-  title: Modern Stone Facades: The Ultimate Guide
+  title: "Modern Stone Facades: The Ultimate Guide"
   description: Unlock the secrets of modern stone facades. Dive into our ultimate guide for expert tips on design, durability, and timeless appeal.
   canonical: /blog/modern-stone-facades/
 image:
-  title: Modern Stone Facades: The Ultimate Guide
+  title: "Modern Stone Facades: The Ultimate Guide"
   alt: Unlock the secrets of modern stone facades. Dive into our ultimate guide for expert tips on design, durability, and timeless appeal.
   src: "/uploads/Modern-stone-facades-ultimate-guide.jpg"
 excerpt: Unlock the secrets of modern stone facades. Dive into our ultimate guide for expert tips on design, durability, and timeless appeal.
 date: 2024-02-03 00:00:00 -0400
-
-
 ---
 <h1>Modern Stone Facades: The Ultimate Guide</h1>
 
