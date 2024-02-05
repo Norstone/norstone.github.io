@@ -1,9 +1,8 @@
 title: Norstone USA
 description: New dimensions in natural stone.
-url: #https://www.norstoneusa.com
+url: https://www.norstoneusa.com
 author: Rassan Grant
 markdown: kramdown
-destination: dist
 include:
 - _redirects
 exclude:
@@ -20,6 +19,10 @@ exclude:
 plugins:
 - html-proofer
 - jekyll-feed
+- jekyll-sitemap
+feed:
+  disable_in_development: true
+
 #- jekyll-redirect-from
 jekyll_tidy:
   compress_html: false

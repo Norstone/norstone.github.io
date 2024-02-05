@@ -30,7 +30,7 @@ GEM
     fiber-annotation (0.2.0)
     fiber-local (1.0.0)
     forwardable-extended (2.6.0)
-    google-protobuf (3.24.2)
+    google-protobuf (3.24.2-x86_64-linux)
     hashery (2.1.2)
     html-proofer (5.0.8)
       addressable (~> 2.3)
@@ -70,6 +70,8 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
+    jekyll-sitemap (1.4.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     json (2.6.3)
@@ -82,13 +84,11 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    mini_portile2 (2.8.4)
     multi_css (0.1.0)
       css_press
     multi_js (0.1.0)
       uglifier (~> 2)
-    nokogiri (1.15.4)
-      mini_portile2 (~> 2.8.2)
+    nokogiri (1.15.4-x86_64-linux)
       racc (~> 1.4)
     octopress-hooks (2.6.2)
       jekyll (>= 2.0)
@@ -134,12 +134,13 @@ GEM
     zeitwerk (2.6.11)
 
 PLATFORMS
-  ruby
+  x86_64-linux
 
 DEPENDENCIES
   html-proofer
   jekyll
   jekyll-feed
+  jekyll-sitemap
   json
   octopress-minify-html
   rack

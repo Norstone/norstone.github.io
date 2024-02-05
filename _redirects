@@ -299,24 +299,14 @@
 /faq.asp /faq/
 /fireplace/ /gallery/application/fireplace/
 /gallery/89 /gallery/
-/gallery/application/Backsplash /gallery/application/backsplash/
-/gallery/application/backsplash/ /gallery/application/backsplash/index.html 200!
-/gallery/application/Exteriors /gallery/application/exteriors/
-/gallery/application/exteriors/ /gallery/application/exteriors/index.html 200!
 /gallery/application/Feature%20%20Walls /gallery/application/natural-stone-feature-walls/
 /gallery/application/Feature%20Walls /gallery/application/natural-stone-feature-walls/
 /gallery/application/Feature%2520Walls /gallery/application/natural-stone-feature-walls/
 /gallery/application/Fireplaces /gallery/application/fireplace/
 /gallery/application/Interior /gallery/application/interiors/
-/gallery/application/Interiors /gallery/application/interiors/
-/gallery/application/interiors/ /gallery/application/interiors/index.html 200!
 /gallery/application/Interiors&rct /gallery/application/interiors/
 /gallery/application/Kitchens /gallery/application/kitchen/
-/gallery/application/Pools /gallery/application/pools/
-/gallery/application/pools/ /gallery/application/pools/index.html 200!
 /gallery/application/Pools?page=1 /gallery/application/pools/
-/gallery/application/Showers /gallery/application/showers/
-/gallery/application/showers/ /gallery/application/showers/index.html 200!
 /gallery/featured/denver-multifamily /
 /gallery/featured/matrix-hotel /gallery/project/the-matrix-hotel/
 /gallery/featured/philadelphia-lower-level-retreat /gallery/project/stacked-stone-interior-basement-walls/
@@ -345,8 +335,8 @@
 /ledgestone-feature-walls/ /gallery/application/natural-stone-feature-walls/
 /m/ /
 /m/gallery/application/pools/ /gallery/application/pools/
-/m/gallery/project/stacked-stone-interior-basement-walls/ /gallery/project/stacked-stone-interior-basement-walls/
 /m/gallery/rock-panels/interiors /gallery/application/interiors/
+/m/gallery/project/stacked-stone-interior-basement-walls/ /gallery/project/stacked-stone-interior-basement-walls/
 /m/how-to-buy /how-to-buy/
 /m/products/basalt-stone-panels/ash-grey-stone /products/basalt-stone-panels/ash-grey-stone/
 /mobile/ /
@@ -370,7 +360,6 @@
 /node/274 /gallery/project/architects-office/
 /node/96 /
 /produc  /products/
-/products/ /products/index.html 200!
 /products/404.html /products/
 /products/basalt-3d /products/basalt-stone-panels/
 /products/basalt-3d/ebony /products/basalt-stone-panels/black-stone/
