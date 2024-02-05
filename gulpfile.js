@@ -2,7 +2,7 @@ var child = require('child_process');
 var gulp = require('gulp');
 var concat = require('gulp-concat');
 var filelog = require('gulp-filelog');
-var htmlmin = require('gulp-htmlmin');
+//var htmlmin = require('gulp-htmlmin');
 var sass = require('gulp-sass')(require('sass'));
 var uglify = require('gulp-uglify');
 var gutil = require('gulp-util');
@@ -61,11 +61,11 @@ gulp.task('js:watch', function() {
   gulp.watch('./_js/**/*.js', gulp.series('js'));
 });
 
-gulp.task('html-minify', function() {
-  return gulp.src('_site/**/*.html')
-    .pipe(htmlmin({collapseWhitespace: true}))
-    .pipe(gulp.dest('_site'));
-});
+//gulp.task('html-minify', function() {
+//  return gulp.src('_site/**/*.html')
+//    .pipe(htmlmin({collapseWhitespace: true}))
+//    .pipe(gulp.dest('_site'));
+//});
 
 gulp.task('jekyll', function(gulpCallback) {
   const jekyll = child.spawn('bundle', ['exec', 'jekyll', 'build']);
