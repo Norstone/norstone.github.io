@@ -20,6 +20,7 @@ plugins:
 - html-proofer
 - jekyll-feed
 - jekyll-sitemap
+- jekyll_picture_tag
 feed:
   disable_in_development: true
 
