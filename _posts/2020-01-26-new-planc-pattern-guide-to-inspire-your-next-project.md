@@ -2,7 +2,7 @@
 layout: blog
 permalink: "/blog/planc-large-format-tile-pattern-guide/"
 classes: blog
-title: New Planc Pattern Guide to Inspire your Next Project
+title: Large Format Tile Patterns for Norstone Planc
 meta:
   title: Planc Large Format Tile Pattern Guide
   description: Newly released Pattern Guide for Norstone Planc Large Format Tile product
@@ -14,10 +14,10 @@ image:
 excerpt: We recently created a Pattern Guide for our Planc Large Format Tile Series.  Planc
   is such a versatile product in terms of pattern, this really only scrapes the surface
   of what's possible.  Take a look and be inspired for your next project!
-date: 2020-01-26 00:00:00 -0500
+date: 2024-02-04 00:00:00 -0500
 
 ---
-When we introduced our [Planc Large Format Tile](https://www.norstoneusa.com/blog/planc-new-dimension-norstone/) product in mid 2018 one of the things that intrigued us must about the product was the design possibilities that existed with the product from a pattern standpoint. The product itself is a three piece set – each piece is 31.5” long and each set has tiles that are 5.5”, 2.4”, and 3.1” tall. The product was designed with symmetry in mind in that the height of the two smaller pieces totaled up to the height of the larger piece. One of the most rewarding things about this product has been introducing it to designers and seeing immediately where their mind goes to in terms of layout and pattern. While a designer's mind sees all the possibilities of this product right from the start, we wanted to give our non-designer clients a tool to comprehend the pattern possibilities of this product.
+When we introduced our [Planc Large Format Tile](https://www.norstoneusa.com/blog/planc-new-dimension-norstone/) product in mid 2018 one of the things that intrigued us must about the product was the design possibilities that existed with the product from a large format tile pattern standpoint. The product itself is a three piece set – each piece is 31.5” long and each set has tiles that are 5.5”, 2.4”, and 3.1” tall. The product was designed with symmetry in mind in that the height of the two smaller pieces totaled up to the height of the larger piece. One of the most rewarding things about this product has been introducing it to designers and seeing immediately where their mind goes to in terms of layout and pattern. While a designer’s mind sees all the possibilities of this product right from the start, we wanted to give our non-designer clients a tool to comprehend the large format tile pattern possibilities of this product.
 
 ![Norstone Planc Large Format Tile Pattern Guide showing 6 popular patterns to install Planc in](/uploads/2020/01/27/Planc Large Format Tile Pattern Guide-1.jpg)
 
