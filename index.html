@@ -104,7 +104,7 @@ schema:
       <div style="background-image: url('{{ slide.image_mobile }}'); background-repeat: no-repeat"></div>
       <figcaption class="orbit-caption x-large">
         <div class="row columns" style="font-family: 'Open Sans'">
-          <a alt="View Norstone Product" class="float-right text-shadow box-shadow-center button--main" href="{{ site.url }}/{{ slide.link.href }}">{{ slide.link.text }}</a>{{ slide.caption }}
+          <a alt="View Norstone Product" class="float-right text-shadow box-shadow-center button--main" href="{{ site.url }}/{{ slide.link.href }}" role="button">{{ slide.link.text }}</a>{{ slide.caption }}
         </div>
       </figcaption>
     </li>
@@ -113,7 +113,7 @@ schema:
   <div class="row columns">
     <nav class="orbit-bullets">
       {% for slide in page.slides %}
-      <button data-slide="{{ forloop.index0 }}"{% if forloop.index0 == 0 %} class="is-active"{% endif %}>
+      <button data-slide="{{ forloop.index0 }}"{% if forloop.index0 == 0 %} class="is-active"{% endif %} aria-label="Go to slide {{forloop.index}}">
         <span class="show-for-sr"></span>
         {% if forloop.index0 == 0 %}<span class="show-for-sr">Current slide</span>{% endif %}
       </button>
