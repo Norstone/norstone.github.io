@@ -1,7 +1,7 @@
 ---
-title: Class is in Session - Using Natural Stone for Retaining Walls
+title: Class is in Session – What is a Stone Veneer Retaining Wall?
 meta:
-  title: "Natural Stone Retaining Walls - Norstone Classroom Series"
+  title: "Class is in Session – What is a Stone Veneer Retaining Wall?"
   description: "Natural Stone Retaining Walls - Norstone Classroom Series Stacked Stone Retaining Walls Stone Veneer Retaining Walls"
 image:
   title: Post Image
@@ -9,6 +9,7 @@ image:
   src: assets/images/blog/StoneRetainingWall(4).jpg
 excerpt:  Natural Stone has long been the choice for retaining walls that last the test of time and now with advanced manufacturing techniques that enable manufacturers to cut stone into thin veneers, retaining walls can be built easily out of component parts, simplifying the installation even further.  This blog explores how thin natural stone veneer products like Norstone can effectively be used for retaining wall applications.
 permalink: /blog/natural-stone-retaining-walls-norstone-classroom-series/
+date: 2024-02-06 00:00:00 -0400
 ---
 
 ![Stone Retaining Wall](/assets/images/blog/StoneRetainingWall(4).jpg)
@@ -22,5 +23,11 @@ Natural stone retaining walls, made of loose stone, date back to ancient times a
 ![Norstone Ochre Blend Retaining Wall](/assets/images/blog/Norstone-Ochre-Blend-Retaining-Wall.jpg){: align="left"}Not to fear as products such as [Norstone's Rock Panels](/products/stacked-stone-cladding/) can help solve that problem since they are designed to be installed directly over the concrete block and come in an easy to install panel system. This material has a very unique and stylish look which emulates individually hand stacked stone, but comes preassembled in an easy to use 6" tall x 24" wide field unit. Accessories such as outside corner units expedite the [installation](/how-to-install-stacked-stone/), keeping the installed cost per sq ft low while still achieving a fantastic look. Stacked stone retaining walls are a nice option that provide a traditional feel with a modern twist and offer a good balance between functionality and aesthetic.
 
 ![Norstone Natural Stone Retaining Wall Ochre Xl](/assets/images/blog/Norstone-Natural-Stone-Retaining-Wall-Ochre-XL.jpg){: align="right"}Wood frame construction can also used to construct retaining walls in and around your property, however will lack some of the durability and sturdiness of concrete construction. Norstone's Rock Panels can easily be adhered in this type of application as well by preparing the wall substrate using a cement board or lathe and scratch coat combination and then attaching the thin stone veneer to the prepared substrate and make an excellent choice for a stone veneer retaining wall.
+
+When it comes to retaining wall design, the two primary options to consider involve the size and shape of the wall as well as what the wall is clad in. The size and shape of the retaining wall might be dictated by the land itself, or what the retaining wall is looking to achieve, but the shape of the wall in particular can often vary from a straight wall, to a gentle curve, to a serpentine back and forth shape depending on the site conditions and performance requirements of the retaining wall itself.
+
+In addition to natural stone veneer products like Norstone Rock Panels, retaining walls can be built or clad with many other different types of building materials, including manufactured stone veneer as well as many different type of stones. Granite, slate, and quartzite are common stones for retaining walls as they are plentiful, come in a variety of colors, and are easy to work with. At Norstone, all of our stone veneer panels are made from real stone veneer ensuring your retaining wall has the authentic look you seek for a stone veneer retaining wall project. Stone veneer panels allow real stone veneer to be installed in a systematized way, very similar to a large groutless wall tile, allow for a retaining wall to have the look of hand laid dry stack ledgestone with far less effort and expense from an installation standpoint.
+
+Stone veneer retaining walls are often part of larger outdoor projects as they can serve a vital purpose of creating a level area and usable outdoor spaces in a yard or other outdoor area. In particular, when the land slopes away from an area where something needs to be built, a retaining wall can be installed at a certain level and to a certain height, and then back filled to create a flat area and turn that sloped land into usable space. Depending on the size, slope, and height of the retaining wall, this can be a basic installation for something like an outdoor kitchen, to something much more involved and which would require engineering studies on the retaining wall for something like a large pool.  
 
 Retaining walls will continue to be a vital tool allowing us to manipulate and work with the natural topography of the land to suit our needs. Natural stone, particularly in the form of thin stone veneer panels, will be a popular choice to beautify these walls and create surroundings to enjoy and inspire.
