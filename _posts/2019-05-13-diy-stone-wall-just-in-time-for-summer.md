@@ -1,4 +1,5 @@
 ---
+sitemap: false
 layout: blog
 permalink: "/blog/DIY-Stone-Wall/"
 classes: blog

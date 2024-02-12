@@ -1,4 +1,5 @@
 ---
+sitemap: false
 title: "Norstone NDNS Blog is LIVE! Hello there."
 meta:
   title: "Installing Norstone Rock Panels"

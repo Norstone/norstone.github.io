@@ -1,4 +1,5 @@
 ---
+sitemap: false
 layout: blog
 permalink: "/blog/Interlocking-Tiles-Outdoor-Office-Space/"
 classes: blog

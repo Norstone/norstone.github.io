@@ -1,4 +1,5 @@
 ---
+sitemap: false
 layout: blog
 permalink: "/blog/Ivory-stacked-stone-outdoor-kitchen-pool/"
 classes: blog
@@ -6,19 +7,13 @@ title: One Last Peek at Summertime with this Awesome Ivory Stacked Stone Outdoor
   and Pool
 meta:
   title: Ivory Stacked Stone Outdoor Kitchen and Pool
-  description: Profile of a backyard oasis that has used Norstone Ivory Stacked Stone
-    Rock Panels on an outdoor kitchen and multiple pool features.
+  description: Profile of a backyard oasis that has used Norstone Ivory Stacked Stone Rock Panels on an outdoor kitchen and multiple pool features.
 image:
   src: "/uploads/2018/09/05/Norstone Ivory Rock Panels Stacked Stone Outdoor Kitchen-1.JPG"
   title: Ivory Stacked Stone Stone Outdoor Kitchen with Pizza Oven
   alt: Ivory Stacked Stone Stone Outdoor Kitchen with Pizza Oven in Southern California
-excerpt: 'Fresh off a relaxing Labor Day weekend, we wanted to share one last summertime
-  project with everyone to celebrate a great summer.  This stacked stone outdoor kitchen
-  and pool project is just the place we''d want to spend the last bit of summer!
-
-'
+excerpt: 'Fresh off a relaxing Labor Day weekend, we wanted to share one last summertime project with everyone to celebrate a great summer.  This stacked stone outdoor kitchen and pool project is just the place we''d want to spend the last bit of summer!'
 date: 2018-09-05 00:00:00 +0000
-
 ---
 Labor day is one of our favorite holidays because it's always enjoyable to have a day off work, but it also falls in a really great time of the year.  In most places the weather is still perfect for spending time outdoors and really enjoying it since the days start to get shorter quickly and depending on where you live, the tell tale signs of Fall show up before you know it.  For many of us, the backyard [pool](https://www.norstoneusa.com/gallery/application/pools/) is top choice for a relaxing Labor Day weekend, so in this week's project profile we're taking a look at a really cool installation a customer of ours did a few years ago in Southern California where the [Ivory Rock Panel](https://www.norstoneusa.com/products/rock-panels/ivory/) was used prominently on a number of features on the pool, spa, and outdoor kitchen.
 
