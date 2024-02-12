@@ -1,5 +1,6 @@
 ---
 layout: blog
+sitemap: false
 permalink: "/blog/info-to-purchase-norstone/"
 classes: blog
 title: 'FAQ: Purchasing Norstone Natural Stone Products'

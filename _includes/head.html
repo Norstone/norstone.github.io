@@ -1,5 +1,8 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' /> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
   <title>{% if page.meta.title != '' %}{{ page.meta.title }}{% elsif page.title != '' %}{{ page.title }}{% endif %}</title>
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
   <link rel="alternate" type="application/rss+xml" title="Norstone - Blog" href="/feed.xml" />
@@ -8,7 +11,6 @@
   <meta name="dcterms.date" content="2011-03-07T00:00:00Z" />
   <meta name="revisit-after" content="1 day" />
   <meta name="p:domain_verify" content="27085cf14fe1b4a514c5084615c7c146"/>
-  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
   <meta name="msvalidate.01" content="5EF25442846AB07BA189F778C6E83866" />
   <meta name="cf-2fa-verify" content="109278bf51a3472" />
 
@@ -57,7 +59,9 @@
     })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
 <!-- Google ReCAPTCHA -->
+{%- if page.type == contact -%}
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+{%- endif -%}
 <!-- Pinterest Tag -->
 <script>
 !function(e){if(!window.pintrk){window.pintrk = function () {

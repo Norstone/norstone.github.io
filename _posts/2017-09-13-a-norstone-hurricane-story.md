@@ -1,4 +1,5 @@
 ---
+sitemap: false
 classes: blog
 date: 2017-09-13 00:00:00 +0000
 excerpt: The Norstone team based in Central Florida lived through Hurricane Irma over

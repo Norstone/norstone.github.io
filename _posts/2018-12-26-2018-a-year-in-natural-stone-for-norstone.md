@@ -1,4 +1,5 @@
 ---
+sitemap: false
 layout: blog
 permalink: "/blog/2018-a-year-in-natural-stone/"
 classes: blog

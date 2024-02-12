@@ -1,4 +1,5 @@
 ---
+sitemap: false
 layout: blog
 permalink: "/blog/freeze-thaw-testing-stacked-stone-veneer/"
 classes: blog

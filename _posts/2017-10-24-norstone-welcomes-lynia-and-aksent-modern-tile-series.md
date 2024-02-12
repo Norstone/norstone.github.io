@@ -1,4 +1,5 @@
 ---
+sitemap: false
 layout: blog
 permalink: "/blog/lynia-and-aksent-launch/"
 classes: blog
