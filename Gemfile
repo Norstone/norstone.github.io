@@ -10,5 +10,4 @@ group :jekyll_plugins do
   gem 'jekyll-feed'
   gem 'html-proofer'
   gem 'jekyll-sitemap'
-  gem 'jekyll_picture_tag', '~> 2.0'
 end
