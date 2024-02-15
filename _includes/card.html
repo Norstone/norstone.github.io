@@ -1,6 +1,8 @@
 <div class="column">
   <div class="card">
-    <a class="card--image" href="{{ site.url }}/{{ item.link }}"><img src="{{ site.url }}/{{ item.image }}" alt="{{ item.title }}" title="{{ item.image }}"></a>
+    <a class="card--image" href="{{ site.url }}/{{ item.link }}">
+      {% picture gallery /{{ item.image }} --img loading="lazy"--alt {{ item.title }} %}
+    </a>
     <a class="card--title color-primary uppercase" href="{{ site.url }}/{{ item.link }}">{{ item.title }}</a>
     <a href="{{ site.url }}/{{ item.link }}" class="card--type {{ item.type }}">
     {% if item.type == 'project-gallery' %}

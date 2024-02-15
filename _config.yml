@@ -20,6 +20,11 @@ plugins:
 - html-proofer
 - jekyll-feed
 - jekyll-sitemap
+- jekyll_picture_tag
+picture:
+  ignore_missing_images: development
+  fast_build: true
+
 feed:
   disable_in_development: true
 
