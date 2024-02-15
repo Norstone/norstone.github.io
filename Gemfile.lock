@@ -26,6 +26,11 @@ GEM
     fiber-annotation (0.2.0)
     fiber-local (1.0.0)
     forwardable-extended (2.6.0)
+    google-protobuf (3.25.2)
+    google-protobuf (3.25.2-aarch64-linux)
+    google-protobuf (3.25.2-arm64-darwin)
+    google-protobuf (3.25.2-x86-linux)
+    google-protobuf (3.25.2-x86_64-darwin)
     google-protobuf (3.25.2-x86_64-linux)
     hashery (2.1.2)
     html-proofer (5.0.8)
@@ -57,10 +62,12 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
-    jekyll-feed (0.7.2)
+    jekyll-feed (0.17.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
-    jekyll-sitemap (0.10.0)
+    jekyll-sitemap (1.4.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     jekyll_picture_tag (2.1.0)
@@ -83,6 +90,16 @@ GEM
     mime-types (3.5.2)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2024.0206)
+    nokogiri (1.16.2-aarch64-linux)
+      racc (~> 1.4)
+    nokogiri (1.16.2-arm-linux)
+      racc (~> 1.4)
+    nokogiri (1.16.2-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.16.2-x86-linux)
+      racc (~> 1.4)
+    nokogiri (1.16.2-x86_64-darwin)
+      racc (~> 1.4)
     nokogiri (1.16.2-x86_64-linux)
       racc (~> 1.4)
     objective_elements (1.1.2)
@@ -107,6 +124,22 @@ GEM
     ruby-vips (2.0.17)
       ffi (~> 1.9)
     safe_yaml (1.0.5)
+    sass-embedded (1.70.0-aarch64-linux)
+      google-protobuf (~> 3.25)
+    sass-embedded (1.70.0-aarch64-linux-musl)
+      google-protobuf (~> 3.25)
+    sass-embedded (1.70.0-arm-linux)
+      google-protobuf (~> 3.25)
+    sass-embedded (1.70.0-arm-linux-musleabihf)
+      google-protobuf (~> 3.25)
+    sass-embedded (1.70.0-arm64-darwin)
+      google-protobuf (~> 3.25)
+    sass-embedded (1.70.0-x86-linux)
+      google-protobuf (~> 3.25)
+    sass-embedded (1.70.0-x86-linux-musl)
+      google-protobuf (~> 3.25)
+    sass-embedded (1.70.0-x86_64-darwin)
+      google-protobuf (~> 3.25)
     sass-embedded (1.70.0-x86_64-linux)
       google-protobuf (~> 3.25)
     sass-embedded (1.70.0-x86_64-linux-musl)
@@ -123,6 +156,14 @@ GEM
     zeitwerk (2.6.13)
 
 PLATFORMS
+  aarch64-linux
+  aarch64-linux-musl
+  arm-linux
+  arm-linux-musleabihf
+  arm64-darwin
+  x86-linux
+  x86-linux-musl
+  x86_64-darwin
   x86_64-linux
   x86_64-linux-musl
 
