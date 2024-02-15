@@ -1,7 +1,7 @@
 # If you do not have OpenSSL installed, update
 # the following line to use "http://" instead
 source 'https://rubygems.org'
-ruby: '3.1.2'
+ruby '3.1.2'
 gem 'jekyll', "~> 4.3.3"
 gem 'rack'
 
