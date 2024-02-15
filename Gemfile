@@ -10,6 +10,7 @@ group :jekyll_plugins do
   gem 'jekyll-feed'
   gem 'html-proofer'
   gem 'jekyll-sitemap'
+  gem 'jekyll-sass-converter', '~> 2.0'
   gem 'jekyll_picture_tag', '~> 2.0'
 end
 
