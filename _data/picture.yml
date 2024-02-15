@@ -8,8 +8,7 @@ media_queries:
 format_quality:
     jpg: 75
     png: 70
-    webp: 80
-    avif: 80
+    webp: 70
 
 presets:
   # This entry is purely an example. It is not the default JPT preset, nor is it available as a
@@ -18,7 +17,7 @@ presets:
     formats: [webp] # Order matters!
     widths: [336, 476, 900] # Image widths, in pixels.
   gallery: 
-    width: [800]
+    widths: [375, 500, 800]
     formats: [webp, original]
     # The sizes attribute is both important, and impossible to offer good defaults for. You need to
     # learn about it. Short version: Web browsers parse web pages line-by-line. When they run into
