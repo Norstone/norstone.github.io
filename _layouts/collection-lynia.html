@@ -9,7 +9,14 @@ title: Norstone Gallery
   <div class="product-header">
   <div class="row large-collapse">
     <div class="large-8 columns product-image">
-      <a href="{{ site.url }}/{{ page.header.link }}"><img itemprop="image" class="orbit-image {{ page.header.image_class }}" alt="{{ page.header.subtitle }}" title="{{ page.header.subtitle }}" src="{{ site.url }}/{{ page.header.image }}" /></a>
+      <a href="{{ site.url }}/{{ page.header.link }}">
+        {% picture 
+          gallery_head /{{ page.header.image }} 
+          --img 
+            width="664" height="295" 
+            title="{{ page.header.subtitle }}""
+          --alt {{ page.header.subtitle }} %}
+      </a>
     </div>
     <div class="large-4 columns">
       <h2 class="xx-large color-secondary text-center large-text-right" style="margin-bottom: 5px">{{ page.header.title }}</h2>

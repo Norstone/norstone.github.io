@@ -1,4 +1,5 @@
 ---
+sitemap: false
 layout: blog
 permalink: "/blog/is-drywall-good-for-stone-veneer-installations/"
 classes: blog

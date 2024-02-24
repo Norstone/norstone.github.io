@@ -36,21 +36,22 @@ products:
   title: Ebony Basalt
 title: Natural Stone Mosaic Wall Tiles by Norstone USA | Lynia Series
 slides:
-  - image: /assets/images/product/Norstone-Mosaic-Lynia-Grey-Stone-Tile-Courtyard-SF.jpg
-  - image: /assets/images/product/Norstone-Lynia-Grey-Stone-Mosaic-Landscape-Walls-DC.jpg
-  - image: /assets/images/product/Norstone-Lynia-Ebony-Basalt-Mosaic-Fireplace-Philadelphia.jpg
+  - image: /assets/images/product/Norstone-Mosaic-Lynia-Grey-Stone-Tile-Courtyard-SF.webp
+  - image: /assets/images/product/Norstone-Lynia-Grey-Stone-Mosaic-Landscape-Walls-DC.webp
+  - image: /assets/images/product/Norstone-Lynia-Ebony-Basalt-Mosaic-Fireplace-Philadelphia.webp
 ---
 
 <h2 class="xx-large color-primary">The Lynia IL Tile Collection</h2>
 <h3 class="medium color-secondary"><em>Mosaic Tile Lines Norstone's Legendary Craftsmanship.</em></h3>
 <div class="productPage__productImage">
   <a href="{{ site.url }}/products/lynia-mosaic-tiles/basalt/">
-    <img
+    {% picture productPage__productImage /assets/images/unsorted/Norstone-Interlocking-Stone-Wall-Tiles.png 
+    --img 
       itemprop="image"
-      alt="{{ page.header.subtitle }}"
+      width="533" height="208" 
       title="{{ page.header.subtitle }}"
-      src="{{ site.url }}/assets/images/unsorted/Norstone-Interlocking-Stone-Wall-Tiles.png"
-    />
+    --alt {{ page.header.subtitle }} %}
+
   </a>
 </div>
 <script type="application/ld+json">
@@ -111,8 +112,27 @@ slides:
 </ul>
 <div class="tabs-content" data-tabs-content="basalt">
   <div class="tabs-panel is-active" id="panel1">
-    <img class="float-right" width="332" height="266" alt="Norstone's Basalt Interlocking Lava Rock Tile" title="Norstone Basalt Interlocking Tile Unit" src="/assets/images/unsorted/Norstone-Basalt-Stone-Tile-Modern-Wall-Covering.png">
-    <img class="float-right" width="332" height="289" alt="Norstone's Modern Lynia Mosaic Wall Tile Corner Specs" title="Norstone's Modern Lynia Mosaic Wall Tile Corner Specs" src="/assets/images/unsorted/Norstone-Ash-Grey-Modern-Lynia-Tile-Specs-Corner.png">
+
+    {% picture tab_image /assets/images/unsorted/Norstone-Basalt-Stone-Tile-Modern-Wall-Covering.png
+      --img 
+        class="float-right"
+        loading="lazy"
+        itemprop="image"
+        width="332" height="266" 
+        title="Norstone's Basalt Interlocking Lava Rock Tile"
+      --alt Norstone's Basalt Interlocking Lava Rock Tile
+    %}
+  
+    {% picture tab_image /assets/images/unsorted/Norstone-Ash-Grey-Modern-Lynia-Tile-Specs-Corner.png
+      --img 
+        class="float-right"
+        loading="lazy"
+        itemprop="image"
+        width="332" height="266" 
+        title="Norstone's Basalt Interlocking Lava Rock Tile"
+      --alt Norstone's Basalt Interlocking Lava Rock Tile
+    %}
+
     <h4 class="color-primary">Field Unit Dimensions</h4>
      <p>One Unit - 9 staggered 12" Basalt Strips
        <br> Full Unit Dimensions: 15" Tall x 17" Wide**

@@ -1,4 +1,5 @@
 ---
+sitemap: false
 layout: blog
 permalink: "/blog/top-5-stone-fireplaces-2017/"
 classes: blog

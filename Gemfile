@@ -1,10 +1,17 @@
 # If you do not have OpenSSL installed, update
 # the following line to use "http://" instead
 source 'https://rubygems.org'
+ruby '3.1.2'
+gem 'jekyll', "~> 4.3.3"
 gem 'rack'
-gem 'json'
-gem 'jekyll'
-gem 'jekyll-feed'
-gem 'html-proofer'
-gem 'octopress-minify-html'
-gem 'jekyll-sitemap'
+
+group :jekyll_plugins do
+  gem 'json'
+  gem 'jekyll-feed'
+  gem 'html-proofer'
+  gem 'jekyll-sitemap'
+  gem 'jekyll-sass-converter', '~> 2.0'
+  gem 'jekyll_picture_tag', '~> 2.0'
+end
+
+gem 'webrick'

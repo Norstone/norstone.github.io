@@ -1,4 +1,5 @@
 ---
+sitemap: false
 classes: blog
 date: 2017-05-17 00:00:00 +0000
 excerpt: Stacked stone makes a great backdrop for a media wall and a question we get

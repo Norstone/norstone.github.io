@@ -1,6 +1,18 @@
 <div class="column">
   <div class="card">
-    <a class="card--image" href="{{ site.url }}/{{ item.link }}"><img src="{{ site.url }}/{{ item.image }}" alt="{{ item.title }}" title="{{ item.image }}"></a>
+    <a class="card--image" href="{{ site.url }}/{{ item.link }}">
+      {%- if forloop.index > 4 -%}
+        {%- assign load = "lazy" -%}
+        {%- else -%}
+        {%- assign load = "eager" -%}
+      {%- endif -%}
+      
+      {% picture gallery /{{ item.image }} 
+         --img 
+         loading="{{load}}" 
+         width="448" height="235" 
+         --alt {{ item.title }} %}
+    </a>
     <a class="card--title color-primary uppercase" href="{{ site.url }}/{{ item.link }}">{{ item.title }}</a>
     <a href="{{ site.url }}/{{ item.link }}" class="card--type {{ item.type }}">
     {% if item.type == 'project-gallery' %}
