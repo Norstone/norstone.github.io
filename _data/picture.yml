@@ -7,8 +7,8 @@ media_queries:
     wide: 'min-width: 1201'
 format_quality:
     jpg: 75
-    png: 70
-    webp: 70
+    png: 75
+    webp: 75
 
 presets:
   # This entry is purely an example. It is not the default JPT preset, nor is it available as a

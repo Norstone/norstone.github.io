@@ -1,15 +1,10 @@
 <div class="column">
   <div class="card">
     <a class="card--image" href="{{ site.url }}/{{ item.link }}">
-      {%- if forloop.index > 4 -%}
-        {%- assign load = "lazy" -%}
-        {%- else -%}
-        {%- assign load = "eager" -%}
-      {%- endif -%}
       
       {% picture gallery /{{ item.image }} 
          --img 
-         loading="{{load}}" 
+         loading="lazy" 
          width="448" height="235" 
          --alt {{ item.title }} %}
     </a>
