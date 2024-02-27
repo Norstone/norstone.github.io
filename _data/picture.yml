@@ -20,7 +20,7 @@ presets:
     widths: [375, 500, 640]
     formats: [webp]
   gallery_slide: 
-    widths: [405, 870, 909]
+    widths: [145, 405, 870, 909]
     formats: [webp]
   gallery_head: 
     widths: [320, 365, 664]

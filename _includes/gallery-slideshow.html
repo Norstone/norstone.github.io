@@ -10,7 +10,12 @@
         {%- assign load = "lazy" -%}
       {%- endif -%}
       <div class="orbit-slide" {% if image.type %} data-product-type="{{ image.type }}"{% endif %}{% if image.tags %} data-tags='[&#34;{{ image.tags | join: '&#34;, &#34;' }}&#34;]'{% endif %}>
-        <img src="/{{ image.src }}" alt="{{ image.alt }}" title="{{ image.title }}" loading="{{load}}">
+        <!-- <img src="/{{ image.src }}" alt="{{ image.alt }}" title="{{ image.title }}" loading="{{load}}"> -->
+        {% picture gallery_slide /{{ image.src }} 
+        --img 
+          loading="{{load}}" 
+          width="675" height="422" 
+        --alt {{ image.title }} %}
       </div>
       {% endfor %}
     </div>
