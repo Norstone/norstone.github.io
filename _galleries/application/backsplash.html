@@ -151,7 +151,7 @@ rows:
 {% for row in page.rows %}
 <div class="row">
   <div class="large-5 columns {% cycle '', 'large-push-7' %}">
-    {% if row.image %}<img class="orbit-image" src="{{ site.url }}/{{ row.image.src }}" alt="{{ row.image.alt }}" title="{{ row.image.title }}">{% endif %}
+    {% if row.image %}<img loading="lazy" class="orbit-image" src="{{ site.url }}/{{ row.image.src }}" alt="{{ row.image.alt }}" title="{{ row.image.title }}">{% endif %}
   </div>
   <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
     <h3 class="large color-primary">{{ row.heading }}</h3>
@@ -161,7 +161,7 @@ rows:
 </div>
 {% endfor %}
 <div class="large-5 columns large-push-7">
-    <img class="orbit-image" src="/assets/images/unsorted/Norstone-Bathroom-Backsplash-Tile-Natural-Stone-Veneer.webp" alt="Norstone Bathroom Backsplash Tile Used on HGTV Television Show Bathtastic" title="Norstone Bathroom Backsplash Tile Natural Stone Veneer" loading="lazy">
+    <img loading="lazy" class="orbit-image" src="/assets/images/unsorted/Norstone-Bathroom-Backsplash-Tile-Natural-Stone-Veneer.webp" alt="Norstone Bathroom Backsplash Tile Used on HGTV Television Show Bathtastic" title="Norstone Bathroom Backsplash Tile Natural Stone Veneer" loading="lazy">
   </div>
 <div class="large-7 columns large-pull-5">
     <h3 class="large color-primary">Other items you might want</h3>

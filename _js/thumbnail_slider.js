@@ -1,5 +1,4 @@
 $(function($, global) {
-
   // Compensate for the owl-made clones that are placed before and after the actual items.
   function calcOffsetActiveIndex(item) {
     return item.index - Math.round(item.count / 2);
@@ -24,7 +23,7 @@ $(function($, global) {
     var thumbWidth = $('.owl-thumb-item', slider).width();
     var minIndex = 0;
     var scrollSpeedInMs = 150;
-
+console.log($('.owl-thumb-item', slider), "!!!!!!!!!!!");
     // Need this wrapper markup for the CSS that makes the horizontal scrollbar disappear
     thumbContainer.wrap('<div class="owl-thumbs-wrapper"></div>')
 
@@ -77,5 +76,4 @@ $(function($, global) {
   }
 
   global.thumbnailSlider = thumbnailSlider;
-
 }(jQuery, window));

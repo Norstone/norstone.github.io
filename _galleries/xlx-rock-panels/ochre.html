@@ -160,7 +160,7 @@ other_galleries:
 {% for row in page.rows %}
 <div class="row">
   <div class="large-5 columns {% cycle '', 'large-push-7' %}">
-    <img class="orbit-image" src="{{ site.url }}/{{ row.image.src }}" alt="{{ row.image.alt }}" title="{{ row.image.title }}" />
+    <img loading="lazy" class="orbit-image" src="{{ site.url }}/{{ row.image.src }}" alt="{{ row.image.alt }}" title="{{ row.image.title }}" />
   </div>
   <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
     <h3 class="large color-primary">{{ row.heading }}</h3>
@@ -171,7 +171,7 @@ other_galleries:
 {% endfor %}
 <div class="row">
   <div class="large-5 columns large-push-7">
-    <img class="orbit-image" src="/assets/images/unsorted/Exterior-Ledgestone-Veneer-Panels-for-Column.jpg" title="Exterior-Ledgestone-Veneer-Panels-for-Column.jpg" alt="Norstone Modern Stacked Stone Fireplace">
+    <img loading="lazy" class="orbit-image" src="/assets/images/unsorted/Exterior-Ledgestone-Veneer-Panels-for-Column.jpg" title="Exterior-Ledgestone-Veneer-Panels-for-Column.jpg" alt="Norstone Modern Stacked Stone Fireplace">
   </div>
   <div class="large-7 columns large-pull-5">
     <h3 class="large color-primary">Get to Know This Product</h3>
