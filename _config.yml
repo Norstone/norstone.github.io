@@ -23,7 +23,7 @@ plugins:
 - jekyll_picture_tag
 picture:
   ignore_missing_images: development
-  fast_build: true
+  fast_build: [development, staging]
 
 feed:
   disable_in_development: true
