@@ -13,28 +13,34 @@ layout: default
 </div>
 <div class="row small-up-4 medium-up-7" style="margin: auto;text-align: center; margin-bottom: none">
   <div class="column column-block" style="float:none;position:relative;display:inline-block">
-    <img alt="Norstone Products are used on Boeing Headquarters in Seattle Washington" src="/assets/images/unsorted/boeing.png" title="Norstone Products are used on Boeing Headquarters in Seattle Washington" /></p>
+    <img alt="Norstone Products are used on Boeing Headquarters in Seattle Washington" src="/assets/images/unsorted/boeing.webp" title="Norstone Products are used on Boeing Headquarters in Seattle Washington" /></p>
   </div>
   <div class="column column-block" style="float:none;position:relative;display:inline-block">
-    <img alt="Norstone Products are consistently specified throughout the world by Gensler Architects" src="/assets/images/unsorted/gensler.png" title="Norstone Products are consistently specified throughout the world by Gensler Architects" />
+    <img alt="Norstone Products are consistently specified throughout the world by Gensler Architects" src="/assets/images/unsorted/gensler.webp" title="Norstone Products are consistently specified throughout the world by Gensler Architects" />
   </div>
   <div class="column column-block" style="float:none;position:relative;display:inline-block">
-    <img alt="Norstone Products are used across the country on Starbucks properties" src="/assets/images/unsorted/starbucks.png" title="Norstone Products are used across the country on Starbucks properties" />
+    <img alt="Norstone Products are used across the country on Starbucks properties" src="/assets/images/unsorted/starbucks.webp" title="Norstone Products are used across the country on Starbucks properties" />
   </div>
   <div class="column column-block" style="float:none;position:relative;display:inline-block">
-    <img alt="Norstone Products are used across the country on Hilton properties" src="/assets/images/unsorted/hilton.png" title="Norstone Products are used across the country on Hilton properties" />
+    <img alt="Norstone Products are used across the country on Hilton properties" src="/assets/images/unsorted/hilton.webp" title="Norstone Products are used across the country on Hilton properties" />
   </div>
   <div class="column column-block" style="float:none;position:relative;display:inline-block">
-    <img alt="Norstone Products are used on Cornell Campus" src="/assets/images/unsorted/cornell.png" title="Norstone Products are used on Cornell Campus" />
+    <img alt="Norstone Products are used on Cornell Campus" src="/assets/images/unsorted/cornell.webp" title="Norstone Products are used on Cornell Campus" />
   </div>
   <div class="column column-block" style="float:none;position:relative;display:inline-block">
-    <p><img alt="Norstone is a 3 time award winning firm on Houzz.com for its services to the public in 2014, 2015, and 2016" src="/assets/images/unsorted/houzz2.png" title="Norstone is a 3 time award winning firm on Houzz.com for its services to the public in 2014, 2015, and 2016" /></p>
+    <p><img alt="Norstone is a 3 time award winning firm on Houzz.com for its services to the public in 2014, 2015, and 2016" src="/assets/images/unsorted/houzz2.webp" title="Norstone is a 3 time award winning firm on Houzz.com for its services to the public in 2014, 2015, and 2016" /></p>
   </div>
   <hr style="margin-top:-20px">
 </div>
 <div class="row">
   <div class="large-6 columns">
-    <img loading="lazy" class="orbit-image" src="/assets/images/unsorted/Ivory-Stacked-Stone-Wall-Testimonial-Optimized.jpg" alt="Norstone Ivory Quartz Stone Veneer Feature Wall" title="Norstone Ivory Quartz" />
+    {% picture testimonials /assets/images/unsorted/Ivory-Stacked-Stone-Wall-Testimonial-Optimized.jpg 
+    --img 
+      class="orbit-image"
+      width="440" height="259" 
+      title="Norstone Ivory Quartz" 
+    --alt Norstone Ivory Quartz Stone Veneer Feature Wall
+    %}
   </div>
   <div class="large-6 columns">
     <blockquote>
@@ -73,12 +79,26 @@ layout: default
     </blockquote>
   </div>
   <div class="large-6 columns">
-    <img loading="lazy" class="orbit-image" src="/assets/images/unsorted/Ochre-Stacked-Stone-Fireplace-Testimonial.jpg" alt="Norstone Ochre Ledgestone Fireplace in Washington DC District of Columbia" title="Norstone Ochre Blend Rock Panels">
+    {% picture testimonials /assets/images/unsorted/Ochre-Stacked-Stone-Fireplace-Testimonial.jpg 
+      --img 
+        class="orbit-image"
+        width="440" height="555" 
+        loading="lazy"
+        title="Norstone Ochre Blend Rock Panels" 
+      --alt Norstone Ochre Ledgestone Fireplace in Washington DC District of Columbia
+      %}
   </div>
 </div>
 <div class="row">
   <div class="large-6 columns">
-    <img loading="lazy" class="orbit-image" src="/assets/images/unsorted/Ochre-Stacked-Stone-Water-Feature-Testimonial.jpg" alt="Norstone Ochre Ledgestone Pool in Miami Florida" title="Norstone Ochre Ledge Stone Pool in Miami Florida" /></td>
+    {% picture testimonials /assets/images/unsorted/Ochre-Stacked-Stone-Water-Feature-Testimonial.jpg
+      --img 
+        class="orbit-image"
+        width="440" height="293" 
+        loading="lazy"
+        title="Norstone Ochre Ledgestone Pool in Miami Florida" 
+      --alt Norstone Ochre Ledgestone Pool in Miami Florida
+      %}
   </div>
   <div class="large-6 columns">
     <blockquote>
@@ -111,6 +131,13 @@ layout: default
     </blockquote>
   </div>
   <div class="large-6 columns">
-    <img loading="lazy" class="orbit-image" src="/assets/images/unsorted/Charcoal-Natural-Stone-Feature-Wall-Testimonial.jpg" alt="Norstone Charcoal Interior Ledgestone Feature Wall in Dallas" title="Norstone Charcoal Rock Panel Feature Wall in Dallas" /></td>
+    {% picture testimonials /assets/images/unsorted/Charcoal-Natural-Stone-Feature-Wall-Testimonial.jpg
+      --img 
+        class="orbit-image"
+        width="440" height="338" 
+        loading="lazy"
+        title="Norstone Charcoal Rock Panel Feature Wall in Dallas" 
+      --alt Norstone Charcoal Rock Panel Feature Wall in Dallas
+      %}
   </div>
 </div>
