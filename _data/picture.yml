@@ -15,7 +15,7 @@ presets:
   # built-in.
   default:
     formats: [webp, original] # Order matters!
-    widths: [336, 476, 900] # Image widths, in pixels.
+    widths: [336, 476, 738, 910] # Image widths, in pixels.
   gallery: 
     widths: [375, 500, 640]
     formats: [webp, original]
