@@ -8,7 +8,7 @@ media_queries:
 format_quality:
     jpg: 100
     png: 100
-    webp: 100
+    webp: 80
 
 presets:
   # This entry is purely an example. It is not the default JPT preset, nor is it available as a
